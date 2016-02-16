@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script type="text/javascript">
+(function(p,u,s,h){
+    p._pcq=p._pcq||[];
+    p._pcq.push(['_currentTime',Date.now()]);
+    s=u.createElement('script');
+    s.type='text/javascript';
+    s.async=true;
+    s.src='https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';
+    h=u.getElementsByTagName('script')[0];
+    h.parentNode.insertBefore(s,h);
+})(window,document);
+</script>
+        
 </head>
 <body data-spy="scroll" data-target="#site-nav">
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -99,11 +112,10 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
 </p>
 
                     <ul class="list-arrow-right">
-
-                        <li>Learn from the best Asian Social Media Experts &amp; Case Studies</li>
-                        <li>Have dedicated 2-to-1 meetings with the experts</li>
-                        <li>Reach more consumers for less by learning new digital media skills</li>
-                        <li>Save money when spending in online advertising</li>
+                    	Zapewniamy: <br>
+                        <li>Pętlę indukcyjną</li>
+                        <li>Symultaniczny przekaz tekstowy (speech to text) </li>
+                        <li>Tłumaczenie na język migowy</li>
                     
                     </ul>
 
@@ -287,8 +299,16 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                     <h3 class="section-title">Rejestracja &amp; Opłaty</h3>
                 </div>
             </div>
-                
-            <form action="#" id="registration-form">
+            <div class="oplaty" style="float: left;" >
+                <b>Opłaty konferencyjne:</b> </br>
+            * uczestnictwo czynne w konferencji <br> (plakat lub wystąpienie) - 100zł <br>
+            * uczestnictwo bierne - 50zł <br><br>
+            <b>Cena obejmuje:</b> <br>
+            * materiały konferencyjne <br>
+            * obiad <br>
+            * certyfikat <br><br><br>
+            </div>
+            <form action="#" id="registration-form" style="float: right;">
                 <div class="row">
                     <div class="col-md-12" id="registration-msg" style="display:none;">
                         <div class="alert"></div>
@@ -321,14 +341,18 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                         </div>
 
                         <div class="form-group">
-                            <select class="form-control" name="Miasto" id="city" required>
-                                <option readonly>Miasto</option>
-                                <option>City Name 1</option>
-                                <option>City Name 2</option>
-                                <option>City Name 3</option>
-                                <option>City Name 4</option>
-                            </select>
+                            <input type="text" class="form-control" placeholder="Miasto" id="city" name="city" required>
                         </div>
+
+                        <!--<div class="form-group">-->
+                            <!--<select class="form-control" name="Miasto" id="city" required>-->
+                                <!--<option readonly>Miasto</option>-->
+                                <!--<option>City Name 1</option>-->
+                                <!--<option>City Name 2</option>-->
+                                <!--<option>City Name 3</option>-->
+                                <!--<option>City Name 4</option>-->
+                            <!--</select>-->
+                        <!--</div>-->
 
                         <!-- <div class="form-group">
                             <select class="form-control" name="program" id="program" required>
@@ -339,10 +363,11 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                             </select>
                         </div> -->
                     </div>
+                    <div class="text-center mt20">
+                        <button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>
+                    </div>
                 </div>
-                <div class="text-center mt20">
-                    <button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>
-                </div>
+
             </form>
         </div>
     </section>
@@ -351,11 +376,42 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>
-                    
-                    <p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>
+                    <!--<h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>-->
+                    <!---->
+                    <!--<p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>-->
 
-                    <a class="btn btn-white" href="#">Submit</a>
+                    <!--<a class="btn btn-white" href="#">Submit</a> <br>-->
+
+                    <table border="black 3px solid">
+                        <tr>
+                            <td bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem:</td>	<td bgcolor="deeppink">Dla uczestników</td>
+                        </tr>
+                        <tr>
+                            <td><span style="color: deeppink">20 marca 2016 r.</span><br>
+                                ostateczny termin nadsyłania zgłoszeń/rejestracja prelegentów z wystąpieniami (referaty/plakaty) z załączonym abstraktem<br>
+                                <span style="color: deeppink">25 marca 2016r.</span><br>
+                                kwalifikacja prac do wystąpienia w sesji tematycznej lub w sesji plakatowej<br>
+                                <span style="color: deeppink">31 marca 2016r.</span><br>
+                                dokonanie opłaty konferencyjnej (wpłaty prosimy uiszczać dopiero po zakwalifikowaniu prac)<br>
+                                <span style="color: deeppink">31 marca 2016r.</span><br>
+                                przesłanie na adres konferencji ostatecznej wersji elektronicznej prezentacji.<br>
+                            </td>
+                            <td><span style="color: deeppink">02 kwietnia 2016r.</span><br>
+                                                    rejestracja uczestników biernych.
+                                                    </td>
+                        </tr>
+                    </table>
+
+                    <span style="color: deeppink">
+                    Prosimy uczestników, aby uzupełnili zgłoszenie uczestnictwa w konferencji i przysłali na adres mailowy konferencji.<br>
+                    Jest to obowiązkowe- bez tego, uczestnik nie jest wpisany na listę uczestników konferencji.
+                    </span>
+                    <br>
+                    Szczegółowy program konferencji zostanie podany w późniejszym terminie.
+                    <br>
+                    Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>
+                    Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.
+                    <br>
                 </div>
             </div>
         </div>
@@ -403,7 +459,7 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event Partner</h3>
+                    <h3 class="section-title">Sponsorzy konferencji</h3>
                 </div>
             </div>
             <div class="row">
@@ -437,147 +493,151 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
             </div>   
     </section>
 
-    <section id="faq" class="section faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Event FAQs</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>
-                                </h4>
-                            </div>
+    <!--<section id="faq" class="section faq">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<h3 class="section-title">Event FAQs</h3>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">-->
+                        <!---->
+                        <!--<div class="panel panel-default">-->
+                            <!--<div class="panel-heading" role="tab" id="headingOne">-->
+                                <!--<h4 class="panel-title">-->
+                                    <!--<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is the price of the ticket ?</a>-->
+                                <!--</h4>-->
+                            <!--</div>-->
 
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <h3>Hello</h3>
-                                    <p>Lorem Ipsum</p>
-                                </div>
-                            </div>
-                        </div>
+                            <!--<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">-->
+                                <!--<div class="panel-body">-->
+                                    <!--<h3>Hello</h3>-->
+                                    <!--<p>Lorem Ipsum</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>
-                                </h4>
-                            </div>
+                        <!--<div class="panel panel-default">-->
+                            <!--<div class="panel-heading" role="tab" id="headingTwo">-->
+                                <!--<h4 class="panel-title">-->
+                                    <!--<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> What is included in my ticket ?</a>-->
+                                <!--</h4>-->
+                            <!--</div>-->
 
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-  
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>
-                                </h4>
-                            </div>
+                            <!--<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">-->
+                                <!--<div class="panel-body">Hello</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+  <!---->
+                        <!--<div class="panel panel-default">-->
+                            <!--<div class="panel-heading" role="tab" id="headingThree">-->
+                                <!--<h4 class="panel-title">-->
+                                    <!--<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Office address ?</a>-->
+                                <!--</h4>-->
+                            <!--</div>-->
 
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
+                            <!--<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">-->
+                                <!--<div class="panel-body">Hello</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>
-                                </h4>
-                            </div>
+                        <!--<div class="panel panel-default">-->
+                            <!--<div class="panel-heading" role="tab" id="headingFour">-->
+                                <!--<h4 class="panel-title">-->
+                                    <!--<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> How should I dress ?</a>-->
+                                <!--</h4>-->
+                            <!--</div>-->
 
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
+                            <!--<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">-->
+                                <!--<div class="panel-body">Hello</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                                <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>
-                                </h4>
-                            </div>
+                        <!--<div class="panel panel-default">-->
+                            <!--<div class="panel-heading" role="tab" id="headingFive">-->
+                                <!--<h4 class="panel-title">-->
+                                    <!--<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> I have specific questions that are not addressed here. Who can help me ?</a>-->
+                                <!--</h4>-->
+                            <!--</div>-->
 
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                                <div class="panel-body">Hello</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+                            <!--<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">-->
+                                <!--<div class="panel-body">Hello</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+    <!--</section>-->
 
-    <section id="photos" class="section photos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Photos</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="grid">
+    <!--<section id="photos" class="section photos">-->
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<h3 class="section-title">Photos</h3>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<ul class="grid">-->
 
-                        <li class="grid-item grid-item-sm-6">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-6">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
+                        <!--</li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <!--<li class="grid-item grid-item-sm-3">-->
+                            <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
 
     <section id="location" class="section location">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h3 class="section-title">Event Location</h3>
+                    <h3 class="section-title">Miejsce konferencji</h3>
                     <address>
-                        <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+                        <p>Katolicki Uniwersytet Lubelski <br> Jana Pawła II<br>
+                            Al. Racławickie 14/C312 <br>
+                            20-950 Lublin<br>
+                            Email: <a href="mailto:konferencja.ss@gmail.com">konferencja.ss@gmail.com</a>
+                        </p>
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.50013548559!2d-78.9870674333782!3d40.76030630398601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1436299406518" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.4479501410556!2d22.542615015231583!3d51.24766117959329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722576163bf89c3%3A0xec4f36797ee23234!2sKatolicki+Uniwersytet+Lubelski+Jana+Paw%C5%82a+II!5e0!3m2!1spl!2spl!4v1455532859858" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                </div>
                 </div>
             </div>
         </div>
