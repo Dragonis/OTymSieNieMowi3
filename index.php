@@ -29,6 +29,7 @@
         })(window, document);
     </script>
 
+
 </head>
 <body data-spy="scroll" data-target="#site-nav">
 <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -357,7 +358,7 @@
             <!--</div>-->
         </div>
 
-        <form action="#" id="registration-form" style="float: left; padding-left: 30px;">
+        <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action="" name="loginform">
             <b> Dane kontakotwe</b>
             <div class="row">
                 <div class="col-md-12" id="registration-msg" style="display:none;">
@@ -365,35 +366,35 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Imię" id="fname" name="fname" required>
+                        <input type="text" class="form-control" placeholder="Imię" id="Imie" name="Imie" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nazwisko" id="lname" name="lname" required>
+                        <input type="text" class="form-control" placeholder="Nazwisko" id="Nazwisko" name="Nazwisko" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>
+                        <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="cell" name="cell"
+                        <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="TelKom" name="TelKom"
                                required>
                     </div>
                 </div>
 
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="address"
-                               name="address" required>
+                        <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="AdresZamieszkania"
+                               name="AdresZamieszkania" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Kod Pocztowy" id="zip" name="zip" required>
+                        <input type="text" class="form-control" placeholder="Kod Pocztowy" id="KodPocztowy" name="KodPocztowy" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Miasto" id="city" name="city" required>
+                        <input type="text" class="form-control" placeholder="Miasto" id="Miasto" name="Miasto" required>
                     </div>
 
                     <!--<div class="form-group">-->
@@ -420,7 +421,7 @@
                 <div class="text-center mt20">
                 <!--<button id="button"></button>-->
                     <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
-                <button type="submit" id="button"></button>
+                <button type="button" id="button" onClick="submitdata();" ></button>
                 </div>
             </div>
 
@@ -620,20 +621,20 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-5"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-6"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-7"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-8"></a>
-            </div>
-        </div>
+        <!--<div class="row">-->
+            <!--<div class="col-sm-3">-->
+                <!--<a class="partner-box partner-box-5"></a>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3">-->
+                <!--<a class="partner-box partner-box-6"></a>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3">-->
+                <!--<a class="partner-box partner-box-7"></a>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3">-->
+                <!--<a class="partner-box partner-box-8"></a>-->
+            <!--</div>-->
+        <!--</div>-->
 </section>
 
 <!--<section id="faq" class="section faq">-->
@@ -812,5 +813,36 @@
 <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/button.js"></script>
+<script>
+    function submitdata() {
+    var Imie  = document.getElementById("Imie").value;
+    var Nazwisko = document.getElementById("Nazwisko").value;
+    var Email = document.getElementById("Email").value;
+    var TelKom = document.getElementById("TelKom").value;
+    var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
+    var KodPocztowy = document.getElementById("KodPocztowy").value;
+    var Miasto = document.getElementById("Miasto").value;
+    // Returns successful data submission message when the entered information is stored in database.
+    var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto;
+        if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
+        alert("Please Fill All Fields");
+        } 
+        else {
+                    // AJAX code to submit form.
+                    $.ajax({
+                    type: "POST",
+                    url: "submit.php",
+                    data: dataString,
+                    cache: false,
+                    success: function(html) {
+                    alert(html);
+                    }
+                    });
+                }
+        return false;
+    
+}
+</script>
+
 </body>
 </html>
