@@ -3,15 +3,16 @@
 }
 
 .animowany-button {
-  /*position: absolute;*/
-  /*top: 50%;*/
-  /*left: 50%;*/
-  /*margin-left: -65px;*/
-  /*margin-top: -20px;*/
-  /*width: 130px;*/
-  /*height: 40px;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
   text-align: center;
 }
+
 
 button {
   outline: none;
@@ -48,7 +49,7 @@ button:after {
   font-size: 0;
   border-left-color: #1ECD97;
   -webkit-animation: rotating 2s 0.25s linear infinite;
-          animation: rotating 2s 0.25s linear infinite;
+  animation: rotating 2s 0.25s linear infinite;
 }
 .onclic:after {
   content: "";
@@ -65,27 +66,27 @@ button:after {
 }
 .validate:after {
   font-family: 'FontAwesome';
-  content: "WYSŁANO \f00c";
+  content: "WYSŁANE \f00c";
 }
 
 @-webkit-keyframes rotating {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes rotating {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }

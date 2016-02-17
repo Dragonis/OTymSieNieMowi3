@@ -1,6 +1,8 @@
 $(function() {
   $( "#button" ).click(function() {
+
     $( "#button" ).addClass( "onclic", 250, validate);
+
   });
 
   function validate() {
@@ -12,6 +14,6 @@ $(function() {
     //function callback() {
     //  setTimeout(function() {
     //    $( "#button" ).removeClass( "validate" );
-    //  }, 9999 );
+    //  }, 1250 );
     //}
   });
