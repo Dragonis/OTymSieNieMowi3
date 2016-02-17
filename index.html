@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!--<link rel="stylesheet" href="assets/css/button.css">-->
+    <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <script type="text/javascript">
 (function(p,u,s,h){
     p._pcq=p._pcq||[];
@@ -292,23 +294,54 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
         <!--</div>-->
     <!--</section>-->
 
+
     <section id="registration" class="section registration">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Rejestracja &amp; Opłaty</h3>
+                    <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
+                    <h3 class="section-title">Rejestracja</h3>
                 </div>
             </div>
-            <div class="oplaty" style="float: left;" >
-                <b>Opłaty konferencyjne:</b> </br>
-            * uczestnictwo czynne w konferencji <br> (plakat lub wystąpienie) - 100zł <br>
-            * uczestnictwo bierne - 50zł <br><br>
-            <b>Cena obejmuje:</b> <br>
-            * materiały konferencyjne <br>
-            * obiad <br>
-            * certyfikat <br><br><br>
+
+            <div id="tabelka" style="float: left;">
+                <div class="produkt">
+                    <div class="nazwa"><h3>Uczestnik bierny</h3></div>
+                    <div class="cena">50zł</div>
+                    <ul class="parametry">
+                        <li>Obiad</li>
+                        <li>Darmowe jedzenie</li>
+                        <li>Materiały konferencyjne</li>
+                        <li> -</li>
+                    </ul>
+                    <div class="kup">Wybierz!</div>
+                </div>
+                <div class="produkt">
+                    <div class="nazwa"><h3>Uczestnik czynny</h3></div>
+                    <div class="cena">100zł</div>
+                    <ul class="parametry">
+                        <li>Obiad</li>
+                        <li>Darmowe jedzenie</li>
+                        <li>Materiały konferencyjne</li>
+                        <li>Certyfikat</li>
+                    </ul>
+                    <div class="kup">Wybierz!</div>
+                </div>
+                <!--<div class="produkt">-->
+                <!--<div class="nazwa"><h3>Business</h3></div>-->
+                <!--<div class="cena">499zł</div>-->
+                <!--<ul class="parametry">-->
+                <!--<li>Dysk: 50GB</li>-->
+                <!--<li>Transfer: bez limitu</li>-->
+                <!--<li>Subdomeny: bez limitu</li>-->
+                <!--<li>Konta e-mail: bez limitu</li>-->
+                <!--</ul>-->
+                <!--<div class="kup">Kup pakiet!</div>-->
+                <!--</div>-->
             </div>
-            <form action="#" id="registration-form" style="float: right;">
+
+            <form action="#" id="registration-form" style="float: left; padding-left: 30px;">
+                <b> Dane kontakotwe</b>
                 <div class="row">
                     <div class="col-md-12" id="registration-msg" style="display:none;">
                         <div class="alert"></div>
@@ -327,13 +360,15 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="cell" name="cell" required>
+                            <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="cell" name="cell"
+                                   required>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="address" name="address" required>
+                            <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="address"
+                                   name="address" required>
                         </div>
 
                         <div class="form-group">
@@ -345,13 +380,13 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                         </div>
 
                         <!--<div class="form-group">-->
-                            <!--<select class="form-control" name="Miasto" id="city" required>-->
-                                <!--<option readonly>Miasto</option>-->
-                                <!--<option>City Name 1</option>-->
-                                <!--<option>City Name 2</option>-->
-                                <!--<option>City Name 3</option>-->
-                                <!--<option>City Name 4</option>-->
-                            <!--</select>-->
+                        <!--<select class="form-control" name="Miasto" id="city" required>-->
+                        <!--<option readonly>Miasto</option>-->
+                        <!--<option>City Name 1</option>-->
+                        <!--<option>City Name 2</option>-->
+                        <!--<option>City Name 3</option>-->
+                        <!--<option>City Name 4</option>-->
+                        <!--</select>-->
                         <!--</div>-->
 
                         <!-- <div class="form-group">
@@ -364,11 +399,94 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
                         </div> -->
                     </div>
                     <div class="text-center mt20">
-                        <button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>
+                        <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
+                        <!--</div>-->
+                        <!--<div class="animowany-button">-->
+                        <!--<button id="button"></button>-->
+                        <button type="submit" id="button"></button>
                     </div>
+
+                    <div class="oplaty" style="margin-left: 15px;"><br>
+                        <b> Przelew:</b> <br>
+                        Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>
+                        Al. Racławickie 14, 20-950 Lublin <br>
+                        Bank: Bank PeKaO S.A. III O/Lublin <br>
+                        Numer konta:59 1240 2382 1111 0000 3926 2147 <br>
+                        NIP: 712-016-10-05; REGON: 000514064 <br>
+
+                        Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>
+                    </div>
+
                 </div>
 
+
             </form>
+
+            <!--<div class="oplaty" style="float: left; margin-left: 30px;"  >-->
+            <!--<b>Opłaty konferencyjne:</b> </br>-->
+            <!--* uczestnictwo czynne w konferencji <br> (plakat lub wystąpienie) - 100zł <br>-->
+            <!--* uczestnictwo bierne - 50zł <br><br>-->
+            <!--<b>Cena obejmuje:</b> <br>-->
+            <!--* materiały konferencyjne <br>-->
+            <!--* obiad <br>-->
+            <!--* certyfikat <br><br><br>-->
+            <!--</div>-->
+        </div>
+    </section>
+
+
+    <section id="harmonogram" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="organization-text" style="margin-right: ;:30px; float: left; " >
+                        <b>Uwaga:</b><br>
+                    <span style="color: deeppink;">
+                    Prosimy uczestników, <br>
+                        aby uzupełnili zgłoszenie uczestnictwa w konferencji
+                        i przysłali na adres mailowy konferencji.<br>
+                    Jest to obowiązkowe- bez tego, uczestnik nie jest wpisany na listę uczestników konferencji.
+                    </span>
+                        <br><br>
+                        Szczegółowy program konferencji zostanie podany w późniejszym terminie.
+                        <br>
+                        Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>
+                        Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.
+                        <br>
+                    </div>
+
+                    <table border="black 3px solid" style="float:left;">
+                        <tr>
+                            <td bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem:</td>
+                            <td bgcolor="deeppink">Dla uczestników biernych:</td>
+                        </tr>
+                        <tr>
+                            <td><span style="color: deeppink">20 marca 2016 r.</span><br>
+                                Ostateczny termin nadsyłania <br>
+                                zgłoszeń/rejestracja prelegentów <br>
+                                z wystąpieniami (referaty/plakaty)<br>
+                                z załączonym abstraktem<br>
+                                <span style="color: deeppink">25 marca 2016r.</span><br>
+                                Kwalifikacja prac do wystąpienia w <br>
+                                sesji tematycznej lub w sesji plakatowej<br>
+                                <span style="color: deeppink">31 marca 2016r.</span><br>
+                                Dokonanie opłaty konferencyjnej <br>
+                                (wpłaty prosimy uiszczać dopiero<br>
+                                po zakwalifikowaniu prac)<br>
+                                <span style="color: deeppink">31 marca 2016r.</span><br>
+                                Przesłanie na adres konferencji <br>
+                                ostatecznej wersji elektronicznej prezentacji.<br>
+                            </td>
+
+                            <td><span style="color: deeppink">02 kwietnia 2016r.</span><br>
+                                Rejestracja<br> uczestników<br> biernych.
+                            </td>
+
+                    </table>
+
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -376,42 +494,49 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!--<h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>-->
-                    <!---->
-                    <!--<p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>-->
 
+                    <!--<h3 class="text-uppercase mt0 font-400">Submit Your Contribution Work</h3>-->
+                    <!--<p>You've inspired new consumer, racked up click-thru's, blown-up brand awareness. We can't give you back the weekends you worked, or erase the pain of being forced to make the logo bigger. But if you submit your best work.</p>-->
                     <!--<a class="btn btn-white" href="#">Submit</a> <br>-->
 
-                    <table border="black 3px solid">
-                        <tr>
-                            <td bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem:</td>	<td bgcolor="deeppink">Dla uczestników</td>
-                        </tr>
-                        <tr>
-                            <td><span style="color: deeppink">20 marca 2016 r.</span><br>
-                                ostateczny termin nadsyłania zgłoszeń/rejestracja prelegentów z wystąpieniami (referaty/plakaty) z załączonym abstraktem<br>
-                                <span style="color: deeppink">25 marca 2016r.</span><br>
-                                kwalifikacja prac do wystąpienia w sesji tematycznej lub w sesji plakatowej<br>
-                                <span style="color: deeppink">31 marca 2016r.</span><br>
-                                dokonanie opłaty konferencyjnej (wpłaty prosimy uiszczać dopiero po zakwalifikowaniu prac)<br>
-                                <span style="color: deeppink">31 marca 2016r.</span><br>
-                                przesłanie na adres konferencji ostatecznej wersji elektronicznej prezentacji.<br>
-                            </td>
-                            <td><span style="color: deeppink">02 kwietnia 2016r.</span><br>
-                                                    rejestracja uczestników biernych.
-                                                    </td>
-                        </tr>
-                    </table>
+                    <h3 class="text-uppercase mt0 font-400">Opinie uczestników</h3>
+                    <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
 
-                    <span style="color: deeppink">
-                    Prosimy uczestników, aby uzupełnili zgłoszenie uczestnictwa w konferencji i przysłali na adres mailowy konferencji.<br>
-                    Jest to obowiązkowe- bez tego, uczestnik nie jest wpisany na listę uczestników konferencji.
-                    </span>
-                    <br>
-                    Szczegółowy program konferencji zostanie podany w późniejszym terminie.
-                    <br>
-                    Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>
-                    Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.
-                    <br>
+
+                    <!--<table border="black 3px solid">-->
+                    <!--<tr>-->
+                    <!--<td bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem:</td>	<td bgcolor="deeppink">Dla uczestników</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                    <!--<td><span style="color: deeppink">20 marca 2016 r.</span><br>-->
+                    <!--Ostateczny termin nadsyłania zgłoszeń/rejestracja prelegentów <br>-->
+                    <!--z wystąpieniami (referaty/plakaty) z załączonym abstraktem<br>-->
+                    <!--<span style="color: deeppink">25 marca 2016r.</span><br>-->
+                    <!--Kwalifikacja prac do wystąpienia w <br>-->
+                    <!--sesji tematycznej lub w sesji plakatowej<br>-->
+                    <!--<span style="color: deeppink">31 marca 2016r.</span><br>-->
+                    <!--Dokonanie opłaty konferencyjnej <br>-->
+                    <!--(wpłaty prosimy uiszczać dopiero po zakwalifikowaniu prac)<br>-->
+                    <!--<span style="color: deeppink">31 marca 2016r.</span><br>-->
+                    <!--Przesłanie na adres konferencji <br>-->
+                    <!--ostatecznej wersji elektronicznej prezentacji.<br>-->
+                    <!--</td>-->
+                    <!--<td><span style="color: deeppink">02 kwietnia 2016r.</span><br>-->
+                    <!--Rejestracja uczestników biernych.-->
+                    <!--</td>-->
+                    <!--</tr>-->
+                    <!--</table>-->
+
+                    <!--<span style="color: deeppink" style="float: right">-->
+                    <!--Prosimy uczestników, aby uzupełnili zgłoszenie uczestnictwa w konferencji i przysłali na adres mailowy konferencji.<br>-->
+                    <!--Jest to obowiązkowe- bez tego, uczestnik nie jest wpisany na listę uczestników konferencji.-->
+                    <!--</span>-->
+                    <!--<br>-->
+                    <!--Szczegółowy program konferencji zostanie podany w późniejszym terminie.-->
+                    <!--<br>-->
+                    <!--Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>-->
+                    <!--Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.-->
+                    <!--<br>-->
                 </div>
             </div>
         </div>
@@ -664,5 +789,6 @@ Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chcia�
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/button.js"></script>
 </body>
 </html>
