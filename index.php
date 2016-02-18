@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
+    <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
 
 <!--    <script type="text/javascript">-->
@@ -167,8 +168,8 @@
             </div>
             <div class="col-sm-3">
 
-                <i class="ion-speakerphone"></i>
-                <h3>6<br>Prelegentów</h3>
+                <i class="ion-android-home"></i>
+                <h3>Sala<br>CTW-302</h3>
 
             </div>
         </div><!-- row -->
@@ -479,7 +480,7 @@
                     <br>
                 </div>
 
-                <table border="black 3px solid" style="float:left;">
+                <table border="black 3px solid" style="float:left;" class="harmonogram">
                     <tr>
                         <th bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem</th>
                         <th bgcolor="deeppink">Dla uczestników biernych:</th>
@@ -514,8 +515,217 @@
                             ostatecznej wersji elektronicznej prezentacji</td>
                     </tr>
                 </table>
-                Hormonogram dnia <br>
-                (i tabelka nizej pokazujacy harmonogram dnia)
+
+                <table style="border: black 1px; float:right">
+                    <tbody>
+                    <!-- Single event in a single day -->
+<!--                    <tr><h2>Konferencja (w wersji rozszerzonej)</h2></tr>-->
+                    <tr>
+<!--                        <td class="agenda-date" class="active" rowspan="30">-->
+<!--                            <div class="dayofmonth">4</div>-->
+<!--                            <div class="dayofweek">Grudzień</div>-->
+<!--                            <div class="shortdate text-muted">Grudż, 2015</div>-->
+<!--                        </td>-->
+                        <td class="agenda-time">
+                            <b>09:00 - 9:30</b>
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
+                                <b>Uroczyste rozpoczęcie konferencji</b>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>09:30</b></td>
+                        <td><b>Rozpoczęcie 1 Sesji Rehabilitacyjnej</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>09:30 - 09:45</td>
+                        <td>prof. dr hab. Kazimiera KRAKOWIAK <br>
+                            Trudności osób słyszących w komunikowaniu się <br>
+                            z niesłyszącymi i słabosłyszącymi
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+
+                        <td>09:45 - 10:00</td>
+                        <td>dr hab. Ewa DOMAGAŁA-ZYŚK<br>
+                            Uczenie się języków obcych przez osoby <br>
+                            niesłyszące i słabosłyszące –<br>
+                            bariera w edukacji czy szansa na rozwój?
+                        </td>
+                        <td></td>
+                    <tr>
+                        <td>10:00 - 10:15</td>
+                        <td>dr Aleksandra BOROWICZ<br>
+                            Kampanie społeczne a upowszechnianie <br>
+                            wiedzy na temat problemów<br>
+                            osób z uszkodzeniami słuchu<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:15 - 10:30</td>
+                        <td>dr Renata KOŁODZIEJCZYK<br>
+                            Rodzaje ćwiczeń językowych na <br>
+                            lektoracie języka polskiego dla<br>
+                            młodzieży z uszkodzeniami słuchu <br>
+                            <br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>10:30 - 11:00</b></td>
+                        <td><b>Przerwa kawowa 1 (30 min.)</b><br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>11:00</b></td>
+                        <td><b>Kontynuacja I Sesji Rehablitacyjnej</b><br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 11:15</td>
+                        <td>dr Ewa MUZYKA-FURTAK <br>
+                            O wpływie uszkodzeń słuchu na nabywanie słów i ich znaczeń
+                            <br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:15 - 11:30</td>
+                        <td>dr Juliusz IWANICKI<br>
+                            "Głuche" społeczeństwo i religia osób słyszących
+                            <br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 11:45</td>
+                        <td>mgr Beata KRYSTKOWIAK<br>
+                            Granice polskiego systemu wsparcia dla osób z uszkodzeniem słuchu<br>
+                            - czyli o samodzielności nie(do)słyszących w różnych wymiarach<br>
+                            społecznych<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:45 - 12:00</td>
+                        <td>mgr Monika SZYMANEK-SZAWRACKA<br>
+                            Sukcesy w rehabilitacji jako główny czynnik w przełamywaniu<br>
+                            wszystkich barier<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 12:15</td>
+                        <td>lic. Paulina LEWANDOWSKA<br>
+                            Jak to się dzieje, że podróże rehabilitują? - na przykładzie<br>
+                            doświadczeń własnych i innych osób z uszkodzeniem słuchu<br>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>12:15</b> </td>
+                        <td><b>Zakończenie I Sesji Rehablitacyjnej</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>12:15 - 13:45</b> </td>
+                        <td><b> Przerwa obiadowa na Stołówce KULu (1,5h)</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>13:45</b> </td>
+                        <td><b>Rozpoczęcie II Sesji Audiologicznej)</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13:45 - 14:00</td>
+                        <td>dr n. med. Hanna ANDRZEJEWSKA<br>
+                            Omówienie przyczyn i rodzajów niedosłuchu, konieczność<br>
+                            diagnostyki audiologicznej, stwierdzenie lokalizacji uszkodzenia na<br>
+                            drodze słuchowej</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 14:15</td>
+                        <td>mgr Monika TRĘTKO<br>
+                            Implant pniowy w pniu mózgu jako alternatywa przywracająca słuch</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:15 - 14:30</td>
+                        <td>lic. Małgorzata TALIPSKA<br>
+                            Wybrane techniki i narzędzia badawcze w badaniach społecznych<br>
+                            przeprowadzanych wśród osób głuchych i słabosłyszących -<br>
+                            wątpliwości i rekomendacje<br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:15 - 14:30</td>
+                        <td>lic. Małgorzata TALIPSKA<br>
+                            Wybrane techniki i narzędzia badawcze w badaniach społecznych<br>
+                            przeprowadzanych wśród osób głuchych i słabosłyszących -<br>
+                            wątpliwości i rekomendacje<br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:30 - 14:45</td>
+                        <td>Karolina CZABAN oraz inż. Alicja NOWOGRODZKA<br>
+                            Żywienie produktami mleczarskimi a słuch - co mają wspólnego?<br>                    <br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>14:45</b></td>
+                        <td><b>Zakończenie II Sesji Audiologicznej</b><br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>14:45 - 14:30</b></td>
+                        <td><b>Przerwa kawowa 2 (45 min.)</b><br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><b>15:30</b></td>
+                        <td><b>Rozpoczęcie III Sesji Technicznej</b><br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>15:30 - 15:45</td>
+                        <td>Lidia SMOLAREK-BEST<br>
+                            Europejska norma: Usługi oferowane przez protetyków słuchu i
+                            audiologów<br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>15:45 - 16:00</td>
+                        <td>mgr Andrzej KAPITAN<br>
+                            Zarys procedury dopasowywania aparatów słuchowych<br>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00 - 16:15</td>
+                        <td>mgr Wojciech KRUKOWSKI<br>
+                            Nieskończone możliwości, czyli świat aplikacji dla słabosłyszących i
+                            niesłyszących<td></td>
+                    </tr>
+                    <tr>
+                        <td><b>16:15</b></td>
+                        <td><b>Zakończenie III Sesji Techniczej</b><td></td>
+                    </tr>
+                    <tr>
+                        <td><b>16:15 - 17:00</b></td>
+                        <td><b>Zakończenie konferencji</b><td></td>
+                    </tr>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
 
 
