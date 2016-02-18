@@ -460,8 +460,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="organization-text" style="margin-right: ;:30px; float: left; ">
-                    <b>Uwaga:</b><br>
+
+                <h3 class="text-uppercase mt0 font-400">Harmonogram</h3>
+
+                <div class="organization-text" style="margin-right: ;:30px; float: left; margin-bottom: 30px;">
+
                     <span style="color: deeppink;">
                     Prosimy uczestników, <br>
                         aby uzupełnili zgłoszenie uczestnictwa w konferencji
@@ -478,35 +481,44 @@
 
                 <table border="black 3px solid" style="float:left;">
                     <tr>
-                        <td bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem:</td>
-                        <td bgcolor="deeppink">Dla uczestników biernych:</td>
+                        <th bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem</th>
+                        <th bgcolor="deeppink">Dla uczestników biernych:</th>
                     </tr>
                     <tr>
                         <td><span style="color: deeppink">20 marca 2016 r.</span><br>
-                            Ostateczny termin nadsyłania <br>
-                            zgłoszeń/rejestracja prelegentów <br>
-                            z wystąpieniami (referaty/plakaty)<br>
-                            z załączonym abstraktem<br>
-                            <span style="color: deeppink">25 marca 2016r.</span><br>
-                            Kwalifikacja prac do wystąpienia w <br>
-                            sesji tematycznej lub w sesji plakatowej<br>
-                            <span style="color: deeppink">31 marca 2016r.</span><br>
-                            Dokonanie opłaty konferencyjnej <br>
-                            (wpłaty prosimy uiszczać dopiero<br>
-                            po zakwalifikowaniu prac)<br>
-                            <span style="color: deeppink">31 marca 2016r.</span><br>
-                            Przesłanie na adres konferencji <br>
-                            ostatecznej wersji elektronicznej prezentacji.<br>
+                            Ostateczny termin nadsyłania,<br>
+                            zgłoszeń/rejestracja prelegentów,<br>
+                            z wystąpieniami (referaty/plakaty),<br>
+                            z załączonym abstraktem
                         </td>
-
-                        <td><span style="color: deeppink">02 kwietnia 2016r.</span><br>
-                            Rejestracja<br> uczestników<br> biernych.
+                        <td rowspan="4"><span style="color: deeppink">02 kwietnia 2016r.</span><br>
+                            Rejestracja uczestników biernych.
                         </td>
-
+                    </tr>
+                    <tr>
+                        <td><span style="color: deeppink">25 marca 2016r.</span><br>
+                            Kwalifikacja prac do wystąpienia w,<br>
+                            sesji tematycznej lub w sesji plakatowej
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span style="color: deeppink">31 marca 2016r.</span><br>
+                            Dokonanie opłaty konferencyjnej,<br>
+                            (wpłaty prosimy uiszczać dopiero,<br>
+                            po zakwalifikowaniu prac)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span style="color: deeppink">31 marca 2016r.<br>
+                            Przesłanie na adres konferencji,<br>
+                            ostatecznej wersji elektronicznej prezentacji</td>
+                    </tr>
                 </table>
-
-
+                Hormonogram dnia <br>
+                (i tabelka nizej pokazujacy harmonogram dnia)
             </div>
+
+
         </div>
     </div>
 </section>
