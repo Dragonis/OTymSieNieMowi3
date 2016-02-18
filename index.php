@@ -1001,12 +1001,13 @@
                         Al. Racławickie 14/C312 <br>
                         20-950 Lublin<br>
                         Email: <a href="mailto:konferencja.ss@gmail.com">konferencja.ss@gmail.com</a>
+                        <img src="assets/images/partner/kul.jpg" style="margin-top: 30px;">
                     </p>
                 </address>
             </div>
             <div class="col-sm-9">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.4479501410556!2d22.542615015231583!3d51.24766117959329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722576163bf89c3%3A0xec4f36797ee23234!2sKatolicki+Uniwersytet+Lubelski+Jana+Paw%C5%82a+II!5e0!3m2!1spl!2spl!4v1455532859858"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
