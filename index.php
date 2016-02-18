@@ -477,44 +477,93 @@
                     <br>
                     Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>
                     Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.
-                    <br>
+                    <br><br>
+                    <table class="tub">
+                        <tr>
+                            <th class="tub-baqh" colspan="2">Dla uczestników biernych<br></th>
+                        </tr>
+                        <tr>
+                            <td class="tub-yw4l">02 kwietnia 2016r..</td>
+                            <td class="tub-yw4l">Rejestracja uczestników biernych</td>
+                        </tr>
+                    </table>
                 </div>
 
-                <table border="black 3px solid" style="float:left;" class="harmonogram">
+                <style type="text/css">
+                    .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+                    .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+                    .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+                    .tg .tg-baqh{text-align:center;vertical-align:top}
+                    .tg .tg-yw4l{vertical-align:top}
+                </style>
+                <table class="tg">
                     <tr>
-                        <th bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem</th>
-                        <th bgcolor="deeppink">Dla uczestników biernych:</th>
+                        <th class="tg-baqh" colspan="2">Dla uczestników czynnych<br></th>
                     </tr>
                     <tr>
-                        <td><span style="color: deeppink">20 marca 2016 r.</span><br>
-                            Ostateczny termin nadsyłania,<br>
-                            zgłoszeń/rejestracja prelegentów,<br>
-                            z wystąpieniami (referaty/plakaty),<br>
-                            z załączonym abstraktem
-                        </td>
-                        <td rowspan="4"><span style="color: deeppink">02 kwietnia 2016r.</span><br>
-                            Rejestracja uczestników biernych.
-                        </td>
+                        <td class="tg-yw4l">20 marca 2016r.<br></td>
+                        <td class="tg-yw4l">Ostateczny termin nadsyłania,zgłoszeń/rejestracja prelegentów,z wystąpieniami (referaty/plakaty), z załączonym abstraktem</td>
                     </tr>
                     <tr>
-                        <td><span style="color: deeppink">25 marca 2016r.</span><br>
-                            Kwalifikacja prac do wystąpienia w,<br>
-                            sesji tematycznej lub w sesji plakatowej
-                        </td>
+                        <td class="tg-yw4l">25 marca 2016r.</td>
+                        <td class="tg-yw4l">Kwalifikacja prac do wystąpienia w,,sesji tematycznej lub w sesji plakatowej</td>
                     </tr>
                     <tr>
-                        <td><span style="color: deeppink">31 marca 2016r.</span><br>
-                            Dokonanie opłaty konferencyjnej,<br>
-                            (wpłaty prosimy uiszczać dopiero,<br>
-                            po zakwalifikowaniu prac)
-                        </td>
+                        <td class="tg-yw4l">31 marca 2016r.</td>
+                        <td class="tg-yw4l">Dokonanie opłaty konferencyjnej,,(wpłaty prosimy uiszczać dopiero,,po zakwalifikowaniu prac)</td>
                     </tr>
                     <tr>
-                        <td><span style="color: deeppink">31 marca 2016r.<br>
-                            Przesłanie na adres konferencji,<br>
-                            ostatecznej wersji elektronicznej prezentacji</td>
+                        <td class="tg-yw4l">31 marca 2016r.</td>
+                        <td class="tg-yw4l">Przesłanie na adres konferencji,,ostatecznej wersji elektronicznej prezentacji</td>
                     </tr>
                 </table>
+
+                <style type="text/css">
+                    .tub  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+                    .tub td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+                    .tub th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+                    .tub .tub-baqh{text-align:center;vertical-align:top}
+                    .tub .tub-yw4l{vertical-align:top}
+                </style>
+
+
+
+
+<!--                <table border="black 3px solid" style="float:left;" class="harmonogram">-->
+<!--                    <tr>-->
+<!--                        <th bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem</th>-->
+<!--                        <th bgcolor="deeppink">Dla uczestników biernych:</th>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span style="color: deeppink">20 marca 2016 r.</span><br>-->
+<!--                            Ostateczny termin nadsyłania,<br>-->
+<!--                            zgłoszeń/rejestracja prelegentów,<br>-->
+<!--                            z wystąpieniami (referaty/plakaty),<br>-->
+<!--                            z załączonym abstraktem-->
+<!--                        </td>-->
+<!--                        <td rowspan="4"><span style="color: deeppink">02 kwietnia 2016r.</span><br>-->
+<!--                            Rejestracja uczestników biernych.-->
+<!--                        </td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span style="color: deeppink">25 marca 2016r.</span><br>-->
+<!--                            Kwalifikacja prac do wystąpienia w,<br>-->
+<!--                            sesji tematycznej lub w sesji plakatowej-->
+<!--                        </td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span style="color: deeppink">31 marca 2016r.</span><br>-->
+<!--                            Dokonanie opłaty konferencyjnej,<br>-->
+<!--                            (wpłaty prosimy uiszczać dopiero,<br>-->
+<!--                            po zakwalifikowaniu prac)-->
+<!--                        </td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><span style="color: deeppink">31 marca 2016r.<br>-->
+<!--                            Przesłanie na adres konferencji,<br>-->
+<!--                            ostatecznej wersji elektronicznej prezentacji</td>-->
+<!--                    </tr>-->
+<!--                </table>-->
 
                 <table style="border: black 1px; float:right">
                     <tbody>
