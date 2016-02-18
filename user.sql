@@ -35,6 +35,8 @@ CREATE TABLE IF NOT EXISTS `OTymSieNieMowi3` (
   `AdresZamieszkania` varchar(255) DEFAULT NULL,
   `KodPocztowy` varchar(255) DEFAULT NULL,
   `Miasto` varchar(255) DEFAULT NULL,
+`UczestnikBierny` varchar(255) DEFAULT NULL,
+`UczestnikCzynny` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Id` (`Id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
@@ -44,9 +46,9 @@ CREATE TABLE IF NOT EXISTS `OTymSieNieMowi3` (
 --
 
 INSERT INTO `OTymSieNieMowi3` 
-(`Imie`, `Nazwisko`,`Email`,`TelKom`,`AdresZamieszkania`,`KodPocztowy`,`Miasto`) 
+(`Imie`, `Nazwisko`,`Email`,`TelKom`,`AdresZamieszkania`,`KodPocztowy`,`Miasto`,`UczestnikBierny`,`UczestnikCzynny`) 
 VALUES
-('Jan', 'Kowalski','a@a.pl','4851234','ul.Przykladowa','56-5020','Zgadnij');
+('Jan', 'Kowalski','a@a.pl','4851234','ul.Przykladowa','56-5020','Zgadnij','true','true');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

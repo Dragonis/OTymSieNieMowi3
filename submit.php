@@ -14,6 +14,10 @@ $AdresZamieszkania = $_POST['AdresZamieszkania'];
 $KodPocztowy = $_POST['KodPocztowy'];
 $Miasto = $_POST['Miasto'];
 
+$UczestnikBierny = $_POST['UczestnikBierny'];
+$UczestnikCzynny = $_POST['UczestnikCzynny'];
+
+
 if (isset($_POST['Imie'])) {
 //$query = mysqli_query($dbconfig,"INSERT INTO `OTymSieNieMowi3` 
 //(`Imie`, `Nazwisko`,`Email`,`TelKom`,`AdresZamieszkania`,`KodPocztowy`,`Miasto`) 
@@ -22,7 +26,7 @@ if (isset($_POST['Imie'])) {
 //echo"Form Submitted succesfully";
 //}
 
-$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`, `Email`, `TelKom`, `AdresZamieszkania`, `KodPocztowy`, `Miasto`) values('$Imie', '$Nazwisko','$Email', '$TelKom','$AdresZamieszkania', '$KodPocztowy','$Miasto');"); //Insert Query
+$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`, `Email`, `TelKom`, `AdresZamieszkania`, `KodPocztowy`, `Miasto`,`UczestnikBierny`,`UczestnikCzynny`) values('$Imie', '$Nazwisko','$Email', '$TelKom','$AdresZamieszkania', '$KodPocztowy','$Miasto', '$UczestnikBierny','$UczestnikCzynny');"); //Insert Query
 echo "Form Submitted succesfully";
 
 }

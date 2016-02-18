@@ -332,7 +332,8 @@
                     <li>Materiały konferencyjne</li>
                     <li> -</li>
                 </ul>
-                <div class="kup">Wybierz!</div>
+                <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); ";">Wybierz</div>
+
             </div>
             <div class="produkt">
                 <div class="nazwa"><h3>Uczestnik czynny</h3></div>
@@ -343,7 +344,8 @@
                     <li>Materiały konferencyjne</li>
                     <li>Certyfikat</li>
                 </ul>
-                <div class="kup">Wybierz!</div>
+                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestikaCzynnego(); ";">Wybierz</div>
+
             </div>
             <!--<div class="produkt">-->
             <!--<div class="nazwa"><h3>Business</h3></div>-->
@@ -814,6 +816,20 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/button.js"></script>
 <script>
+
+    var UczestnikBierny;
+    var UczestnikCzynny;
+
+    function wybranoUczestnikaBiernego()
+    {
+        UczestnikBierny = "TAK";
+    }
+
+    function wybranoUczestnikaCzynnego()
+    {
+        UczestnikCzynny = "TAK";
+    }
+
     function submitdata() {
     var Imie  = document.getElementById("Imie").value;
     var Nazwisko = document.getElementById("Nazwisko").value;
@@ -822,12 +838,19 @@
     var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
     var KodPocztowy = document.getElementById("KodPocztowy").value;
     var Miasto = document.getElementById("Miasto").value;
+
+
+
     // Returns successful data submission message when the entered information is stored in database.
-    var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto;
-        if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
+    var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
+
+
+
+        //if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
         alert("Please Fill All Fields");
-        } 
-        else {
+
+        //}
+        //else {
                     // AJAX code to submit form.
                     $.ajax({
                     type: "POST",
@@ -838,7 +861,7 @@
                     alert(html);
                     }
                     });
-                }
+        //        }
         return false;
     
 }
