@@ -16,18 +16,18 @@
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
 
-    <script type="text/javascript">
-        (function (p, u, s, h) {
-            p._pcq = p._pcq || [];
-            p._pcq.push(['_currentTime', Date.now()]);
-            s = u.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';
-            h = u.getElementsByTagName('script')[0];
-            h.parentNode.insertBefore(s, h);
-        })(window, document);
-    </script>
+<!--    <script type="text/javascript">-->
+<!--        (function (p, u, s, h) {-->
+<!--            p._pcq = p._pcq || [];-->
+<!--            p._pcq.push(['_currentTime', Date.now()]);-->
+<!--            s = u.createElement('script');-->
+<!--            s.type = 'text/javascript';-->
+<!--            s.async = true;-->
+<!--            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';-->
+<!--            h = u.getElementsByTagName('script')[0];-->
+<!--            h.parentNode.insertBefore(s, h);-->
+<!--        })(window, document);-->
+<!--    </script>-->
 
 
 </head>

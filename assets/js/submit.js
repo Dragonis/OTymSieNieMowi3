@@ -7,7 +7,7 @@ function submitdata() {
         alert("Please Fill All Fields");
     }
     else {
-        // AJAX code to submit form.
+        // AJAX code to submiAt form.
         $.ajax({
             type: "POST",
             url: "submit.php",

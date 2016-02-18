@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'test';
+$host = 'mysql.cba.pl';
+$username = 'otymsieniemowi3';
+$password = 'dragonis';
+$database = 'otymsieniemowi3_cba_pl';
 $dbconfig = mysqli_connect($host,$username,$password,$database);
 
 // Fetching Values From the post method
@@ -22,7 +22,7 @@ if (isset($_POST['Imie'])) {
 //echo"Form Submitted succesfully";
 //}
 
-$query = mysqli_query($dbconfig,"insert into otymsieniemowi3(`Imie`, `Nazwisko`, `Email`, `TelKom`, `AdresZamieszkania`, `KodPocztowy`, `Miasto`) values('$Imie', '$Nazwisko','$Email', '$TelKom','$AdresZamieszkania', '$KodPocztowy','$Miasto');"); //Insert Query
+$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`, `Email`, `TelKom`, `AdresZamieszkania`, `KodPocztowy`, `Miasto`) values('$Imie', '$Nazwisko','$Email', '$TelKom','$AdresZamieszkania', '$KodPocztowy','$Miasto');"); //Insert Query
 echo "Form Submitted succesfully";
 
 }
