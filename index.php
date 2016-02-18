@@ -40,7 +40,7 @@
 
             <!-- logo -->
             <div class="site-branding">
-                <a class="logo" href="index.html">
+                <a class="logo" href="index.php">
 
                     <!-- logo image  -->
                     <img src="assets/images/logo.png" alt="Logo">
@@ -1085,41 +1085,41 @@
 <!--<div class="row">-->
 <!--<div class="col-md-12">-->
 <!--<ul class="grid">-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-6">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
 <!--</li>-->
-
+<!---->
+<!--<li class="grid-item grid-item-sm-3">-->
+<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-4.jpg">-->
+<!--</li>-->
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">-->
 <!--</li>-->
-
+<!---->
 <!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
-<!--</li>-->
-
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-9.jpg">-->
 <!--</li>-->
 <!--</ul>-->
 <!--</div>-->
