@@ -1208,8 +1208,8 @@
         $("#parametry2Cennika").css("color","black");
         $(".kup").first().next().css("background-color","#eee");
         $("#ButtonUczestnikCzynny").text("Wybierz");
-        $("#parametry2Cennika li:nth-child(odd)").css("background","#eee");
-        $("#parametry2Cennika li:nth-child(even)").css("background-color","silver");
+        $("#parametry2Cennika li:nth-child(even)").css("background","#eee");
+        $("#parametry2Cennika li:nth-child(odd)").css("background-color","silver");
 
 
 
@@ -1240,8 +1240,8 @@
         $("#parametry1Cennika").css("color","black");
         $(".kup").first().css("background-color","#eee");
         $("#buttonUczestnikBierny").text("Wybierz");
-        $("#parametry1Cennika li:nth-child(odd)").css("background","#eee");
-        $("#parametry1Cennika li:nth-child(even)").css("background-color","silver");
+        $("#parametry1Cennika li:nth-child(even)").css("background","#eee");
+        $("#parametry1Cennika li:nth-child(odd)").css("background-color","silver");
     }
 
     function submitdata() {
