@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/form.css">
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/photos-slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
@@ -85,7 +86,7 @@
         <h1>O tym się nie mówi 3</h1>
 
         <p> Coaching osób z uszkodzeniem słuchu <br>
-            <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>
+                <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>
         </p>
         <!--<p>First &amp; Largest Conference</p>-->
 
@@ -371,44 +372,53 @@
 
     <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action=""
           name="loginform">
-        <b> Dane kontakotwe</b>
+
         <div class="row">
             <div class="col-md-12" id="registration-msg" style="display:none;">
                 <div class="alert"></div>
             </div>
             <div class="col-sm-6">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Imię" id="Imie" name="Imie" required>
+
+
+                <div class="group">
+                    <input type="text" class="form-control"  id="Imie" name="Imie" required><span class="highlight"></span><span class="bar"></span>
+                    <label>Imię</label>
                 </div>
 
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nazwisko" id="Nazwisko" name="Nazwisko"
-                           required>
+                <div class="group">
+                    <input type="text" class="form-control" id="Nazwisko" name="Nazwisko"
+                           required><span class="highlight"></span><span class="bar"></span>
+                    <label>Nazwisko</label>
                 </div>
 
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
+                <div class="group">
+                    <input type="email" class="form-control" id="Email" name="Email" required><span class="highlight"></span><span class="bar"></span>
+                    <label>E-mail</label>
                 </div>
 
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="TelKom" name="TelKom"
-                           required>
+                <div class="group">
+                    <input type="text" class="form-control" id="TelKom" name="TelKom"
+                           required><span class="highlight"></span><span class="bar"></span>
+                    <label>Tel. kom</label>
                 </div>
             </div>
 
             <div class="col-sm-6">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="AdresZamieszkania"
-                           name="AdresZamieszkania" required>
+                <div class="group">
+                    <input type="text" class="form-control" id="AdresZamieszkania"
+                           name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
+                    <label>Adres zamieszkania</label>
                 </div>
 
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Kod Pocztowy" id="KodPocztowy"
-                           name="KodPocztowy" required>
+                <div class="group">
+                    <input type="text" class="form-control" id="KodPocztowy"
+                           name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
+                    <label>Kod pocztowy</label>
                 </div>
 
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Miasto" id="Miasto" name="Miasto" required>
+                <div class="group">
+                    <input type="text" class="form-control" id="Miasto" name="Miasto" required><span class="highlight"></span><span class="bar"></span>
+                    <label>Miasto</label>
                 </div>
 
                 <!--<div class="form-group">-->
@@ -440,23 +450,24 @@
                 <span id="komunikat-wysylania">
 
                 </span>
-
             </div>
-        </div>
-
-        <div class="oplaty" style="margin-left: 15px;"><br>
-            <b> Przelew:</b> <br>
-            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>
-            Al. Racławickie 14, 20-950 Lublin <br>
-            Bank: Bank PeKaO S.A. III O/Lublin <br>
-            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>
-            NIP: 712-016-10-05; REGON: 000514064 <br>
-
-            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>
-        </div>
 
         </div>
 
+
+
+<!--        <div class="oplaty" style="margin-left: 15px; "><br>-->
+<!--            <b> Przelew:</b> <br>-->
+<!--            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>-->
+<!--            Al. Racławickie 14, 20-950 Lublin <br>-->
+<!--            Bank: Bank PeKaO S.A. III O/Lublin <br>-->
+<!--            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>-->
+<!--            NIP: 712-016-10-05; REGON: 000514064 <br>-->
+<!---->
+<!--            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>-->
+<!--        </div>-->
+
+        </div>
 
     </form>
 
@@ -1143,6 +1154,7 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/button.js"></script>
 <script src="assets/js/textrotator.js"></script>
+<script src="assets/js/form.js"></script>
 
 <script>
     $(function () {
