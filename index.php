@@ -1188,9 +1188,13 @@
     function wybranoUczestnikaBiernego()
     {
         UczestnikBierny = "TAK";
+        UczestnikCzynny = "NIE";
+
+//zaznaczasz 1
         $(".produkt").first().css("background","#111");
         $("#parametry1Cennika li:nth-child(odd)").css("background","black");
         $("#parametry1Cennika li:nth-child(even)").css("background","black");
+        $("#parametry1Cennika").css("background-color","black");
         $(".produkt:hover .parametry").first().css("color","silver");
         $(".produkt:hover h3").first().css("background","#eee");
         $(".produkt:hover h3").first().css("color","#000");
@@ -1198,15 +1202,17 @@
         $(".kup").first().css("background-color","#111");
         $("#buttonUczestnikBierny").text("Wybrano");
 
-//    .produkt:hover {background: #111; box-shadow: 0 0 50px #000;}
-//    .produkt:hover .parametry li:nth-child(odd) {
-//        background: black;
-//    }
-//    .produkt:hover .parametry li:nth-child(even) {
-//        background: #111;
-//    }
-//    .produkt:hover .parametry {color: silver;}
-//    .produkt:hover h3 {background: #eee; color: #000; text-shadow: 0 0 3px silver;}
+//odznaczasz 2
+        $(".produkt").first().next().css("background","#eee");
+        $("#parametry2Cennika").css("background-color","#eee");
+        $("#parametry2Cennika").css("color","black");
+        $(".kup").first().next().css("background-color","#eee");
+        $("#ButtonUczestnikCzynny").text("Wybierz");
+        $("#parametry2Cennika li:nth-child(odd)").css("background","#eee");
+        $("#parametry2Cennika li:nth-child(even)").css("background-color","silver");
+
+
+
 
 
     }
@@ -1214,15 +1220,28 @@
     function wybranoUczestnikaCzynnego()
     {
         UczestnikCzynny = "TAK";
+        UczestnikBierny = "NIE";
+
+        //zaznaczasz 2
         $(".produkt").first().next().css("background","#111");
         $("#parametry2Cennika li:nth-child(odd)").css("background","black");
         $("#parametry2Cennika li:nth-child(even)").css("background","black");
         $("#parametry2Cennika").css("color","silver");
+        $("#parametry2Cennika").css("background-color","black");
         $(".produkt:hover h3").css("background","#eee");
         $(".produkt:hover h3").css("color","#000");
         $(".produkt:hover h3").css("text-shadow","0 0 3px silver");
         $(".kup").first().next().css("background-color","#111");
         $("#ButtonUczestnikCzynny").text("Wybrano");
+
+        //odznaczasz 1
+        $(".produkt").first().css("background","#eee");
+        $("#parametry1Cennika").css("background-color","#eee");
+        $("#parametry1Cennika").css("color","black");
+        $(".kup").first().css("background-color","#eee");
+        $("#buttonUczestnikBierny").text("Wybierz");
+        $("#parametry1Cennika li:nth-child(odd)").css("background","#eee");
+        $("#parametry1Cennika li:nth-child(even)").css("background-color","silver");
     }
 
     function submitdata() {
