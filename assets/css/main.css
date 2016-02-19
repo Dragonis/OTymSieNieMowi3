@@ -2,7 +2,7 @@
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/* 
+/*
  * 2.0 Global Style
  */
 html {
@@ -369,6 +369,7 @@ p {
 /* 
  * 6.1 Section: About 
  */
+
 .about .section-title {
   margin: 0 0 25px;
 }

@@ -66,12 +66,13 @@
 
                 <!-- navigation menu -->
                 <li class="active"><a data-scroll href="#about">O nas</a></li>
-                <li><a data-scroll href="#speakers">Prelegenci</a></li>
-                <li><a data-scroll href="#schedule">Hormonogram</a></li>
+                <li><a data-scroll href="#registration">Rejestracja</a></li>
+                <li><a data-scroll href="#harmonogram">Harmonogram</a></li>
                 <li><a data-scroll href="#partner">Partnerzy</a></li>
                 <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
-                <li><a data-scroll href="#faq">FAQ</a></li>
+                <li><a data-scroll href="#pytania">Pytania</a></li>
                 <li><a data-scroll href="#photos">Zdjęcia</a></li>
+                <li><a data-scroll href="#location">Lokalizacja</a></li>
 
             </ul>
         </div>
@@ -879,7 +880,7 @@
         <!--</div>-->
 </section>
 
-<section id="faq" class="section faq">
+<section id="pytania" class="section faq">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
