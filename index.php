@@ -41,11 +41,11 @@
         <div class="navbar-header">
 
             <!-- logo -->
-            <div class="site-branding">
+            <div class="site-branding" >
                 <a class="logo" href="index.php">
 
                     <!-- logo image  -->
-                    <img src="assets/images/logo.png" alt="Logo">
+<!--                    <img src="assets/images/logo.png" alt="Logo">-->
 
                     O tym się nie mówi 3
                 </a>
@@ -79,7 +79,7 @@
 </nav>
 
 <header id="site-header" class="site-header valign-center">
-    <div class="intro">
+    <div class="intro"
 
         <h2>9 Kwiecień, 2016 / Lublin</h2>
 
