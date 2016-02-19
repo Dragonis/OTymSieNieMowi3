@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84850d6b-4737-4775-a066-269b0bb6d835" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/slider.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="conference-master.iws" />
@@ -53,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="731" column="49" selection-start-line="731" selection-start-column="49" selection-end-line="731" selection-end-column="49" />
+              <caret line="731" column="46" selection-start-line="731" selection-start-column="46" selection-end-line="731" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -738,7 +736,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47595000" />
+    <option name="totallyTimeSpent" value="47746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1169,7 +1167,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="731" column="49" selection-start-line="731" selection-start-column="49" selection-end-line="731" selection-end-column="49" />
+          <caret line="731" column="46" selection-start-line="731" selection-start-column="46" selection-end-line="731" selection-end-column="46" />
           <folding />
         </state>
       </provider>

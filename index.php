@@ -729,7 +729,7 @@
                         <p>"Polecam tą konferencję, atmosfera świetna!" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
                     </li>
                     <li>
-                        <p>"Nieprawdopodobne.<br> Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                        <p>" Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
                     </li>
                 </ul>
 
