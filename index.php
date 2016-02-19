@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
 
 <!--    <script type="text/javascript">-->
@@ -615,255 +616,7 @@
                     </div> <!-- cd-timeline-block -->
                 </section> <!-- cd-timeline -->
 
-
-<!--                <table border="black 3px solid" style="float:left;" class="harmonogram">-->
-<!--                    <tr>-->
-<!--                        <th bgcolor="deeppink">Dla prelegentów z referatem bądź plakatem</th>-->
-<!--                        <th bgcolor="deeppink">Dla uczestników biernych:</th>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><span style="color: deeppink">20 marca 2016 r.</span><br>-->
-<!--                            Ostateczny termin nadsyłania,<br>-->
-<!--                            zgłoszeń/rejestracja prelegentów,<br>-->
-<!--                            z wystąpieniami (referaty/plakaty),<br>-->
-<!--                            z załączonym abstraktem-->
-<!--                        </td>-->
-<!--                        <td rowspan="4"><span style="color: deeppink">02 kwietnia 2016r.</span><br>-->
-<!--                            Rejestracja uczestników biernych.-->
-<!--                        </td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><span style="color: deeppink">25 marca 2016r.</span><br>-->
-<!--                            Kwalifikacja prac do wystąpienia w,<br>-->
-<!--                            sesji tematycznej lub w sesji plakatowej-->
-<!--                        </td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><span style="color: deeppink">31 marca 2016r.</span><br>-->
-<!--                            Dokonanie opłaty konferencyjnej,<br>-->
-<!--                            (wpłaty prosimy uiszczać dopiero,<br>-->
-<!--                            po zakwalifikowaniu prac)-->
-<!--                        </td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><span style="color: deeppink">31 marca 2016r.<br>-->
-<!--                            Przesłanie na adres konferencji,<br>-->
-<!--                            ostatecznej wersji elektronicznej prezentacji</td>-->
-<!--                    </tr>-->
-<!--                </table>-->
-
-<!--                <table style="border: black 1px; float:right">-->
-<!--                    <tbody>-->
-<!--                    <!-- Single event in a single day -->-->
-<!--<!--                    <tr><h2>Konferencja (w wersji rozszerzonej)</h2></tr>-->-->
-<!--                    <tr>-->
-<!--<!--                        <td class="agenda-date" class="active" rowspan="30">-->-->
-<!--<!--                            <div class="dayofmonth">4</div>-->-->
-<!--<!--                            <div class="dayofweek">Grudzień</div>-->-->
-<!--<!--                            <div class="shortdate text-muted">Grudż, 2015</div>-->-->
-<!--<!--                        </td>-->-->
-<!--                        <td class="agenda-time">-->
-<!--                            <b>09:00 - 9:30</b>-->
-<!--                        </td>-->
-<!--                        <td class="agenda-events">-->
-<!--                            <div class="agenda-event">-->
-<!--                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>-->
-<!--                                <b>Uroczyste rozpoczęcie konferencji</b>-->
-<!--                            </div>-->
-<!--                        </td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>09:30</b></td>-->
-<!--                        <td><b>Rozpoczęcie 1 Sesji Rehabilitacyjnej</b></td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>09:30 - 09:45</td>-->
-<!--                        <td>prof. dr hab. Kazimiera KRAKOWIAK <br>-->
-<!--                            Trudności osób słyszących w komunikowaniu się <br>-->
-<!--                            z niesłyszącymi i słabosłyszącymi-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!---->
-<!--                        <td>09:45 - 10:00</td>-->
-<!--                        <td>dr hab. Ewa DOMAGAŁA-ZYŚK<br>-->
-<!--                            Uczenie się języków obcych przez osoby <br>-->
-<!--                            niesłyszące i słabosłyszące –<br>-->
-<!--                            bariera w edukacji czy szansa na rozwój?-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    <tr>-->
-<!--                        <td>10:00 - 10:15</td>-->
-<!--                        <td>dr Aleksandra BOROWICZ<br>-->
-<!--                            Kampanie społeczne a upowszechnianie <br>-->
-<!--                            wiedzy na temat problemów<br>-->
-<!--                            osób z uszkodzeniami słuchu<br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>10:15 - 10:30</td>-->
-<!--                        <td>dr Renata KOŁODZIEJCZYK<br>-->
-<!--                            Rodzaje ćwiczeń językowych na <br>-->
-<!--                            lektoracie języka polskiego dla<br>-->
-<!--                            młodzieży z uszkodzeniami słuchu <br>-->
-<!--                            <br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>10:30 - 11:00</b></td>-->
-<!--                        <td><b>Przerwa kawowa 1 (30 min.)</b><br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>11:00</b></td>-->
-<!--                        <td><b>Kontynuacja I Sesji Rehablitacyjnej</b><br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>11:00 - 11:15</td>-->
-<!--                        <td>dr Ewa MUZYKA-FURTAK <br>-->
-<!--                            O wpływie uszkodzeń słuchu na nabywanie słów i ich znaczeń-->
-<!--                            <br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>11:15 - 11:30</td>-->
-<!--                        <td>dr Juliusz IWANICKI<br>-->
-<!--                            "Głuche" społeczeństwo i religia osób słyszących-->
-<!--                            <br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>11:30 - 11:45</td>-->
-<!--                        <td>mgr Beata KRYSTKOWIAK<br>-->
-<!--                            Granice polskiego systemu wsparcia dla osób z uszkodzeniem słuchu<br>-->
-<!--                            - czyli o samodzielności nie(do)słyszących w różnych wymiarach<br>-->
-<!--                            społecznych<br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>11:45 - 12:00</td>-->
-<!--                        <td>mgr Monika SZYMANEK-SZAWRACKA<br>-->
-<!--                            Sukcesy w rehabilitacji jako główny czynnik w przełamywaniu<br>-->
-<!--                            wszystkich barier<br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>12:00 - 12:15</td>-->
-<!--                        <td>lic. Paulina LEWANDOWSKA<br>-->
-<!--                            Jak to się dzieje, że podróże rehabilitują? - na przykładzie<br>-->
-<!--                            doświadczeń własnych i innych osób z uszkodzeniem słuchu<br>-->
-<!--                        </td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>12:15</b> </td>-->
-<!--                        <td><b>Zakończenie I Sesji Rehablitacyjnej</b></td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>12:15 - 13:45</b> </td>-->
-<!--                        <td><b> Przerwa obiadowa na Stołówce KULu (1,5h)</b></td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>13:45</b> </td>-->
-<!--                        <td><b>Rozpoczęcie II Sesji Audiologicznej)</b></td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>13:45 - 14:00</td>-->
-<!--                        <td>dr n. med. Hanna ANDRZEJEWSKA<br>-->
-<!--                            Omówienie przyczyn i rodzajów niedosłuchu, konieczność<br>-->
-<!--                            diagnostyki audiologicznej, stwierdzenie lokalizacji uszkodzenia na<br>-->
-<!--                            drodze słuchowej</td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>14:00 - 14:15</td>-->
-<!--                        <td>mgr Monika TRĘTKO<br>-->
-<!--                            Implant pniowy w pniu mózgu jako alternatywa przywracająca słuch</td>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>14:15 - 14:30</td>-->
-<!--                        <td>lic. Małgorzata TALIPSKA<br>-->
-<!--                            Wybrane techniki i narzędzia badawcze w badaniach społecznych<br>-->
-<!--                            przeprowadzanych wśród osób głuchych i słabosłyszących -<br>-->
-<!--                            wątpliwości i rekomendacje<br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>14:15 - 14:30</td>-->
-<!--                        <td>lic. Małgorzata TALIPSKA<br>-->
-<!--                            Wybrane techniki i narzędzia badawcze w badaniach społecznych<br>-->
-<!--                            przeprowadzanych wśród osób głuchych i słabosłyszących -<br>-->
-<!--                            wątpliwości i rekomendacje<br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>14:30 - 14:45</td>-->
-<!--                        <td>Karolina CZABAN oraz inż. Alicja NOWOGRODZKA<br>-->
-<!--                            Żywienie produktami mleczarskimi a słuch - co mają wspólnego?<br>                    <br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>14:45</b></td>-->
-<!--                        <td><b>Zakończenie II Sesji Audiologicznej</b><br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>14:45 - 14:30</b></td>-->
-<!--                        <td><b>Przerwa kawowa 2 (45 min.)</b><br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>15:30</b></td>-->
-<!--                        <td><b>Rozpoczęcie III Sesji Technicznej</b><br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>15:30 - 15:45</td>-->
-<!--                        <td>Lidia SMOLAREK-BEST<br>-->
-<!--                            Europejska norma: Usługi oferowane przez protetyków słuchu i-->
-<!--                            audiologów<br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>15:45 - 16:00</td>-->
-<!--                        <td>mgr Andrzej KAPITAN<br>-->
-<!--                            Zarys procedury dopasowywania aparatów słuchowych<br>-->
-<!--                        <td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td>16:00 - 16:15</td>-->
-<!--                        <td>mgr Wojciech KRUKOWSKI<br>-->
-<!--                            Nieskończone możliwości, czyli świat aplikacji dla słabosłyszących i-->
-<!--                            niesłyszących<td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>16:15</b></td>-->
-<!--                        <td><b>Zakończenie III Sesji Techniczej</b><td></td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <td><b>16:15 - 17:00</b></td>-->
-<!--                        <td><b>Zakończenie konferencji</b><td></td>-->
-<!--                    </tr>-->
-<!--                    </tr>-->
-<!--                    </tbody>-->
-<!--                </table>-->
             </div>
-
 
         </div>
     </div>
@@ -1080,15 +833,92 @@
 </div>
 </section>
 
-<!--<section id="photos" class="section photos">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-md-12">-->
-<!--<h3 class="section-title">Photos</h3>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-md-12">-->
+<section id="photos" class="section partner">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h3 class="section-title">Zdjęcia z poprzedniej konferencji</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-1.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-2.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-3.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-4" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-4.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-3" class="prev">&#x2039;</label>
+                <label for="img-5" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-5" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-5.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-4" class="prev">&#x2039;</label>
+                <label for="img-6" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-6" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="/assets/images/photos/photos-6.jpg" />
+            </div>
+            <div class="nav">
+                <label for="img-5" class="prev">&#x2039;</label>
+                <label for="img-1" class="next">&#x203a;</label>
+            </div>
+        </li>
+
+        <li class="nav-dots">
+            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+            <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+        </li>
+    </ul>
 <!--<ul class="grid">-->
 <!---->
 <!--<li class="grid-item grid-item-sm-6">-->
@@ -1127,10 +957,10 @@
 <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-9.jpg">-->
 <!--</li>-->
 <!--</ul>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
+</div>
+</div>
+</div>
+</section>
 
 <section id="location" class="section location">
     <div class="container">
