@@ -1,10 +1,10 @@
 
-.group {
+form .group {
     position: relative;
     margin-bottom: 45px;
 }
 
-input {
+form input {
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     -webkit-appearance: none;
@@ -17,12 +17,12 @@ input {
     border-bottom: 1px solid #757575;
 }
 
-input:focus { outline: none; }
+form input:focus { outline: none; }
 
 
 /* Label */
 
-label {
+form label {
     color: #999;
     font-size: 18px;
     font-weight: normal;
@@ -36,7 +36,7 @@ label {
 
 /* active */
 
-input:focus ~ label, input.used ~ label {
+form input:focus ~ label, input.used ~ label {
     top: -20px;
     transform: scale(.75); left: -2px;
     /* font-size: 14px; */
@@ -46,13 +46,13 @@ input:focus ~ label, input.used ~ label {
 
 /* Underline */
 
-.bar {
+form .bar {
     position: relative;
     display: block;
     width: 100%;
 }
 
-.bar:before, .bar:after {
+form .bar:before, .bar:after {
     content: '';
     height: 2px;
     width: 0;
@@ -62,19 +62,19 @@ input:focus ~ label, input.used ~ label {
     transition: all 0.2s ease;
 }
 
-.bar:before { left: 50%; }
+form .bar:before { left: 50%; }
 
-.bar:after { right: 50%; }
+form .bar:after { right: 50%; }
 
 
 /* active */
 
-input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+form input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
 
 /* Highlight */
 
-.highlight {
+form .highlight {
     position: absolute;
     height: 60%;
     width: 100px;
@@ -87,7 +87,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
 
 /* active */
 
-input:focus ~ .highlight {
+form input:focus ~ .highlight {
     animation: inputHighlighter 0.3s ease;
 }
 
