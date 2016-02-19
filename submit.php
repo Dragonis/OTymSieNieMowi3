@@ -27,7 +27,7 @@ if (isset($_POST['Imie'])) {
 //}
 
 $query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`, `Email`, `TelKom`, `AdresZamieszkania`, `KodPocztowy`, `Miasto`,`UczestnikBierny`,`UczestnikCzynny`) values('$Imie', '$Nazwisko','$Email', '$TelKom','$AdresZamieszkania', '$KodPocztowy','$Miasto', '$UczestnikBierny','$UczestnikCzynny');"); //Insert Query
-echo "Form Submitted succesfully";
+//echo "Form Submitted succesfully";
 
 }
 ?>

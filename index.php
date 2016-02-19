@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/button.css" title="button">
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
@@ -436,6 +436,11 @@
                 <!--<button id="button"></button>-->
                 <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
                 <button type="button" id="button" onClick="submitdata();"></button>
+                <br>
+                <span id="komunikat-wysylania">
+
+                </span>
+
             </div>
         </div>
 
@@ -725,20 +730,25 @@
 
                 <ul id="text-slider">
                     <li>
-                        <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                        <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej
+                            konferencji. </p>
                     </li>
                     <li>
-                        <p>"Polecam tą konferencję, atmosfera świetna!" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                        <p>"Polecam tą konferencję, atmosfera świetna!" <br> Zadowolony uczestnik poprzedniej
+                            konferencji. </p>
                     </li>
                     <li>
-                        <p>" Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                        <p>" Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony
+                            uczestnik poprzedniej konferencji. </p>
                     </li>
                 </ul>
 
                 <style>
-                    #text-slider li { display: none; list-style: none; }
+                    #text-slider li {
+                        display: none;
+                        list-style: none;
+                    }
                 </style>
-
 
 
                 <!--<table border="black 3px solid">-->
@@ -1135,13 +1145,13 @@
 <script src="assets/js/textrotator.js"></script>
 
 <script>
-    $(function(){
+    $(function () {
         $('#text-slider').textRotator({
-            random : true,
-            fadeIn : 1000,
-            fadeOut : 500,
-            duration : 3000,
-            debug : false
+            random: true,
+            fadeIn: 1000,
+            fadeOut: 500,
+            duration: 3000,
+            debug: false
         })
     })
 </script>
@@ -1206,7 +1216,9 @@
         $("#parametry1Cennika li:nth-child(odd)").css("background-color", "silver");
     }
 
+
     function submitdata() {
+
         var Imie = document.getElementById("Imie").value;
         var Nazwisko = document.getElementById("Nazwisko").value;
         var Email = document.getElementById("Email").value;
@@ -1215,27 +1227,36 @@
         var KodPocztowy = document.getElementById("KodPocztowy").value;
         var Miasto = document.getElementById("Miasto").value;
 
-
         // Returns successful data submission message when the entered information is stored in database.
         var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
 
 
-        //if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
-        alert("Please Fill All Fields");
+        if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
 
-        //}
-        //else {
-        // AJAX code to submit form.
-        $.ajax({
-            type: "POST",
-            url: "submit.php",
-            data: dataString,
-            cache: false,
-            success: function (html) {
-                alert(html);
-            }
-        });
-        //        }
+            $("#button").off();
+
+            $("#komunikat-wysylania").text("Proszę uzupełnić wszystkie pola.");
+        }
+        else {
+            setTimeout(
+                function () {
+                    $("#button").prop('disabled', true);
+//                    $("#button").hide();
+                    $("#komunikat-wysylania").text("Dziękujemy i zapraszamy! :-)");
+                }, 4500);
+
+            $.ajax
+            ({
+                type: "POST",
+                url: "submit.php",
+                data: dataString,
+                cache: false,
+                success: function (html) {
+//                alert(html);
+                }
+            });
+
+        }
         return false;
 
     }
