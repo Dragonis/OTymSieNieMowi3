@@ -10,27 +10,27 @@
     <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
-    <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/tabelkacen.css">
     <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
 
-<!--    <script type="text/javascript">-->
-<!--        (function (p, u, s, h) {-->
-<!--            p._pcq = p._pcq || [];-->
-<!--            p._pcq.push(['_currentTime', Date.now()]);-->
-<!--            s = u.createElement('script');-->
-<!--            s.type = 'text/javascript';-->
-<!--            s.async = true;-->
-<!--            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';-->
-<!--            h = u.getElementsByTagName('script')[0];-->
-<!--            h.parentNode.insertBefore(s, h);-->
-<!--        })(window, document);-->
-<!--    </script>-->
+    <!--    <script type="text/javascript">-->
+    <!--        (function (p, u, s, h) {-->
+    <!--            p._pcq = p._pcq || [];-->
+    <!--            p._pcq.push(['_currentTime', Date.now()]);-->
+    <!--            s = u.createElement('script');-->
+    <!--            s.type = 'text/javascript';-->
+    <!--            s.async = true;-->
+    <!--            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';-->
+    <!--            h = u.getElementsByTagName('script')[0];-->
+    <!--            h.parentNode.insertBefore(s, h);-->
+    <!--        })(window, document);-->
+    <!--    </script>-->
 
 
 </head>
@@ -100,7 +100,7 @@
                 <h3 class="section-title">O nas</h3>
 
                 <p>Po raz kolejny mamy zaszczyt <b>WAS</b> zaprosić na trzecią edycję konferencji <b> <br>
-                    „O tym się nie mówi 3- coaching osób z uszkodzeniem słuchu”</b>.<br>
+                        „O tym się nie mówi 3- coaching osób z uszkodzeniem słuchu”</b>.<br>
                     W Polsce jest bardzo dużo osób z uszkodzeniem słuchu- to właśnie nas łączy- osoby Słabosłyszące i
                     Głuche. Codziennie zmagamy się z problemami, jakie sprawia dysfunkcja słuchu. Szczególnie z
                     relacjami z innymi ludźmi, z sobą samym. <br>
@@ -335,113 +335,120 @@
                     <li>Materiały konferencyjne</li>
                     <li> -</li>
                 </ul>
-                <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); ";">Wybierz</div>
-
+                <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
+                ">Wybierz
             </div>
-            <div class="produkt" id="ProduktZ2Cennika">
-                <div class="nazwa"><h3>Uczestnik czynny</h3></div>
-                <div class="cena">100zł</div>
-                <ul class="parametry" id="parametry2Cennika">
-                    <li>Obiad</li>
-                    <li>Darmowe jedzenie</li>
-                    <li>Materiały konferencyjne</li>
-                    <li>Certyfikat</li>
-                </ul>
-                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); ";">Wybierz</div>
 
-            </div>
-            <!--<div class="produkt">-->
-            <!--<div class="nazwa"><h3>Business</h3></div>-->
-            <!--<div class="cena">499zł</div>-->
-            <!--<ul class="parametry">-->
-            <!--<li>Dysk: 50GB</li>-->
-            <!--<li>Transfer: bez limitu</li>-->
-            <!--<li>Subdomeny: bez limitu</li>-->
-            <!--<li>Konta e-mail: bez limitu</li>-->
-            <!--</ul>-->
-            <!--<div class="kup">Kup pakiet!</div>-->
-            <!--</div>-->
+        </div>
+        <div class="produkt" id="ProduktZ2Cennika">
+            <div class="nazwa"><h3>Uczestnik czynny</h3></div>
+            <div class="cena">100zł</div>
+            <ul class="parametry" id="parametry2Cennika">
+                <li>Obiad</li>
+                <li>Darmowe jedzenie</li>
+                <li>Materiały konferencyjne</li>
+                <li>Certyfikat</li>
+            </ul>
+            <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); " ;
+            ">Wybierz
         </div>
 
-        <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action="" name="loginform">
-            <b> Dane kontakotwe</b>
-            <div class="row">
-                <div class="col-md-12" id="registration-msg" style="display:none;">
-                    <div class="alert"></div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Imię" id="Imie" name="Imie" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nazwisko" id="Nazwisko" name="Nazwisko" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="TelKom" name="TelKom"
-                               required>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="AdresZamieszkania"
-                               name="AdresZamieszkania" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Kod Pocztowy" id="KodPocztowy" name="KodPocztowy" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Miasto" id="Miasto" name="Miasto" required>
-                    </div>
-
-                    <!--<div class="form-group">-->
-                    <!--<select class="form-control" name="Miasto" id="city" required>-->
-                    <!--<option readonly>Miasto</option>-->
-                    <!--<option>City Name 1</option>-->
-                    <!--<option>City Name 2</option>-->
-                    <!--<option>City Name 3</option>-->
-                    <!--<option>City Name 4</option>-->
-                    <!--</select>-->
-                    <!--</div>-->
-
-                    <!-- <div class="form-group">
-                        <select class="form-control" name="program" id="program" required>
-                            <option readonly>Select Your Program</option>
-                            <option>Program Name 1</option>
-                            <option>Program Name 2</option>
-                            <option>Program Name 3</option>
-                        </select>
-                    </div> -->
-
-                </div>
-                <!--<div class="animowany-button">-->
-                <div class="text-center mt20">
-                <!--<button id="button"></button>-->
-                    <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
-                <button type="button" id="button" onClick="submitdata();" ></button>
-                </div>
-            </div>
-
-            <div class="oplaty" style="margin-left: 15px;"><br>
-                <b> Przelew:</b> <br>
-                Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>
-                Al. Racławickie 14, 20-950 Lublin <br>
-                Bank: Bank PeKaO S.A. III O/Lublin <br>
-                Numer konta:59 1240 2382 1111 0000 3926 2147 <br>
-                NIP: 712-016-10-05; REGON: 000514064 <br>
-
-                Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>
-            </div>
-
     </div>
+    <!--<div class="produkt">-->
+    <!--<div class="nazwa"><h3>Business</h3></div>-->
+    <!--<div class="cena">499zł</div>-->
+    <!--<ul class="parametry">-->
+    <!--<li>Dysk: 50GB</li>-->
+    <!--<li>Transfer: bez limitu</li>-->
+    <!--<li>Subdomeny: bez limitu</li>-->
+    <!--<li>Konta e-mail: bez limitu</li>-->
+    <!--</ul>-->
+    <!--<div class="kup">Kup pakiet!</div>-->
+    <!--</div>-->
+    </div>
+
+    <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action=""
+          name="loginform">
+        <b> Dane kontakotwe</b>
+        <div class="row">
+            <div class="col-md-12" id="registration-msg" style="display:none;">
+                <div class="alert"></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Imię" id="Imie" name="Imie" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nazwisko" id="Nazwisko" name="Nazwisko"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="E-mail" id="Email" name="Email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Tel.Komórkowy" id="TelKom" name="TelKom"
+                           required>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Adres Zamieszkania" id="AdresZamieszkania"
+                           name="AdresZamieszkania" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Kod Pocztowy" id="KodPocztowy"
+                           name="KodPocztowy" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Miasto" id="Miasto" name="Miasto" required>
+                </div>
+
+                <!--<div class="form-group">-->
+                <!--<select class="form-control" name="Miasto" id="city" required>-->
+                <!--<option readonly>Miasto</option>-->
+                <!--<option>City Name 1</option>-->
+                <!--<option>City Name 2</option>-->
+                <!--<option>City Name 3</option>-->
+                <!--<option>City Name 4</option>-->
+                <!--</select>-->
+                <!--</div>-->
+
+                <!-- <div class="form-group">
+                    <select class="form-control" name="program" id="program" required>
+                        <option readonly>Select Your Program</option>
+                        <option>Program Name 1</option>
+                        <option>Program Name 2</option>
+                        <option>Program Name 3</option>
+                    </select>
+                </div> -->
+
+            </div>
+            <!--<div class="animowany-button">-->
+            <div class="text-center mt20">
+                <!--<button id="button"></button>-->
+                <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
+                <button type="button" id="button" onClick="submitdata();"></button>
+            </div>
+        </div>
+
+        <div class="oplaty" style="margin-left: 15px;"><br>
+            <b> Przelew:</b> <br>
+            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>
+            Al. Racławickie 14, 20-950 Lublin <br>
+            Bank: Bank PeKaO S.A. III O/Lublin <br>
+            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>
+            NIP: 712-016-10-05; REGON: 000514064 <br>
+
+            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>
+        </div>
+
+        </div>
 
 
     </form>
@@ -492,11 +499,47 @@
                 </div>
 
                 <style type="text/css">
-                    .tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
-                    .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
-                    .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
-                    .tg .tg-baqh{text-align:center;vertical-align:top}
-                    .tg .tg-yw4l{vertical-align:top}
+                    .tg {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        border-color: #999;
+                    }
+
+                    .tg td {
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        border-style: solid;
+                        border-width: 0px;
+                        overflow: hidden;
+                        word-break: normal;
+                        border-color: #999;
+                        color: #444;
+                        background-color: #F7FDFA;
+                    }
+
+                    .tg th {
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-weight: normal;
+                        padding: 10px 5px;
+                        border-style: solid;
+                        border-width: 0px;
+                        overflow: hidden;
+                        word-break: normal;
+                        border-color: #999;
+                        color: #fff;
+                        background-color: #26ADE4;
+                    }
+
+                    .tg .tg-baqh {
+                        text-align: center;
+                        vertical-align: top
+                    }
+
+                    .tg .tg-yw4l {
+                        vertical-align: top
+                    }
                 </style>
                 <table class="tg">
                     <tr>
@@ -504,28 +547,72 @@
                     </tr>
                     <tr>
                         <td class="tg-yw4l">20 marca 2016r.<br></td>
-                        <td class="tg-yw4l">Ostateczny termin nadsyłania,zgłoszeń/rejestracja prelegentów,z wystąpieniami (referaty/plakaty), z załączonym abstraktem</td>
+                        <td class="tg-yw4l">Ostateczny termin nadsyłania,zgłoszeń/rejestracja prelegentów,z
+                            wystąpieniami (referaty/plakaty), z załączonym abstraktem
+                        </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">25 marca 2016r.</td>
-                        <td class="tg-yw4l">Kwalifikacja prac do wystąpienia w,,sesji tematycznej lub w sesji plakatowej</td>
+                        <td class="tg-yw4l">Kwalifikacja prac do wystąpienia w,,sesji tematycznej lub w sesji
+                            plakatowej
+                        </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">31 marca 2016r.</td>
-                        <td class="tg-yw4l">Dokonanie opłaty konferencyjnej,,(wpłaty prosimy uiszczać dopiero,,po zakwalifikowaniu prac)</td>
+                        <td class="tg-yw4l">Dokonanie opłaty konferencyjnej,,(wpłaty prosimy uiszczać dopiero,,po
+                            zakwalifikowaniu prac)
+                        </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">31 marca 2016r.</td>
-                        <td class="tg-yw4l">Przesłanie na adres konferencji,,ostatecznej wersji elektronicznej prezentacji</td>
+                        <td class="tg-yw4l">Przesłanie na adres konferencji,,ostatecznej wersji elektronicznej
+                            prezentacji
+                        </td>
                     </tr>
                 </table>
 
                 <style type="text/css">
-                    .tub  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
-                    .tub td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
-                    .tub th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
-                    .tub .tub-baqh{text-align:center;vertical-align:top}
-                    .tub .tub-yw4l{vertical-align:top}
+                    .tub {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        border-color: #aabcfe;
+                    }
+
+                    .tub td {
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        padding: 10px 5px;
+                        border-style: solid;
+                        border-width: 0px;
+                        overflow: hidden;
+                        word-break: normal;
+                        border-color: #aabcfe;
+                        color: #669;
+                        background-color: #e8edff;
+                    }
+
+                    .tub th {
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-weight: normal;
+                        padding: 10px 5px;
+                        border-style: solid;
+                        border-width: 0px;
+                        overflow: hidden;
+                        word-break: normal;
+                        border-color: #aabcfe;
+                        color: #039;
+                        background-color: #b9c9fe;
+                    }
+
+                    .tub .tub-baqh {
+                        text-align: center;
+                        vertical-align: top
+                    }
+
+                    .tub .tub-yw4l {
+                        vertical-align: top
+                    }
                 </style>
 
                 <section id="cd-timeline" class="cd-container">
@@ -535,11 +622,11 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2> <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
+                            <h2><i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
                                 <b>Uroczyste rozpoczęcie konferencji</b>
                             </h2>
                             <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>
-<!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+                            <!--                            <a href="#0" class="cd-read-more">Read more</a>-->
                             <span class="cd-date">godz. 9.00</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
@@ -610,7 +697,8 @@
 
                         <div class="cd-timeline-content">
                             <h2>Przerwa kawowa 1 (30 min.)</h2>
-                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie poczęstunej.</p>
+                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie
+                                poczęstunej.</p>
                             <span class="cd-date">godz. 10.30 - 11.00</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
@@ -632,7 +720,23 @@
                 <!--<a class="btn btn-white" href="#">Submit</a> <br>-->
 
                 <h3 class="text-uppercase mt0 font-400">Opinie uczestników</h3>
-                <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+
+                <ul id="text-slider">
+                    <li>
+                        <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                    </li>
+                    <li>
+                        <p>"Polecam tą konferencję, atmosfera świetna!" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                    </li>
+                    <li>
+                        <p>"Nieprawdopodobne. Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                    </li>
+                </ul>
+
+                <style>
+                    #text-slider li { display: none; list-style: none; }
+                </style>
+
 
 
                 <!--<table border="black 3px solid">-->
@@ -735,231 +839,248 @@
         </div>
 
         <!--<div class="row">-->
-            <!--<div class="col-sm-3">-->
-                <!--<a class="partner-box partner-box-5"></a>-->
-            <!--</div>-->
-            <!--<div class="col-sm-3">-->
-                <!--<a class="partner-box partner-box-6"></a>-->
-            <!--</div>-->
-            <!--<div class="col-sm-3">-->
-                <!--<a class="partner-box partner-box-7"></a>-->
-            <!--</div>-->
-            <!--<div class="col-sm-3">-->
-                <!--<a class="partner-box partner-box-8"></a>-->
-            <!--</div>-->
+        <!--<div class="col-sm-3">-->
+        <!--<a class="partner-box partner-box-5"></a>-->
+        <!--</div>-->
+        <!--<div class="col-sm-3">-->
+        <!--<a class="partner-box partner-box-6"></a>-->
+        <!--</div>-->
+        <!--<div class="col-sm-3">-->
+        <!--<a class="partner-box partner-box-7"></a>-->
+        <!--</div>-->
+        <!--<div class="col-sm-3">-->
+        <!--<a class="partner-box partner-box-8"></a>-->
+        <!--</div>-->
         <!--</div>-->
 </section>
 
 <section id="faq" class="section faq">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<h3 class="section-title">Najszczęstsze zadawane pytania</h3>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Najszczęstsze zadawane pytania</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingOne">
-<h4 class="panel-title">
-<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-    Jak dojechać na miejsce ze stacji PKS?</a>
-</h4>
-</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                                   aria-controls="collapseOne">
+                                    Jak dojechać na miejsce ze stacji PKS?</a>
+                            </h4>
+                        </div>
 
-<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-<div class="panel-body">
-<h3></h3>
-<p>Liniami autobusowymi: 10, 151. </p>
-</div>
-</div>
-</div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <h3></h3>
+                                <p>Liniami autobusowymi: 10, 151. </p>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingTwo">
-<h4 class="panel-title">
-<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-    Mam dietę i potrzebuję specialnego posiłku, czy mam to gdzieś zgłosić?</a>
-</h4>
-</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                   aria-controls="collapseTwo">
+                                    Mam dietę i potrzebuję specialnego posiłku, czy mam to gdzieś zgłosić?</a>
+                            </h4>
+                        </div>
 
-<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-<div class="panel-body">Tak, wystarczy napisać na nasz e-mail o swojej diecie konferencja.ss@gmail.com </div>
-</div>
-</div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingTwo">
+                            <div class="panel-body">Tak, wystarczy napisać na nasz e-mail o swojej diecie
+                                konferencja.ss@gmail.com
+                            </div>
+                        </div>
+                    </div>
 
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingThree">
-<h4 class="panel-title">
-<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-    Jakies inne pytania?</a>
-</h4>
-</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                   aria-controls="collapseThree">
+                                    Jakies inne pytania?</a>
+                            </h4>
+                        </div>
 
-<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-<div class="panel-body">Z chęcia na nie odpowiemy :) </div>
-</div>
-</div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingThree">
+                            <div class="panel-body">Z chęcia na nie odpowiemy :)</div>
+                        </div>
+                    </div>
 
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingFour">
-<h4 class="panel-title">
-<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-    ????????????</a>
-</h4>
-</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                   aria-controls="collapseFour">
+                                    ????????????</a>
+                            </h4>
+                        </div>
 
-<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-<div class="panel-body">Tutaj jest odpowiedż na powyższe pytanie.</div>
-</div>
-</div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFour">
+                            <div class="panel-body">Tutaj jest odpowiedż na powyższe pytanie.</div>
+                        </div>
+                    </div>
 
-<div class="panel panel-default">
-<div class="panel-heading" role="tab" id="headingFive">
-<h4 class="panel-title">
-<a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-    ???????????</a>
-</h4>
-</div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
+                                   data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+                                   aria-controls="collapseFive">
+                                    ???????????</a>
+                            </h4>
+                        </div>
 
-<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-<div class="panel-body"> Odpowiedz na pytanie </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                             aria-labelledby="headingFive">
+                            <div class="panel-body"> Odpowiedz na pytanie</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 
 <section id="photos" class="section partner">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<h3 class="section-title">Zdjęcia z poprzedniej konferencji</h3>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Zdjęcia z poprzedniej konferencji</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
 
-    <ul class="slides">
-        <input type="radio" name="radio-btn" id="img-1" checked />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-1.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-6" class="prev">&#x2039;</label>
-                <label for="img-2" class="next">&#x203a;</label>
-            </div>
-        </li>
+                <ul class="slides">
+                    <input type="radio" name="radio-btn" id="img-1" checked/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-1.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-6" class="prev">&#x2039;</label>
+                            <label for="img-2" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <input type="radio" name="radio-btn" id="img-2" />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-2.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-1" class="prev">&#x2039;</label>
-                <label for="img-3" class="next">&#x203a;</label>
-            </div>
-        </li>
+                    <input type="radio" name="radio-btn" id="img-2"/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-2.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-1" class="prev">&#x2039;</label>
+                            <label for="img-3" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <input type="radio" name="radio-btn" id="img-3" />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-3.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-2" class="prev">&#x2039;</label>
-                <label for="img-4" class="next">&#x203a;</label>
-            </div>
-        </li>
+                    <input type="radio" name="radio-btn" id="img-3"/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-3.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-2" class="prev">&#x2039;</label>
+                            <label for="img-4" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <input type="radio" name="radio-btn" id="img-4" />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-4.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-3" class="prev">&#x2039;</label>
-                <label for="img-5" class="next">&#x203a;</label>
-            </div>
-        </li>
+                    <input type="radio" name="radio-btn" id="img-4"/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-4.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-3" class="prev">&#x2039;</label>
+                            <label for="img-5" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <input type="radio" name="radio-btn" id="img-5" />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-5.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-4" class="prev">&#x2039;</label>
-                <label for="img-6" class="next">&#x203a;</label>
-            </div>
-        </li>
+                    <input type="radio" name="radio-btn" id="img-5"/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-5.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-4" class="prev">&#x2039;</label>
+                            <label for="img-6" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <input type="radio" name="radio-btn" id="img-6" />
-        <li class="slide-container">
-            <div class="slide">
-                <img src="/assets/images/photos/photos-6.jpg" />
-            </div>
-            <div class="nav">
-                <label for="img-5" class="prev">&#x2039;</label>
-                <label for="img-1" class="next">&#x203a;</label>
-            </div>
-        </li>
+                    <input type="radio" name="radio-btn" id="img-6"/>
+                    <li class="slide-container">
+                        <div class="slide">
+                            <img src="/assets/images/photos/photos-6.jpg"/>
+                        </div>
+                        <div class="nav">
+                            <label for="img-5" class="prev">&#x2039;</label>
+                            <label for="img-1" class="next">&#x203a;</label>
+                        </div>
+                    </li>
 
-        <li class="nav-dots">
-            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-            <label for="img-4" class="nav-dot" id="img-dot-4"></label>
-            <label for="img-5" class="nav-dot" id="img-dot-5"></label>
-            <label for="img-6" class="nav-dot" id="img-dot-6"></label>
-        </li>
-    </ul>
-<!--<ul class="grid">-->
-<!---->
-<!--<li class="grid-item grid-item-sm-6">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-4.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">-->
-<!--</li>-->
-<!---->
-<!--<li class="grid-item grid-item-sm-3">-->
-<!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-9.jpg">-->
-<!--</li>-->
-<!--</ul>-->
-</div>
-</div>
-</div>
+                    <li class="nav-dots">
+                        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                    </li>
+                </ul>
+                <!--<ul class="grid">-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-6">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-4.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">-->
+                <!--</li>-->
+                <!---->
+                <!--<li class="grid-item grid-item-sm-3">-->
+                <!--<img alt="" class="img-responsive center-block" src="assets/images/photos/photos-9.jpg">-->
+                <!--</li>-->
+                <!--</ul>-->
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="location" class="section location">
@@ -977,8 +1098,9 @@
                 </address>
             </div>
             <div class="col-sm-9">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.4479501410556!2d22.542615015231583!3d51.24766117959329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722576163bf89c3%3A0xec4f36797ee23234!2sKatolicki+Uniwersytet+Lubelski+Jana+Paw%C5%82a+II!5e0!3m2!1spl!2spl!4v1455532859858"
-                        width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.4479501410556!2d22.542615015231583!3d51.24766117959329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4722576163bf89c3%3A0xec4f36797ee23234!2sKatolicki+Uniwersytet+Lubelski+Jana+Paw%C5%82a+II!5e0!3m2!1spl!2spl!4v1455532859858"
+                    width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -990,12 +1112,12 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="site-info"> Developed by Wojciech Sasiela</a></p>
-<!--                <ul class="social-block">-->
-<!--                    <li><a href=""><i class="ion-social-twitter"></i></a></li>-->
-<!--                    <li><a href=""><i class="ion-social-facebook"></i></a></li>-->
-<!--                    <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>-->
-<!--                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>-->
-<!--                </ul>-->
+                <!--                <ul class="social-block">-->
+                <!--                    <li><a href=""><i class="ion-social-twitter"></i></a></li>-->
+                <!--                    <li><a href=""><i class="ion-social-facebook"></i></a></li>-->
+                <!--                    <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>-->
+                <!--                    <li><a href=""><i class="ion-social-googleplus"></i></a></li>-->
+                <!--                </ul>-->
             </div>
         </div>
     </div>
@@ -1008,6 +1130,19 @@
 <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/button.js"></script>
+<script src="assets/js/textrotator.js"></script>
+
+<script>
+    $(function(){
+        $('#text-slider').textRotator({
+            random : true,
+            fadeIn : 1000,
+            fadeOut : 500,
+            duration : 5000,
+            debug : false
+        })
+    })
+</script>
 <script src="assets/js/timeline.js"></script>
 <script src="assets/js/modernizr.js"></script>
 <script>
@@ -1015,79 +1150,72 @@
     var UczestnikBierny;
     var UczestnikCzynny;
 
-    function wybranoUczestnikaBiernego()
-    {
+    function wybranoUczestnikaBiernego() {
         UczestnikBierny = "TAK";
         UczestnikCzynny = "NIE";
 
 //zaznaczasz 1
-        $(".produkt").first().css("background","#111");
-        $("#parametry1Cennika li:nth-child(odd)").css("background","black");
-        $("#parametry1Cennika li:nth-child(even)").css("background","black");
-        $("#parametry1Cennika").css("background-color","black");
-        $(".produkt:hover .parametry").first().css("color","silver");
-        $(".produkt:hover h3").first().css("background","#eee");
-        $(".produkt:hover h3").first().css("color","#000");
-        $(".produkt:hover h3").first().css("text-shadow","0 0 3px silver");
-        $(".kup").first().css("background-color","#111");
+        $(".produkt").first().css("background", "#111");
+        $("#parametry1Cennika li:nth-child(odd)").css("background", "black");
+        $("#parametry1Cennika li:nth-child(even)").css("background", "black");
+        $("#parametry1Cennika").css("background-color", "black");
+        $(".produkt:hover .parametry").first().css("color", "silver");
+        $(".produkt:hover h3").first().css("background", "#eee");
+        $(".produkt:hover h3").first().css("color", "#000");
+        $(".produkt:hover h3").first().css("text-shadow", "0 0 3px silver");
+        $(".kup").first().css("background-color", "#111");
         $("#buttonUczestnikBierny").text("Wybrano");
 
 //odznaczasz 2
-        $(".produkt").first().next().css("background","#eee");
-        $("#parametry2Cennika").css("background-color","#eee");
-        $("#parametry2Cennika").css("color","black");
-        $(".kup").first().next().css("background-color","#eee");
+        $(".produkt").first().next().css("background", "#eee");
+        $("#parametry2Cennika").css("background-color", "#eee");
+        $("#parametry2Cennika").css("color", "black");
+        $(".kup").first().next().css("background-color", "#eee");
         $("#ButtonUczestnikCzynny").text("Wybierz");
-        $("#parametry2Cennika li:nth-child(even)").css("background","#eee");
-        $("#parametry2Cennika li:nth-child(odd)").css("background-color","silver");
-
-
-
+        $("#parametry2Cennika li:nth-child(even)").css("background", "#eee");
+        $("#parametry2Cennika li:nth-child(odd)").css("background-color", "silver");
 
 
     }
 
-    function wybranoUczestnikaCzynnego()
-    {
+    function wybranoUczestnikaCzynnego() {
         UczestnikCzynny = "TAK";
         UczestnikBierny = "NIE";
 
         //zaznaczasz 2
-        $(".produkt").first().next().css("background","#111");
-        $("#parametry2Cennika li:nth-child(odd)").css("background","black");
-        $("#parametry2Cennika li:nth-child(even)").css("background","black");
-        $("#parametry2Cennika").css("color","silver");
-        $("#parametry2Cennika").css("background-color","black");
-        $(".produkt:hover h3").css("background","#eee");
-        $(".produkt:hover h3").css("color","#000");
-        $(".produkt:hover h3").css("text-shadow","0 0 3px silver");
-        $(".kup").first().next().css("background-color","#111");
+        $(".produkt").first().next().css("background", "#111");
+        $("#parametry2Cennika li:nth-child(odd)").css("background", "black");
+        $("#parametry2Cennika li:nth-child(even)").css("background", "black");
+        $("#parametry2Cennika").css("color", "silver");
+        $("#parametry2Cennika").css("background-color", "black");
+        $(".produkt:hover h3").css("background", "#eee");
+        $(".produkt:hover h3").css("color", "#000");
+        $(".produkt:hover h3").css("text-shadow", "0 0 3px silver");
+        $(".kup").first().next().css("background-color", "#111");
         $("#ButtonUczestnikCzynny").text("Wybrano");
 
         //odznaczasz 1
-        $(".produkt").first().css("background","#eee");
-        $("#parametry1Cennika").css("background-color","#eee");
-        $("#parametry1Cennika").css("color","black");
-        $(".kup").first().css("background-color","#eee");
+        $(".produkt").first().css("background", "#eee");
+        $("#parametry1Cennika").css("background-color", "#eee");
+        $("#parametry1Cennika").css("color", "black");
+        $(".kup").first().css("background-color", "#eee");
         $("#buttonUczestnikBierny").text("Wybierz");
-        $("#parametry1Cennika li:nth-child(even)").css("background","#eee");
-        $("#parametry1Cennika li:nth-child(odd)").css("background-color","silver");
+        $("#parametry1Cennika li:nth-child(even)").css("background", "#eee");
+        $("#parametry1Cennika li:nth-child(odd)").css("background-color", "silver");
     }
 
     function submitdata() {
-    var Imie  = document.getElementById("Imie").value;
-    var Nazwisko = document.getElementById("Nazwisko").value;
-    var Email = document.getElementById("Email").value;
-    var TelKom = document.getElementById("TelKom").value;
-    var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
-    var KodPocztowy = document.getElementById("KodPocztowy").value;
-    var Miasto = document.getElementById("Miasto").value;
+        var Imie = document.getElementById("Imie").value;
+        var Nazwisko = document.getElementById("Nazwisko").value;
+        var Email = document.getElementById("Email").value;
+        var TelKom = document.getElementById("TelKom").value;
+        var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
+        var KodPocztowy = document.getElementById("KodPocztowy").value;
+        var Miasto = document.getElementById("Miasto").value;
 
 
-
-    // Returns successful data submission message when the entered information is stored in database.
-    var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
-
+        // Returns successful data submission message when the entered information is stored in database.
+        var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
 
 
         //if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
@@ -1095,20 +1223,20 @@
 
         //}
         //else {
-                    // AJAX code to submit form.
-                    $.ajax({
-                    type: "POST",
-                    url: "submit.php",
-                    data: dataString,
-                    cache: false,
-                    success: function(html) {
-                    alert(html);
-                    }
-                    });
+        // AJAX code to submit form.
+        $.ajax({
+            type: "POST",
+            url: "submit.php",
+            data: dataString,
+            cache: false,
+            success: function (html) {
+                alert(html);
+            }
+        });
         //        }
         return false;
-    
-}
+
+    }
 </script>
 
 </body>
