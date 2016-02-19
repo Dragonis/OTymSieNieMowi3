@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/tabela_harmonogram.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/photos-slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
 
     <!--    <script type="text/javascript">-->
@@ -729,7 +729,7 @@
                         <p>"Polecam tą konferencję, atmosfera świetna!" <br> Zadowolony uczestnik poprzedniej konferencji. </p>
                     </li>
                     <li>
-                        <p>"Nieprawdopodobne. Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
+                        <p>"Nieprawdopodobne.<br> Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony uczestnik poprzedniej konferencji. </p>
                     </li>
                 </ul>
 
@@ -1138,7 +1138,7 @@
             random : true,
             fadeIn : 1000,
             fadeOut : 500,
-            duration : 5000,
+            duration : 3000,
             debug : false
         })
     })
