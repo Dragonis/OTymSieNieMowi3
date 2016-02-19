@@ -1196,6 +1196,7 @@
         $(".produkt:hover h3").first().css("color","#000");
         $(".produkt:hover h3").first().css("text-shadow","0 0 3px silver");
         $(".kup").first().css("background-color","#111");
+        $("#buttonUczestnikBierny").text("Wybrano");
 
 //    .produkt:hover {background: #111; box-shadow: 0 0 50px #000;}
 //    .produkt:hover .parametry li:nth-child(odd) {
@@ -1221,6 +1222,7 @@
         $(".produkt:hover h3").css("color","#000");
         $(".produkt:hover h3").css("text-shadow","0 0 3px silver");
         $(".kup").first().next().css("background-color","#111");
+        $("#ButtonUczestnikCzynny").text("Wybrano");
     }
 
     function submitdata() {
