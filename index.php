@@ -84,7 +84,9 @@
 
         <h1>O tym się nie mówi 3</h1>
 
-        <p> Coaching osób z uszkodzeniem słuchu </p>
+        <p> Coaching osób z uszkodzeniem słuchu <br>
+            <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>
+        </p>
         <!--<p>First &amp; Largest Conference</p>-->
 
         <a class="btn btn-white" data-scroll href="#registration">Zarejestruj miejsce</a>
