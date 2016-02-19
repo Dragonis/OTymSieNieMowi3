@@ -328,7 +328,7 @@
             <div class="produkt">
                 <div class="nazwa"><h3>Uczestnik bierny</h3></div>
                 <div class="cena">50zł</div>
-                <ul class="parametry">
+                <ul class="parametry" id="parametry1Cennika">
                     <li>Obiad</li>
                     <li>Darmowe jedzenie</li>
                     <li>Materiały konferencyjne</li>
@@ -337,16 +337,16 @@
                 <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); ";">Wybierz</div>
 
             </div>
-            <div class="produkt">
+            <div class="produkt" id="ProduktZ2Cennika">
                 <div class="nazwa"><h3>Uczestnik czynny</h3></div>
                 <div class="cena">100zł</div>
-                <ul class="parametry">
+                <ul class="parametry" id="parametry2Cennika">
                     <li>Obiad</li>
                     <li>Darmowe jedzenie</li>
                     <li>Materiały konferencyjne</li>
                     <li>Certyfikat</li>
                 </ul>
-                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestikaCzynnego(); ";">Wybierz</div>
+                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); ";">Wybierz</div>
 
             </div>
             <!--<div class="produkt">-->
@@ -1188,11 +1188,39 @@
     function wybranoUczestnikaBiernego()
     {
         UczestnikBierny = "TAK";
+        $(".produkt").first().css("background","#111");
+        $("#parametry1Cennika li:nth-child(odd)").css("background","black");
+        $("#parametry1Cennika li:nth-child(even)").css("background","black");
+        $(".produkt:hover .parametry").first().css("color","silver");
+        $(".produkt:hover h3").first().css("background","#eee");
+        $(".produkt:hover h3").first().css("color","#000");
+        $(".produkt:hover h3").first().css("text-shadow","0 0 3px silver");
+        $(".kup").first().css("background-color","#111");
+
+//    .produkt:hover {background: #111; box-shadow: 0 0 50px #000;}
+//    .produkt:hover .parametry li:nth-child(odd) {
+//        background: black;
+//    }
+//    .produkt:hover .parametry li:nth-child(even) {
+//        background: #111;
+//    }
+//    .produkt:hover .parametry {color: silver;}
+//    .produkt:hover h3 {background: #eee; color: #000; text-shadow: 0 0 3px silver;}
+
+
     }
 
     function wybranoUczestnikaCzynnego()
     {
         UczestnikCzynny = "TAK";
+        $(".produkt").first().next().css("background","#111");
+        $("#parametry2Cennika li:nth-child(odd)").css("background","black");
+        $("#parametry2Cennika li:nth-child(even)").css("background","black");
+        $("#parametry2Cennika").css("color","silver");
+        $(".produkt:hover h3").css("background","#eee");
+        $(".produkt:hover h3").css("color","#000");
+        $(".produkt:hover h3").css("text-shadow","0 0 3px silver");
+        $(".kup").first().next().css("background-color","#111");
     }
 
     function submitdata() {
