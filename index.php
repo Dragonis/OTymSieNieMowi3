@@ -68,7 +68,7 @@
                 <li class="active"><a data-scroll href="#about">O nas</a></li>
                 <li><a data-scroll href="#registration">Rejestracja</a></li>
                 <li><a data-scroll href="#harmonogram">Harmonogram</a></li>
-                <li><a data-scroll href="#partner">Partnerzy</a></li>
+<!--                <li><a data-scroll href="#partner">Partnerzy</a></li>-->
                 <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                 <li><a data-scroll href="#pytania">Pytania</a></li>
                 <li><a data-scroll href="#photos">Zdjęcia</a></li>
@@ -636,94 +636,94 @@
                     }
                 </style>
 
-                <section id="cd-timeline" class="cd-container">
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2><i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
-                                <b>Uroczyste rozpoczęcie konferencji</b>
-                            </h2>
-                            <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>
-                            <!--                            <a href="#0" class="cd-read-more">Read more</a>-->
-                            <span class="cd-date">godz. 9.00</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>prof. dr hab. Kazimiera KRAKOWIAK</h2>
-                            <p>Trudności osób słyszących w komunikowaniu się
-                                z niesłyszącymi i słabosłyszącymi </p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 9.30</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>dr hab. Ewa DOMAGAŁA-ZYŚK</h2>
-                            <p>Uczenie się języków obcych przez osoby
-                                niesłyszące i słabosłyszące –
-                                bariera w edukacji czy szansa na rozwój? </p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 9.45</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-location">
-                            <img src="assets/images/cd-icon-location.svg" alt="Location">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>dr Aleksandra BOROWICZ</h2>
-                            <p> Kampanie społeczne a upowszechnianie
-                                wiedzy na temat problemów
-                                osób z uszkodzeniami słuchu</p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 10.00</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-location">
-                            <img src="assets/images/cd-icon-location.svg" alt="Location">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>dr Renata KOŁODZIEJCZYK</h2>
-                            <p>Rodzaje ćwiczeń językowych na
-                                lektoracie języka polskiego dla
-                                młodzieży z uszkodzeniami słuchu.</p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 10.15 - 10.30</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>Przerwa kawowa 1 (30 min.)</h2>
-                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie
-                                poczęstunej.</p>
-                            <span class="cd-date">godz. 10.30 - 11.00</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-                </section> <!-- cd-timeline -->
+<!--                <section id="cd-timeline" class="cd-container">-->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-picture">-->
+<!--                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2><i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>-->
+<!--                                <b>Uroczyste rozpoczęcie konferencji</b>-->
+<!--                            </h2>-->
+<!--                            <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>-->
+<!--                            <!--                            <a href="#0" class="cd-read-more">Read more</a>-->-->
+<!--                            <span class="cd-date">godz. 9.00</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!---->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-movie">-->
+<!--                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2>prof. dr hab. Kazimiera KRAKOWIAK</h2>-->
+<!--                            <p>Trudności osób słyszących w komunikowaniu się-->
+<!--                                z niesłyszącymi i słabosłyszącymi </p>-->
+<!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+<!--                            <span class="cd-date">godz. 9.30</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!---->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-picture">-->
+<!--                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2>dr hab. Ewa DOMAGAŁA-ZYŚK</h2>-->
+<!--                            <p>Uczenie się języków obcych przez osoby-->
+<!--                                niesłyszące i słabosłyszące –-->
+<!--                                bariera w edukacji czy szansa na rozwój? </p>-->
+<!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+<!--                            <span class="cd-date">godz. 9.45</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!---->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-location">-->
+<!--                            <img src="assets/images/cd-icon-location.svg" alt="Location">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2>dr Aleksandra BOROWICZ</h2>-->
+<!--                            <p> Kampanie społeczne a upowszechnianie-->
+<!--                                wiedzy na temat problemów-->
+<!--                                osób z uszkodzeniami słuchu</p>-->
+<!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+<!--                            <span class="cd-date">godz. 10.00</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!---->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-location">-->
+<!--                            <img src="assets/images/cd-icon-location.svg" alt="Location">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2>dr Renata KOŁODZIEJCZYK</h2>-->
+<!--                            <p>Rodzaje ćwiczeń językowych na-->
+<!--                                lektoracie języka polskiego dla-->
+<!--                                młodzieży z uszkodzeniami słuchu.</p>-->
+<!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+<!--                            <span class="cd-date">godz. 10.15 - 10.30</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!---->
+<!--                    <div class="cd-timeline-block">-->
+<!--                        <div class="cd-timeline-img cd-movie">-->
+<!--                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">-->
+<!--                        </div> <!-- cd-timeline-img -->-->
+<!---->
+<!--                        <div class="cd-timeline-content">-->
+<!--                            <h2>Przerwa kawowa 1 (30 min.)</h2>-->
+<!--                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie-->
+<!--                                poczęstunej.</p>-->
+<!--                            <span class="cd-date">godz. 10.30 - 11.00</span>-->
+<!--                        </div> <!-- cd-timeline-content -->-->
+<!--                    </div> <!-- cd-timeline-block -->-->
+<!--                </section> <!-- cd-timeline -->-->
 
             </div>
 
@@ -842,43 +842,43 @@
 <!--</div>-->
 <!--</section>-->
 
-<section id="partner" class="section partner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="section-title">Sponsorzy konferencji</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-0"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-1"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-2"></a>
-            </div>
-            <div class="col-sm-3">
-                <a class="partner-box partner-box-3"></a>
-            </div>
-        </div>
-
-        <!--<div class="row">-->
-        <!--<div class="col-sm-3">-->
-        <!--<a class="partner-box partner-box-5"></a>-->
-        <!--</div>-->
-        <!--<div class="col-sm-3">-->
-        <!--<a class="partner-box partner-box-6"></a>-->
-        <!--</div>-->
-        <!--<div class="col-sm-3">-->
-        <!--<a class="partner-box partner-box-7"></a>-->
-        <!--</div>-->
-        <!--<div class="col-sm-3">-->
-        <!--<a class="partner-box partner-box-8"></a>-->
-        <!--</div>-->
-        <!--</div>-->
-</section>
+<!--<section id="partner" class="section partner">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12">-->
+<!--                <h3 class="section-title">Sponsorzy konferencji</h3>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm-3">-->
+<!--                <a class="partner-box partner-box-0"></a>-->
+<!--            </div>-->
+<!--            <div class="col-sm-3">-->
+<!--                <a class="partner-box partner-box-1"></a>-->
+<!--            </div>-->
+<!--            <div class="col-sm-3">-->
+<!--                <a class="partner-box partner-box-2"></a>-->
+<!--            </div>-->
+<!--            <div class="col-sm-3">-->
+<!--                <a class="partner-box partner-box-3"></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
+<!--        <!--<div class="row">-->-->
+<!--        <!--<div class="col-sm-3">-->-->
+<!--        <!--<a class="partner-box partner-box-5"></a>-->-->
+<!--        <!--</div>-->-->
+<!--        <!--<div class="col-sm-3">-->-->
+<!--        <!--<a class="partner-box partner-box-6"></a>-->-->
+<!--        <!--</div>-->-->
+<!--        <!--<div class="col-sm-3">-->-->
+<!--        <!--<a class="partner-box partner-box-7"></a>-->-->
+<!--        <!--</div>-->-->
+<!--        <!--<div class="col-sm-3">-->-->
+<!--        <!--<a class="partner-box partner-box-8"></a>-->-->
+<!--        <!--</div>-->-->
+<!--        <!--</div>-->-->
+<!--</section>-->
 
 <section id="pytania" class="section faq">
     <div class="container">
