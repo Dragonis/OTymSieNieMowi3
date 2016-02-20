@@ -744,7 +744,7 @@
 
                 <ul id="text-slider">
                     <li>
-                        <p>"Bardzo fajni ludzie, atmosfera, i takie tam" <br> Zadowolony uczestnik poprzedniej
+                        <p>"Bardzo fajni ludzie, atmosfera, podobało mi się :) <br> Zadowolony uczestnik poprzedniej
                             konferencji. </p>
                     </li>
                     <li>
@@ -752,7 +752,7 @@
                             konferencji. </p>
                     </li>
                     <li>
-                        <p>" Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony
+                        <p>"Z chęcią przyjdę na kolejną konferencję jeśli będzie organizowana." <br> Zadowolony
                             uczestnik poprzedniej konferencji. </p>
                     </li>
                 </ul>
@@ -897,7 +897,7 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                                    aria-controls="collapseOne">
-                                    Jak dojechać na miejsce ze stacji PKS?</a>
+                                    Jak dojechać na konferencję ze stacji PKS?</a>
                             </h4>
                         </div>
 
@@ -905,7 +905,7 @@
                              aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <h3></h3>
-                                <p>Liniami autobusowymi: 10, 151. </p>
+                                <p>Liniami autobusowymi: 10, 151 na przystanek Katolicki Uniwersytet Lubelski </p>
                             </div>
                         </div>
                     </div>
@@ -923,7 +923,7 @@
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingTwo">
                             <div class="panel-body">Tak, wystarczy napisać na nasz e-mail o swojej diecie
-                                konferencja.ss@gmail.com
+                                Prosimy poinformować nas o tym na adres konferencja.ss@gmail.com ze swoim jadłospisem.
                             </div>
                         </div>
                     </div>
@@ -934,13 +934,13 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                                    aria-controls="collapseThree">
-                                    Jakies inne pytania?</a>
+                                    Gdzie organizowana jest konferencja?</a>
                             </h4>
                         </div>
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingThree">
-                            <div class="panel-body">Z chęcia na nie odpowiemy :)</div>
+                            <div class="panel-body">Katolicki Uniwersytet Lubelski, CTW-302.</div>
                         </div>
                     </div>
 
@@ -950,31 +950,17 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseFour" aria-expanded="false"
                                    aria-controls="collapseFour">
-                                    ????????????</a>
+                                    Macie jakieś pytania?</a>
                             </h4>
                         </div>
 
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingFour">
-                            <div class="panel-body">Tutaj jest odpowiedż na powyższe pytanie.</div>
+                            <div class="panel-body">Napiszcie nam na adres konferencja.ss@gmail.com, a odpowiemy e-mailowo. <br>
+                            Do najczęściej powtarzających się pytan, odpowiedzi umieścimy w tej sekcji.</div>
                         </div>
                     </div>
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFive">
-                            <h4 class="panel-title">
-                                <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
-                                   data-parent="#accordion" href="#collapseFive" aria-expanded="false"
-                                   aria-controls="collapseFive">
-                                    ???????????</a>
-                            </h4>
-                        </div>
-
-                        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                             aria-labelledby="headingFive">
-                            <div class="panel-body"> Odpowiedz na pytanie</div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
