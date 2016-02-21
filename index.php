@@ -344,146 +344,95 @@
                 <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
                 ">Wybierz
             </div>
-
+            <div class="produkt" id="ProduktZ2Cennika">
+                <div class="nazwa"><h3>Uczestnik czynny</h3></div>
+                <div class="cena">100zł</div>
+                <ul class="parametry" id="parametry2Cennika">
+                    <li>Obiad</li>
+                    <li>Darmowe jedzenie</li>
+                    <li>Materiały konferencyjne</li>
+                    <li>Certyfikat</li>
+                </ul>
+                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); " ;
+                ">Wybierz
+            </div>
         </div>
-        <div class="produkt" id="ProduktZ2Cennika">
-            <div class="nazwa"><h3>Uczestnik czynny</h3></div>
-            <div class="cena">100zł</div>
-            <ul class="parametry" id="parametry2Cennika">
-                <li>Obiad</li>
-                <li>Darmowe jedzenie</li>
-                <li>Materiały konferencyjne</li>
-                <li>Certyfikat</li>
-            </ul>
-            <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); " ;
-            ">Wybierz
-        </div>
 
-    </div>
-    <!--<div class="produkt">-->
-    <!--<div class="nazwa"><h3>Business</h3></div>-->
-    <!--<div class="cena">499zł</div>-->
-    <!--<ul class="parametry">-->
-    <!--<li>Dysk: 50GB</li>-->
-    <!--<li>Transfer: bez limitu</li>-->
-    <!--<li>Subdomeny: bez limitu</li>-->
-    <!--<li>Konta e-mail: bez limitu</li>-->
-    <!--</ul>-->
-    <!--<div class="kup">Kup pakiet!</div>-->
-    <!--</div>-->
-    </div>
+        <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action="" name="loginform">
 
-    <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action=""
-          name="loginform">
-
-        <div class="row">
-            <div class="col-md-12" id="registration-msg" style="display:none;">
+             <div class="row">
+                 <div class="col-md-12" id="registration-msg" style="display:none;">
                 <div class="alert"></div>
             </div>
-            <div class="col-sm-6">
+                      <div class="col-sm-9">
 
 
-                <div class="group">
-                    <input type="text" class="form-control"  id="Imie" name="Imie" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Imię</label>
+                    <div class="group">
+                        <input type="text" class="form-control"  id="Imie" name="Imie" required><span class="highlight"></span><span class="bar"></span>
+                        <label>Imię</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" class="form-control" id="Nazwisko" name="Nazwisko"
+                               required><span class="highlight"></span><span class="bar"></span>
+                        <label>Nazwisko</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="email" class="form-control" id="Email" name="Email" required><span class="highlight"></span><span class="bar"></span>
+                        <label>E-mail</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" class="form-control" id="TelKom" name="TelKom"
+                               required><span class="highlight"></span><span class="bar"></span>
+                        <label>Tel. kom</label>
+                    </div>
                 </div>
 
-                <div class="group">
-                    <input type="text" class="form-control" id="Nazwisko" name="Nazwisko"
-                           required><span class="highlight"></span><span class="bar"></span>
-                    <label>Nazwisko</label>
-                </div>
+                     <div class="col-sm-9">
+                     <div class="group">
+                         <input type="text" class="form-control" id="AdresZamieszkania" name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
+                         <label>Adres zamieszkania</label>
+                     </div>
 
-                <div class="group">
-                    <input type="email" class="form-control" id="Email" name="Email" required><span class="highlight"></span><span class="bar"></span>
-                    <label>E-mail</label>
-                </div>
+                     <div class="group">
+                         <input type="text" class="form-control" id="KodPocztowy"
+                                name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
+                         <label>Kod pocztowy</label>
+                     </div>
 
-                <div class="group">
-                    <input type="text" class="form-control" id="TelKom" name="TelKom"
-                           required><span class="highlight"></span><span class="bar"></span>
-                    <label>Tel. kom</label>
-                </div>
-            </div>
+                     <div class="group">
+                         <input type="text" class="form-control" id="Miasto" name="Miasto" required><span class="highlight"></span><span class="bar"></span>
+                         <label>Miasto</label>
+                     </div>
 
-            <div class="col-sm-6">
-                <div class="group">
-                    <input type="text" class="form-control" id="AdresZamieszkania"
-                           name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Adres zamieszkania</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="KodPocztowy"
-                           name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Kod pocztowy</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="Miasto" name="Miasto" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Miasto</label>
-                </div>
-
-                <!--<div class="form-group">-->
-                <!--<select class="form-control" name="Miasto" id="city" required>-->
-                <!--<option readonly>Miasto</option>-->
-                <!--<option>City Name 1</option>-->
-                <!--<option>City Name 2</option>-->
-                <!--<option>City Name 3</option>-->
-                <!--<option>City Name 4</option>-->
-                <!--</select>-->
-                <!--</div>-->
-
-                <!-- <div class="form-group">
-                    <select class="form-control" name="program" id="program" required>
-                        <option readonly>Select Your Program</option>
-                        <option>Program Name 1</option>
-                        <option>Program Name 2</option>
-                        <option>Program Name 3</option>
-                    </select>
-                </div> -->
-
-            </div>
-            <!--<div class="animowany-button">-->
-            <div class="text-center mt20">
-                <!--<button id="button"></button>-->
-                <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
-                <button type="button" id="button" onClick="submitdata();"></button>
-                <br>
-                <span id="komunikat-wysylania">
-
-                </span>
-            </div>
-
-        </div>
+                     <div class="text-center mt20">
+                         <button id="button"></button>
+                         <button type="submit" id="registration-submit-btn">Wyślij</button>
+                         <button type="button" id="button" onClick="submitdata();"></button>
+                         <br>
+                                                <span id="komunikat-wysylania">
+                                                </span>
+                     </div>
+                 </div>
+             </div>
 
 
+                <!--        <div class="oplaty" style="margin-left: 15px; "><br>-->
+                <!--            <b> Przelew:</b> <br>-->
+                <!--            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>-->
+                <!--            Al. Racławickie 14, 20-950 Lublin <br>-->
+                <!--            Bank: Bank PeKaO S.A. III O/Lublin <br>-->
+                <!--            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>-->
+                <!--            NIP: 712-016-10-05; REGON: 000514064 <br>-->
+                <!--            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>-->
+                <!--        </div>-->
 
-<!--        <div class="oplaty" style="margin-left: 15px; "><br>-->
-<!--            <b> Przelew:</b> <br>-->
-<!--            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>-->
-<!--            Al. Racławickie 14, 20-950 Lublin <br>-->
-<!--            Bank: Bank PeKaO S.A. III O/Lublin <br>-->
-<!--            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>-->
-<!--            NIP: 712-016-10-05; REGON: 000514064 <br>-->
-<!---->
-<!--            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>-->
-<!--        </div>-->
 
-        </div>
+        </form>
 
-    </form>
-
-    <!--<div class="oplaty" style="float: left; margin-left: 30px;"  >-->
-    <!--<b>Opłaty konferencyjne:</b> </br>-->
-    <!--* uczestnictwo czynne w konferencji <br> (plakat lub wystąpienie) - 100zł <br>-->
-    <!--* uczestnictwo bierne - 50zł <br><br>-->
-    <!--<b>Cena obejmuje:</b> <br>-->
-    <!--* materiały konferencyjne <br>-->
-    <!--* obiad <br>-->
-    <!--* certyfikat <br><br><br>-->
-    <!--</div>-->
-    </div>
+     </div>
 </section>
 
 
@@ -862,7 +811,7 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseFour" aria-expanded="false"
                                    aria-controls="collapseFour">
-                                    Macie jakieś pytania?</a>
+                                    Jeśli macie jakieś pytania...</a>
                             </h4>
                         </div>
 

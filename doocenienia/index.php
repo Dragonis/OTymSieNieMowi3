@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>O tym się nie mówi 3 - coaching osób z uszkodzeniem słuchu</title>
+    <title>O tym się nie mówi 3 - COACHING OSÓB Z USZKODZENIAMI SŁUCHU</title>
 
     <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -19,22 +19,8 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/photos-slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
-
-    <!--    <script type="text/javascript">-->
-    <!--        (function (p, u, s, h) {-->
-    <!--            p._pcq = p._pcq || [];-->
-    <!--            p._pcq.push(['_currentTime', Date.now()]);-->
-    <!--            s = u.createElement('script');-->
-    <!--            s.type = 'text/javascript';-->
-    <!--            s.async = true;-->
-    <!--            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';-->
-    <!--            h = u.getElementsByTagName('script')[0];-->
-    <!--            h.parentNode.insertBefore(s, h);-->
-    <!--        })(window, document);-->
-    <!--    </script>-->
-
-
 </head>
+
 <body data-spy="scroll" data-target="#site-nav">
 <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
     <div class="container">
@@ -86,12 +72,13 @@
 
     <h1>O tym się nie mówi 3</h1>
 
-    <p> Coaching osób z uszkodzeniem słuchu <br>
+    <p> COACHING OSÓB Z USZKODZENIAMI SŁUCHU
+        <br>
         <!--                <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>-->
     </p>
     <!--<p>First &amp; Largest Conference</p>-->
 
-    <a class="btn btn-white" data-scroll href="#registration">Zarejestruj miejsce</a><br>
+    <a class="btn btn-white" data-scroll href="#registration">Rejestracja na konferencję</a><br>
 
     <span style="margin-top: 80px; display:inline-block;">A także dołącz  na nasze wydarzenie na facebooku <a
             href="https://web.facebook.com/events/821947551284970/" title="Share on Facebook" target="_blank"><img
@@ -105,49 +92,71 @@
         <div class="row">
             <div class="col-sm-6">
 
-                <h3 class="section-title">O nas</h3>
+                <h3 class="section-title">SŁÓW KILKA O KONFERENCJI:</h3>
 
-                <p>Po raz kolejny mamy zaszczyt <b>WAS</b> zaprosić na trzecią edycję konferencji <b> <br>
-                        „O tym się nie mówi 3- coaching osób z uszkodzeniem słuchu”</b>.<br>
-                    W Polsce jest bardzo dużo osób z uszkodzeniem słuchu- to właśnie nas łączy- osoby Słabosłyszące i
-                    Głuche. Codziennie zmagamy się z problemami, jakie sprawia dysfunkcja słuchu. Szczególnie z
-                    relacjami z innymi ludźmi, z sobą samym. <br>
-                    <b>Dlaczego coaching?</b><br>
-                    Coaching jest przede wszystkim odkrywaniem siebie, otoczenia, usprawnienia jakości życia,
-                    wprowadzenia zamierzonych przez nas zmian. Pojawił się kilka lat temu i sprawił, iż wiele
-                    ludzi-chętnych do zmiany życia- odmieniło je. I chcemy pokazać ideę coachingu i pod tym kątem
-                    pokazać uczestnikom, jak to może pomóc osobom z uszkodzeniem słuchu
+                <p>Po raz kolejny mamy zaszczyt zaprosić <b>WAS</b> na konferencję,<br>
+                    tym razem na trzecią edycję <br>
+                    pt. <b>„O tym się nie mówi III - coaching osób z uszkodzeniem słuchu”</b>.<br>
+                    Poprzednia edycja pokazała nam, iż rozległość tematyki związanej z uszkodzeniem słuchu powoduje, że
+                    temat pozostaje dalej niewyczerpany. <br>
+                    Dlatego też, pojawiły się głosy o potrzebie zorganizowania kolejnej edycji konferencji.<br>
+                    Przy obecnej skupimy się na aspektach psychologicznych.<br>
+                    Codziennie zmagamy się z problemami, jakie sprawia dysfunkcja słuchu.<br>
+                    Szczególnie w relacjach z innymi ludźmi, czy z sobą samym. <br>
+                    <br>
+                    <b>DLACZEGO COACHING?</b><br>
+                    Coaching jest przede wszystkim odkrywaniem siebie, otoczenia, poprawianiem jakości życia,
+                    wprowadzeniem zamierzonych przez nas zmian.<br>
+                    Pojawił się kilka lat temu i sprawił, iż wiele ludzi - chętnych do zmiany życia - odmieniło je.<br>
+                    Chcemy pokazać ideę coachingu i pod tym kątem pokazać uczestnikom, jak może on pomóc osobom z
+                    uszkodzeniem słuchu.
                 </p>
+                <!--                <p><b>Zachęcamy do zgłaszania tematów referatów lub plakatów!</b></p>-->
 
                 <figure>
-                    <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
+                    <img alt="" class="img-responsive" src="assets/images/about-us.jpg"
+                         style="height: 250px; margin-top: 5px;">
                 </figure>
 
             </div><!-- /.col-sm-6 -->
 
             <div class="col-sm-6">
 
-                <h3 class="section-title multiple-title">CO jest naszym celem?</h3>
+                <b>CO JEST NASZYM CELEM?</b>
 
-                <p>W tej edycji konferencji bardzo byśmy chcieli skupić się na problemach, z jakimi ludzie zmagają się
-                    każdego dnia- funkcjonowania osób niesłyszących w rodzinach, relacji z rówieśnikami i znajomymi,
-                    radzenia w dorosłym życiu. Chcielibyśmy też zwrócić uwagę na psychikę osób z dysfunkcją słuchu-
-                    poczucia wartości, samooceny, motywacji, akceptacji własnego niedosłuchu, umiejętności radzenia
-                    sobie z problemami, jakich życie nam stawia na ich drodze. Odczuwamy także potrzebę by pokazać
-                    ludziom jak można żyć lepiej, inspirować do pokonywania własnych możliwości, spełnienia marzeń.
-                    Przede wszystkim chcemy pokazać, iż osoby z wadą słuchu mają MOC do wszystkiego, czego zapragną
+                <p>W tej edycji konferencji bardzo byśmy chcieli skupić się na problemach,
+                    z jakimi ludzie zmagają się każdego dnia - funkcjonowania osób niesłyszących w rodzinach, relacji z
+                    rówieśnikami i znajomymi, z radzeniem sobie w dorosłym życiu.
+                    Chcielibyśmy też zwrócić uwagę na psychikę osób z dysfunkcją słuchu - poczucie wartości, samoocenę,
+                    motywację, akceptację własnego niedosłuchu, umiejętności radzenia sobie z problemami, jakich życie
+                    nam stawia na drodze.
+                    Odczuwamy także potrzebę by pokazać ludziom jak można żyć lepiej, inspirować do pokonywania własnych
+                    ograniczeń, spełnienia marzeń.
+                    Przede wszystkim chcemy pokazać, iż osoby z wadą słuchu mają <b>MOC</b> do wszystkiego, co zapragną
                     osiągnąć.
-                    <br><br>
-                    Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chciałyby usprawnić swoją <b>JAKOŚĆ</b>
-                    życia
+                    Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chciałyby poprawić swoją <b>JAKOŚĆ</b>
+                    życia.
                 </p>
 
                 <ul class="list-arrow-right">
-                    Zapewniamy: <br>
+                    <b>Zapewniamy:</b> <br>
                     <li>Pętlę indukcyjną</li>
                     <li>Symultaniczny przekaz tekstowy (speech to text)</li>
                     <li>Tłumaczenie na język migowy</li>
 
+                </ul>
+                <br><br><br>
+
+                <ul class="list-arrow-right"><b>SUGEROWANE OBSZARY TEMATYCZNE:</b></ul>
+                <li>Akceptacja siebie i własnego niedosłuchu</li>
+                <li>Coaching- co to jest? Gdzie i do kogo można udać się po pomoc?</li>
+                <li>Co możemy zrobić, by mieć wysokie poczucie własnej wartości,<br>
+                    podnieść samoocenę?
+                </li>
+                <li>Jak radzić sobie z problemami?</li>
+                <li>Co możemy zrobić lepiej? Jak wprowadzić zmiany w własnym życiu?</li>
+                <li>Jak można naprawić relacje z innymi ludźmi, we własnej rodzinie?</li>
+                <li>Co stoi na przeszkodzie, by spełniać marzenia?</li>
                 </ul>
 
             </div><!-- /.col-sm-6 -->
@@ -173,7 +182,7 @@
             <div class="col-sm-3">
 
                 <i class="ion-pricetags"></i>
-                <h3>150<br>Miejsc</h3>
+                <h3>100<br>Miejsc</h3>
 
             </div>
             <div class="col-sm-3">
@@ -339,9 +348,9 @@
                 <div class="cena">50zł</div>
                 <ul class="parametry" id="parametry1Cennika">
                     <li>Obiad</li>
-                    <li>Darmowe jedzenie</li>
+                    <li>Przerwy kawowe</li>
                     <li>Materiały konferencyjne</li>
-                    <li> -</li>
+                    <li>Certyfikat</li>
                 </ul>
                 <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
                 ">Wybierz
@@ -353,7 +362,7 @@
             <div class="cena">100zł</div>
             <ul class="parametry" id="parametry2Cennika">
                 <li>Obiad</li>
-                <li>Darmowe jedzenie</li>
+                <li>Przerwy kawowe</li>
                 <li>Materiały konferencyjne</li>
                 <li>Certyfikat</li>
             </ul>
@@ -378,11 +387,12 @@
     <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action=""
           name="loginform">
 
-        <div class="row">
+        <div class="row" style="width: 700px;">
             <div class="col-md-12" id="registration-msg" style="display:none;">
                 <div class="alert"></div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-sm-4">
 
 
                 <div class="group">
@@ -398,82 +408,143 @@
                 </div>
 
                 <div class="group">
-                    <input type="email" class="form-control" id="Email" name="Email" required><span
-                        class="highlight"></span><span class="bar"></span>
-                    <label>E-mail</label>
+                    <input type="text" class="form-control" id="AdresZamieszkania"
+                           name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
+                    <label>Ulica</label>
                 </div>
 
-                <div class="group">
-                    <input type="text" class="form-control" id="TelKom" name="TelKom"
-                           required><span class="highlight"></span><span class="bar"></span>
-                    <label>Tel. kom</label>
-                </div>
-            </div>
-
-            <div class="col-sm-6">
                 <div class="group">
                     <input type="text" class="form-control" id="AdresZamieszkania"
                            name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Adres zamieszkania</label>
+                    <label>Nr. bloku</label>
                 </div>
 
                 <div class="group">
                     <input type="text" class="form-control" id="KodPocztowy"
                            name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Kod pocztowy</label>
+                    <label>Nr. mieszkania</label>
                 </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="Miasto" name="Miasto" required><span
-                        class="highlight"></span><span class="bar"></span>
-                    <label>Miasto</label>
-                </div>
-
-                <!--<div class="form-group">-->
-                <!--<select class="form-control" name="Miasto" id="city" required>-->
-                <!--<option readonly>Miasto</option>-->
-                <!--<option>City Name 1</option>-->
-                <!--<option>City Name 2</option>-->
-                <!--<option>City Name 3</option>-->
-                <!--<option>City Name 4</option>-->
-                <!--</select>-->
-                <!--</div>-->
-
-                <!-- <div class="form-group">
-                    <select class="form-control" name="program" id="program" required>
-                        <option readonly>Select Your Program</option>
-                        <option>Program Name 1</option>
-                        <option>Program Name 2</option>
-                        <option>Program Name 3</option>
-                    </select>
-                </div> -->
-
             </div>
-            <!--<div class="animowany-button">-->
-            <div class="text-center mt20">
-                <!--<button id="button"></button>-->
-                <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
+
+            <div id="row">
+                <div class="col-sm-4">
+
+
+                    <div class="group">
+                        <input type="text" class="form-control" id="KodPocztowy"
+                               name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
+                        <label>Kod pocztowy</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" class="form-control" id="Miasto" name="Miasto" required><span
+                            class="highlight"></span><span class="bar"></span>
+                        <label>Miasto</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="text" class="form-control" id="TelKom" name="TelKom"
+                               required><span class="highlight"></span><span class="bar"></span>
+                        <label>Tel. kom</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="email" class="form-control" id="Email" name="Email" required><span
+                            class="highlight"></span><span class="bar"></span>
+                        <label>E-mail</label>
+                    </div>
+
+                    <div class="group">
+                        <input type="email" class="form-control" id="Email" name="Email" required><span
+                            class="highlight"></span><span class="bar"></span>
+                        <label>Uwagi, wskazówki </label>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+
+
+                <b>Czy chcę uczestniczyć w wieczorze integracyjnym 9.04.2016?</b>
+                <input type="checkbox" id="Email" name="Email" required>
+
+                <!--                <div class="group">-->
+                <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
+                <!--                        class="highlight"></span><span class="bar"></span>-->
+                <!--                    <label>Czy chcę uczestniczyć w wieczorze integracyjnym? Tak/Nie</label>-->
+                <!--                </div>-->
+
+
+                <b>Zgłaszam potrzebę korzystania z:</b>
+                <input type="checkbox" name="chk_group" value="value1"/>Pomocy asystenta <br/>
+                <input type="checkbox" name="chk_group" value="value2"/>Własnego systemu FM<br/>
+                <input type="checkbox" name="chk_group" value="value3"/>Speech to text<br/>
+                <input type="checkbox" name="chk_group" value="value3"/>Pętli indukcyjnej <br/>
+                <input type="checkbox" name="chk_group" value="value3"/>Tłumacza języka migowego <br/>
+                <input type="checkbox" name="chk_group" value="value3"/>Nie potrzebuję<br/>
+
+                <!--                <div class="group">-->
+                <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
+                <!--                        class="highlight"></span><span class="bar"></span>-->
+                <!--                    <input type="checkbox" name="chk_group" value="value1" />Value 1<br />-->
+                <!--                    <input type="checkbox" name="chk_group" value="value2" />Value 2<br />-->
+                <!--                    <input type="checkbox" name="chk_group" value="value3" />Value 3<br />-->
+                <!--                    <label>ZGŁASZAM POTRZEBĘ KORZYSTANIA Z:</label>-->
+                <!--                </div>-->
+
+
                 <button type="button" id="button" onClick="submitdata();"></button>
-                <br>
-                <span id="komunikat-wysylania">
+                <br><span id="komunikat-wysylania"></span>
 
-                </span>
+
             </div>
+
+            <div id="row" style="float:left">
+
+                <div class="col-sm-4">
+                Temat mojej pracy to:
+                <div class="group">
+                    <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                    <!--                    <input type="textbox" class="form-control" id="Email" name="Email" required><span-->
+                    <!--                        class="highlight"></span><span class="bar"></span>-->
+                    <!--                    <label>Temat mojej pracy to:</label>-->
+                </div>
+                    </div>
+
+
+                <div class="col-sm-4">
+                    Krótki abstrakt do tematu:
+                    <div class="group">
+                        <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                        <!--                        <label>Krótki abstrakt do mojego tematu pracy:</label>-->
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    Kilka zdań o sobie:
+                    <div class="group">
+                        <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                        <!--                        <label>Kilka zdań o sobie:</label>-->
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 
-<!---->
-<!--                <div class="oplaty" style="margin-left: 15px; "><br>-->
-<!--                    <b> Przelew:</b> <br>-->
-<!--                    Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>-->
-<!--                    Al. Racławickie 14, 20-950 Lublin <br>-->
-<!--                    Bank: Bank PeKaO S.A. III O/Lublin <br>-->
-<!--                    Numer konta:59 1240 2382 1111 0000 3926 2147 <br>-->
-<!--                    NIP: 712-016-10-05; REGON: 000514064 <br>-->
-<!--        -->
-<!--                    Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>-->
-<!--                </div>-->
 
+        </div> <!-- koniec row 1 -->
+
+
+        <!--            <div class="animowany-button">-->
+        <!--                <div class="text-center mt25">-->
+        <!--<button id="button"></button>
+        <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
+
+        <!--                </div>-->
+        <!--            </div>-->
         </div>
 
     </form>
@@ -518,7 +589,7 @@
                         </tr>
                         <tr>
                             <td class="tub-yw4l">02 kwietnia 2016r..</td>
-                            <td class="tub-yw4l">Rejestracja uczestników biernych</td>
+                            <td class="tub-yw4l">Rejestracja uczestników biernych i termin dokonywania opłaty.</td>
                         </tr>
                     </table>
                 </div>
@@ -590,7 +661,7 @@
                     </tr>
                     <tr>
                         <td class="tg-yw4l">31 marca 2016r.</td>
-                        <td class="tg-yw4l">Przesłanie na adres konferencji,,ostatecznej wersji elektronicznej
+                        <td class="tg-yw4l">Przesłanie na adres konferencji,ostatecznej wersji elektronicznej
                             prezentacji
                         </td>
                     </tr>
@@ -639,8 +710,6 @@
                         vertical-align: top
                     }
                 </style>
-
-
                 <section id="cd-timeline" class="cd-container">
                     <div class="cd-timeline-block">
                         <div class="cd-timeline-img cd-picture">
@@ -955,7 +1024,7 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseFour" aria-expanded="false"
                                    aria-controls="collapseFour">
-                                    Macie jakieś pytania?</a>
+                                    Jeśli macie jakieś pytania...</a>
                             </h4>
                         </div>
 
@@ -963,7 +1032,7 @@
                              aria-labelledby="headingFour">
                             <div class="panel-body">Napiszcie nam na adres konferencja.ss@gmail.com, a odpowiemy
                                 e-mailowo. <br>
-                                Do najczęściej powtarzających się pytan, odpowiedzi umieścimy w tej sekcji.
+                                Dla najczęściej powtarzających się pytan, odpowiedzi umieścimy w tej sekcji.
                             </div>
                         </div>
                     </div>
@@ -1109,7 +1178,8 @@
                 <h3 class="section-title">Miejsce konferencji</h3>
                 <address>
                     <p>Katolicki Uniwersytet Lubelski <br> Jana Pawła II<br>
-                        Al. Racławickie 14/C312 <br>
+                        Al. Racławickie 14<br>
+                        Sala: CTW-302<br>
                         20-950 Lublin<br>
                         Email: <a href="mailto:konferencja.ss@gmail.com">konferencja.ss@gmail.com</a>
                         <img src="assets/images/partner/kul.jpg" style="margin-top: 30px;">
