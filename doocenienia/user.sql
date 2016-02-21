@@ -22,13 +22,18 @@ CREATE TABLE IF NOT EXISTS `OTymSieNieMowi3` (
 
   `UczestnikBierny` varchar(255) DEFAULT NULL,
   `UczestnikCzynny` varchar(255) DEFAULT NULL,
+
+  `TematPracy` varchar(255) DEFAULT NULL,
+  `OpisAbstraktu` varchar(255) DEFAULT NULL,
+  `NotkaoSobie` varchar(255) DEFAULT NULL,
+
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Id` (`Id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 
 INSERT INTO `OTymSieNieMowi3`
-(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`PomocAsystenta`,`WlasnySystemFM`,`SpeechToText`,`PetlaIndukcyjna`,`TlumaczaMigowego`,`NiePotrzebuje`,`UczestnikBierny`,`UczestnikCzynny`)
+(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`PomocAsystenta`,`WlasnySystemFM`,`SpeechToText`,`PetlaIndukcyjna`,`TlumaczaMigowego`,`NiePotrzebuje`,`UczestnikBierny`,`UczestnikCzynny`,`TematPracy`,`OpisAbstraktu`,`NotkaoSobie`)
 VALUES
-  ('Jan', 'Kowalski','Jakastam','30','7','56-540','Zgadnij','514523698','a@a.pl','Zadnych','on','on','on','on','on','on','on','Tak','Nie');
+  ('Jan', 'Kowalski','Jakastam','30','7','56-540','Zgadnij','514523698','a@a.pl','Zadnych','on','on','on','on','on','on','on','Tak','Nie','Jakis tam temat pracy','Jakis tam abstrakt','Jakies tam informacje o sobie.');
 

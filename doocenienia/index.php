@@ -504,7 +504,7 @@
                     <div class="col-sm-4">
                     Temat mojej pracy to:
                     <div class="group">
-                        <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                        <textarea name="textarea" id="TematPracy" style="width:230px;height:150px;"></textarea>
                         <!--                    <input type="textbox" class="form-control" id="Email" name="Email" required><span-->
                         <!--                        class="highlight"></span><span class="bar"></span>-->
                         <!--                    <label>Temat mojej pracy to:</label>-->
@@ -513,14 +513,14 @@
                     <div class="col-sm-4">
                         Krótki abstrakt do tematu:
                         <div class="group">
-                            <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                            <textarea name="textarea" id="OpisAbstraktu" style="width:230px;height:150px;"></textarea>
                             <!--                        <label>Krótki abstrakt do mojego tematu pracy:</label>-->
                         </div>
                     </div>
                     <div class="col-sm-4">
                     Kilka zdań o sobie:
                     <div class="group">
-                        <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                        <textarea name="textarea" id="NotkaoSobie" style="width:230px;height:150px;"></textarea>
                         <!--                        <label>Kilka zdań o sobie:</label>-->
                     </div>
                 </div>
@@ -1320,6 +1320,11 @@
         var TelKom = document.getElementById("TelKom").value;
         var Email = document.getElementById("Email").value;
         var Uwagi = document.getElementById("Uwagi").value;
+
+        var TematPracy = document.getElementById("TematPracy").value;
+        var OpisAbstraktu = document.getElementById("OpisAbstraktu").value;
+        var NotkaoSobie = document.getElementById("NotkaoSobie").value;
+
         WieczorIntegracyjny = document.getElementById("WieczorIntegracyjny").checked;
 
         PomocAsystenta = document.getElementById("PomocAsystenta").checked;
@@ -1351,7 +1356,11 @@
             '&NiePotrzebuje=' + NiePotrzebuje +
 
             '&UczestnikBierny=' + UczestnikBierny +
-            '&UczestikCzynny=' + UczestnikCzynny ;
+            '&UczestikCzynny=' + UczestnikCzynny +
+
+            '&TematPracy=' + TematPracy +
+            '&OpisAbstraktu=' + OpisAbstraktu +
+            '&NotkaoSobie=' + NotkaoSobie;
 
         if (Imie == '' || Nazwisko == '' || Ulica == '' || NrBloku == '' || NrMieszkania == '' || KodPocztowy == '' || Miasto == '' || TelKom == '' || Email == '' ) {
 

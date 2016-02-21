@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,WieczorIntegracyjny,PomocAsystenta,WlasnySystemFM,SpeechToText,PetlaIndukcyjna,TlumaczaMigowego,NiePotrzebuje,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
+$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,WieczorIntegracyjny,PomocAsystenta,WlasnySystemFM,SpeechToText,PetlaIndukcyjna,TlumaczaMigowego,NiePotrzebuje,UczestnikBierny,UczestnikCzynny,TematPracy,OpisAbstraktu,NotkaoSobie FROM OTymSieNieMowi3";
 $result = $conn->query($sql);
 
 echo "<html>
@@ -42,9 +42,13 @@ echo '<table>
 <td>TlumaczaMigowego:</td>
 <td>NiePotrzebuje:</td>
 
-
 <td>UczestnikBierny:</td>
 <td>UczestnikCzynny:</td>
+
+<td>TematPracy:</td>
+<td>OpisAbstraktu:</td>
+<td>NotkaoSobie:</td>
+
 </tr>';
 
 if ($result->num_rows > 0) {
@@ -74,6 +78,12 @@ echo'
 
 <td>'.$row["UczestnikBierny"].'</td>
 <td>'.$row["UczestnikCzynny"].'</td>
+
+
+<td>'.$row["TematPracy"].'</td>
+<td>'.$row["OpisAbstraktu"].'</td>
+<td>'.$row["NotkaoSobie"].'</td>
+
 </tr>
 ';
 

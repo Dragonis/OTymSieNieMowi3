@@ -28,6 +28,9 @@ $NiePotrzebuje = $_POST['NiePotrzebuje'];
 $UczestnikBierny = $_POST['UczestnikBierny'];
 $UczestnikCzynny = $_POST['UczestnikCzynny'];
 
+$TematPracy = $_POST['TematPracy'];
+$OpisAbstraktuo = $_POST['OpisAbstraktu'];
+$NotkaoSobie = $_POST['NotkaoSobie'];
 
 if (isset($_POST['Imie'])) {
 //$query = mysqli_query($dbconfig,"INSERT INTO `OTymSieNieMowi3` 
@@ -38,8 +41,8 @@ if (isset($_POST['Imie'])) {
 //}
 
 
-$zapytanie = "insert into OTymSieNieMowi3(`Imie`,`Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`PomocAsystenta`,`WlasnySystemFM`,`SpeechToText`,`PetlaIndukcyjna`,`TlumaczaMigowego`,`NiePotrzebuje`,`UczestnikBierny`,`UczestnikCzynny`)
-                                   values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$WieczorIntegracyjny','$PomocAsystenta','$WlasnySystemFM','$SpeechToText','$PetlaIndukcyjna','$TlumaczaMigowego','$NiePotrzebuje','$UczestnikBierny','$UczestnikCzynny');";
+$zapytanie = "insert into OTymSieNieMowi3(`Imie`,`Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`PomocAsystenta`,`WlasnySystemFM`,`SpeechToText`,`PetlaIndukcyjna`,`TlumaczaMigowego`,`NiePotrzebuje`,`UczestnikBierny`,`UczestnikCzynny`,`TematPracy`,`OpisAbstraktu`,`NotkaoSobie`)
+                                   values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$WieczorIntegracyjny','$PomocAsystenta','$WlasnySystemFM','$SpeechToText','$PetlaIndukcyjna','$TlumaczaMigowego','$NiePotrzebuje','$UczestnikBierny','$UczestnikCzynny','$TematPracy','$OpisAbstraktu','$NotkaoSobie');";
 $query = mysqli_query($dbconfig,$zapytanie); //Insert Query
 //echo "Form Submitted succesfully";
 
