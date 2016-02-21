@@ -16,6 +16,7 @@ $Miasto = $_POST['Miasto'];
 $TelKom = $_POST['TelKom'];
 $Email = $_POST['Email'];
 $Uwagi = $_POST['Uwagi'];
+$WieczorIntegracyjny = $_POST['WieczorIntegracyjny'];
 
 $UczestnikBierny = $_POST['UczestnikBierny'];
 $UczestnikCzynny = $_POST['UczestnikCzynny'];
@@ -29,7 +30,7 @@ if (isset($_POST['Imie'])) {
 //echo"Form Submitted succesfully";
 //}
 
-$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`UczestnikBierny`,`UczestnikCzynny`) values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$UczestnikBierny','$UczestnikCzynny');"); //Insert Query
+$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`UczestnikBierny`,`UczestnikCzynny`) values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$WieczorIntegracyjny','$UczestnikBierny','$UczestnikCzynny');"); //Insert Query
 //echo "Form Submitted succesfully";
 
 }

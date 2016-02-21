@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS `OTymSieNieMowi3` (
   `TelKom` varchar(255) DEFAULT NULL,
   `Email` varchar(255) DEFAULT NULL,
   `Uwagi` varchar(255) DEFAULT NULL,
+  `WieczorIntegracyjny` varchar(255) DEFAULT NULL,
   `UczestnikBierny` varchar(255) DEFAULT NULL,
   `UczestnikCzynny` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`Id`),
@@ -19,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `OTymSieNieMowi3` (
 
 
 INSERT INTO `OTymSieNieMowi3`
-(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`UczestnikBierny`,`UczestnikCzynny`)
+(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`UczestnikBierny`,`UczestnikCzynny`)
 VALUES
-  ('Jan', 'Kowalski','Jakastam','30','7','56-540','Zgadnij','514523698','a@a.pl','Zadnych','Tak','Nie');
+  ('Jan', 'Kowalski','Jakastam','30','7','56-540','Zgadnij','514523698','a@a.pl','Zadnych','true','Tak','Nie');
 

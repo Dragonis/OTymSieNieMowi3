@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
+$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,WieczorIntegracyjny,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
 $result = $conn->query($sql);
 
 echo "<html>
@@ -33,6 +33,7 @@ echo '<table>
 <td>TelKom:</td>
 <td>Email:</td>
 <td>Uwagi:</td>
+<td>WieczorIntegracyjny:</td>
 <td>UczestnikBierny:</td>
 <td>UczestnikCzynny:</td>
 </tr>';
@@ -53,6 +54,7 @@ echo'
 <td>'.$row["TelKom"].'</td>
 <td>'.$row["Email"].'</td>
 <td>'.$row["Uwagi"].'</td>
+<td>'.$row["WieczorIntegracyjny"].'</td>
 <td>'.$row["UczestnikBierny"].'</td>
 <td>'.$row["UczestnikCzynny"].'</td>
 </tr>

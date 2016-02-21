@@ -467,7 +467,7 @@
 
 
                 <b>Czy chcę uczestniczyć w wieczorze integracyjnym 9.04.2016?</b>
-                <input type="checkbox" id="Email" name="Email" required>
+                <input type="checkbox" id="WieczorIntegracyjny" name="WieczorIntegracyjny">
 
                 <!--                <div class="group">-->
                 <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
@@ -477,12 +477,12 @@
 
 
                 <b>Zgłaszam potrzebę korzystania z:</b>
-                <input type="checkbox" name="chk_group" value="value1"/>Pomocy asystenta <br/>
-                <input type="checkbox" name="chk_group" value="value2"/>Własnego systemu FM<br/>
-                <input type="checkbox" name="chk_group" value="value3"/>Speech to text<br/>
-                <input type="checkbox" name="chk_group" value="value3"/>Pętli indukcyjnej <br/>
-                <input type="checkbox" name="chk_group" value="value3"/>Tłumacza języka migowego <br/>
-                <input type="checkbox" name="chk_group" value="value3"/>Nie potrzebuję<br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="PomocAsystenta"/>Pomocy asystenta <br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="WlasnySystemFM"/>Własnego systemu FM<br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="SpeechToText"/>Speech to text<br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="PetlaIndukcyjna"/>Pętli indukcyjnej <br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="TlumaczaMigowego"/>Tłumacza języka migowego <br/>
+                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="NiePotrzebuje"/>Nie potrzebuję<br/>
 
                 <!--                <div class="group">-->
                 <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
@@ -1306,6 +1306,7 @@
         var TelKom = document.getElementById("TelKom").value;
         var Email = document.getElementById("Email").value;
         var Uwagi = document.getElementById("Uwagi").value;
+        var WieczorIntegracyjny = document.getElementById("WieczorIntegracyjny").value;
         // Returns successful data submission message when the entered information is stored in database.
         var dataString = 'Imie=' + Imie +
             '&Nazwisko=' + Nazwisko +
@@ -1317,6 +1318,7 @@
             '&TelKom=' + TelKom +
             '&Email=' + Email +
             '&Uwagi=' + Uwagi +
+            '&WieczorIntegracyjny=' + WieczorIntegracyjny +
             '&UczestnikBierny=' + UczestnikBierny +
             '&UczestikCzynny=' + UczestnikCzynny ;
 
