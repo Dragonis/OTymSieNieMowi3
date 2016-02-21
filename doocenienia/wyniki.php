@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Id,Imie,Nazwisko,Email,TelKom,AdresZamieszkania,KodPocztowy,Miasto,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
+$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
 $result = $conn->query($sql);
 
 echo "<html>
@@ -25,11 +25,14 @@ echo '<table>
 <td>Id</td>
 <td>Imię:</td>
 <td>Nazwisko:</td>
-<td>Email:</td>
-<td>TelKom:</td>
-<td>Adres Zamieszkania:</td>
+<td>Ulica:</td>
+<td>NrBloku:</td>
+<td>NrMieszkania:</td>
 <td>Kod Pocztowy::</td>
 <td>Miasto:</td>
+<td>TelKom:</td>
+<td>Email:</td>
+<td>Uwagi:</td>
 <td>UczestnikBierny:</td>
 <td>UczestnikCzynny:</td>
 </tr>';
@@ -42,11 +45,14 @@ echo'
 <td>'.$row["Id"].'</td>
 <td>'.$row["Imie"].'</td>
 <td>'.$row["Nazwisko"].'</td>
-<td>'.$row["Email"].'</td>
-<td>'.$row["TelKom"].'</td>
-<td>'.$row["AdresZamieszkania"].'</td>
+<td>'.$row["Ulica"].'</td>
+<td>'.$row["NrBloku"].'</td>
+<td>'.$row["NrMieszkania"].'</td>
 <td>'.$row["KodPocztowy"].'</td>
 <td>'.$row["Miasto"].'</td>
+<td>'.$row["TelKom"].'</td>
+<td>'.$row["Email"].'</td>
+<td>'.$row["Uwagi"].'</td>
 <td>'.$row["UczestnikBierny"].'</td>
 <td>'.$row["UczestnikCzynny"].'</td>
 </tr>

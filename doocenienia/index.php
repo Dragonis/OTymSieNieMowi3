@@ -408,20 +408,19 @@
                 </div>
 
                 <div class="group">
-                    <input type="text" class="form-control" id="AdresZamieszkania"
-                           name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
+                    <input type="text" class="form-control" id="Ulica" name="Ulica" required><span class="highlight"></span><span class="bar"></span>
                     <label>Ulica</label>
                 </div>
 
                 <div class="group">
-                    <input type="text" class="form-control" id="AdresZamieszkania"
-                           name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
+                    <input type="text" class="form-control" id="NrBloku"
+                           name="NrBloku" required><span class="highlight"></span><span class="bar"></span>
                     <label>Nr. bloku</label>
                 </div>
 
                 <div class="group">
-                    <input type="text" class="form-control" id="KodPocztowy"
-                           name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
+                    <input type="text" class="form-control" id="NrMieszkania"
+                           name="NrMieszkania" required><span class="highlight"></span><span class="bar"></span>
                     <label>Nr. mieszkania</label>
                 </div>
             </div>
@@ -455,7 +454,7 @@
                     </div>
 
                     <div class="group">
-                        <input type="email" class="form-control" id="Email" name="Email" required><span
+                        <input type="email" class="form-control" id="Uwagi" name="Uwagi" required><span
                             class="highlight"></span><span class="bar"></span>
                         <label>Uwagi, wskazówki </label>
                     </div>
@@ -1299,17 +1298,29 @@
 
         var Imie = document.getElementById("Imie").value;
         var Nazwisko = document.getElementById("Nazwisko").value;
-        var Email = document.getElementById("Email").value;
-        var TelKom = document.getElementById("TelKom").value;
-        var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
+        var Ulica = document.getElementById("Ulica").value;
+        var NrBloku = document.getElementById("NrBloku").value;
+        var NrMieszkania = document.getElementById("NrMieszkania").value;
         var KodPocztowy = document.getElementById("KodPocztowy").value;
         var Miasto = document.getElementById("Miasto").value;
-
+        var TelKom = document.getElementById("TelKom").value;
+        var Email = document.getElementById("Email").value;
+        var Uwagi = document.getElementById("Uwagi").value;
         // Returns successful data submission message when the entered information is stored in database.
-        var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
+        var dataString = 'Imie=' + Imie +
+            '&Nazwisko=' + Nazwisko +
+            '&Ulica=' + Ulica +
+            '&NrBloku=' + NrBloku +
+            '&NrMieszkania=' + NrMieszkania +
+            '&KodPocztowy=' + KodPocztowy +
+            '&Miasto=' + Miasto +
+            '&TelKom=' + TelKom +
+            '&Email=' + Email +
+            '&Uwagi=' + Uwagi +
+            '&UczestnikBierny=' + UczestnikBierny +
+            '&UczestikCzynny=' + UczestnikCzynny ;
 
-
-        if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
+        if (Imie == '' || Nazwisko == '' || Ulica == '' || NrBloku == '' || NrMieszkania == '' || KodPocztowy == '' || Miasto == '' || TelKom == '' || Email == '' ) {
 
             $("#button").off();
 
