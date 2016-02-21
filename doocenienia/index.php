@@ -500,32 +500,30 @@
             </div>
 
             <div id="row" style="float:left">
-
-                <div class="col-sm-4">
-                Temat mojej pracy to:
-                <div class="group">
-                    <textarea name="textarea" style="width:230px;height:150px;"></textarea>
-                    <!--                    <input type="textbox" class="form-control" id="Email" name="Email" required><span-->
-                    <!--                        class="highlight"></span><span class="bar"></span>-->
-                    <!--                    <label>Temat mojej pracy to:</label>-->
-                </div>
-                    </div>
-
-
-                <div class="col-sm-4">
-                    Krótki abstrakt do tematu:
+                <div id="dodatkowyFormularzDlaUczestnikaCzynnego">
+                    <div class="col-sm-4">
+                    Temat mojej pracy to:
                     <div class="group">
                         <textarea name="textarea" style="width:230px;height:150px;"></textarea>
-                        <!--                        <label>Krótki abstrakt do mojego tematu pracy:</label>-->
+                        <!--                    <input type="textbox" class="form-control" id="Email" name="Email" required><span-->
+                        <!--                        class="highlight"></span><span class="bar"></span>-->
+                        <!--                    <label>Temat mojej pracy to:</label>-->
                     </div>
-                </div>
-
-                <div class="col-sm-4">
+                        </div>
+                    <div class="col-sm-4">
+                        Krótki abstrakt do tematu:
+                        <div class="group">
+                            <textarea name="textarea" style="width:230px;height:150px;"></textarea>
+                            <!--                        <label>Krótki abstrakt do mojego tematu pracy:</label>-->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
                     Kilka zdań o sobie:
                     <div class="group">
                         <textarea name="textarea" style="width:230px;height:150px;"></textarea>
                         <!--                        <label>Kilka zdań o sobie:</label>-->
                     </div>
+                </div>
                 </div>
             </div>
 
@@ -1235,6 +1233,9 @@
 <script src="assets/js/modernizr.js"></script>
 <script>
 
+    //schowanie formularza po zaladowaniu sie stroy
+    $("#registration-form").toggle();
+
     var UczestnikBierny;
     var UczestnikCzynny;
 
@@ -1271,7 +1272,9 @@
         $("#parametry2Cennika li:nth-child(even)").css("background", "#eee");
         $("#parametry2Cennika li:nth-child(odd)").css("background-color", "silver");
 
-
+ // chowamy/wysuwamy formularz rejestracyjny
+        $("#registration-form").toggle();
+        $("#dodatkowyFormularzDlaUczestnikaCzynnego").toggle();
     }
 
     function wybranoUczestnikaCzynnego() {
@@ -1298,6 +1301,10 @@
         $("#buttonUczestnikBierny").text("Wybierz");
         $("#parametry1Cennika li:nth-child(even)").css("background", "#eee");
         $("#parametry1Cennika li:nth-child(odd)").css("background-color", "silver");
+
+        //chowamy/wysuwamy formularz rejestracyjny
+        $("#registration-form").toggle();
+
     }
 
 
