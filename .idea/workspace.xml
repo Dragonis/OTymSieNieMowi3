@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84850d6b-4737-4775-a066-269b0bb6d835" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doocenienia/index.php" afterPath="$PROJECT_DIR$/doocenienia/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doocenienia/submit.php" afterPath="$PROJECT_DIR$/doocenienia/submit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doocenienia/user.sql" afterPath="$PROJECT_DIR$/doocenienia/user.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doocenienia/wyniki.php" afterPath="$PROJECT_DIR$/doocenienia/wyniki.php" />
     </list>
     <ignored path="conference-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,13 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doocenienia/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="1360" column="40" selection-start-line="1360" selection-start-column="29" selection-end-line="1360" selection-end-column="40" />
-              <caret line="1361" column="46" selection-start-line="1361" selection-start-column="32" selection-end-line="1361" selection-end-column="46" />
-              <caret line="1362" column="41" selection-start-line="1362" selection-start-column="30" selection-end-line="1362" selection-end-column="41" />
+            <state relative-caret-position="-124">
+              <caret line="1364" column="21" selection-start-line="1364" selection-start-column="21" selection-end-line="1364" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -81,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wyniki.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wyniki.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doocenienia/wyniki.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <marker date="1456066494938" expanded="true" signature="327:615" placeholder="SELECT Id,Im... OTymSieNieMowi3" />
                 <marker date="1456066494938" expanded="true" signature="660:705" placeholder="..." />
@@ -151,10 +145,10 @@
         <option value="$PROJECT_DIR$/doocenienia/dane_dostepowe.txt" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5952fb56-3f05-4544-9eb5-1f9f35a88d72/console.sql" />
         <option value="$PROJECT_DIR$/user.sql" />
-        <option value="$PROJECT_DIR$/doocenienia/index.php" />
         <option value="$PROJECT_DIR$/doocenienia/submit.php" />
         <option value="$PROJECT_DIR$/doocenienia/user.sql" />
         <option value="$PROJECT_DIR$/doocenienia/wyniki.php" />
+        <option value="$PROJECT_DIR$/doocenienia/index.php" />
       </list>
     </option>
   </component>
@@ -751,12 +745,12 @@
       <workItem from="1455983727828" duration="835000" />
       <workItem from="1456002476112" duration="13821000" />
       <workItem from="1456051058585" duration="3529000" />
-      <workItem from="1456054953060" duration="11681000" />
+      <workItem from="1456054953060" duration="12177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98547000" />
+    <option name="totallyTimeSpent" value="99043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1103,22 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doocenienia/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1360" column="40" selection-start-line="1360" selection-start-column="29" selection-end-line="1360" selection-end-column="40" />
-          <caret line="1361" column="46" selection-start-line="1361" selection-start-column="32" selection-end-line="1361" selection-end-column="46" />
-          <caret line="1362" column="41" selection-start-line="1362" selection-start-column="30" selection-end-line="1362" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doocenienia/user.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1129,14 +1107,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doocenienia/wyniki.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <marker date="1456066494938" expanded="true" signature="327:615" placeholder="SELECT Id,Im... OTymSieNieMowi3" />
             <marker date="1456066494938" expanded="true" signature="660:705" placeholder="..." />
             <marker date="1456066494938" expanded="true" signature="667:698" placeholder="..." />
             <marker date="1456066494938" expanded="true" signature="722:1229" placeholder="..." />
             <marker date="1456066494938" expanded="true" signature="727:1229" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doocenienia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="1364" column="21" selection-start-line="1364" selection-start-column="21" selection-end-line="1364" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#form#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1278,8 +1278,8 @@
     }
 
     function wybranoUczestnikaCzynnego() {
-        UczestnikCzynny = "TAK";
         UczestnikBierny = "NIE";
+        UczestnikCzynny = "TAK";
 
         //zaznaczasz 2
         $(".produkt").first().next().css("background", "#111");
