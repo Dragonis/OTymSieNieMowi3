@@ -18,6 +18,13 @@ $Email = $_POST['Email'];
 $Uwagi = $_POST['Uwagi'];
 $WieczorIntegracyjny = $_POST['WieczorIntegracyjny'];
 
+$PomocAsystenta = $_POST['PomocAsystenta'];
+$WlasnySystemFM = $_POST['WlasnySystemFM'];
+$SpeechToText = $_POST['SpeechToText'];
+$PetlaIndukcyjna = $_POST['PetlaIndukcyjna'];
+$TlumaczaMigowego = $_POST['TlumaczaMigowego'];
+$NiePotrzebuje = $_POST['NiePotrzebuje'];
+
 $UczestnikBierny = $_POST['UczestnikBierny'];
 $UczestnikCzynny = $_POST['UczestnikCzynny'];
 
@@ -30,7 +37,10 @@ if (isset($_POST['Imie'])) {
 //echo"Form Submitted succesfully";
 //}
 
-$query = mysqli_query($dbconfig,"insert into OTymSieNieMowi3(`Imie`, `Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`UczestnikBierny`,`UczestnikCzynny`) values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$WieczorIntegracyjny','$UczestnikBierny','$UczestnikCzynny');"); //Insert Query
+
+$zapytanie = "insert into OTymSieNieMowi3(`Imie`,`Nazwisko`,`Ulica`,`NrBloku`,`NrMieszkania`,`KodPocztowy`,`Miasto`,`TelKom`,`Email`,`Uwagi`,`WieczorIntegracyjny`,`PomocAsystenta`,`WlasnySystemFM`,`SpeechToText`,`PetlaIndukcyjna`,`TlumaczaMigowego`,`NiePotrzebuje`,`UczestnikBierny`,`UczestnikCzynny`)
+                                   values('$Imie', '$Nazwisko','$Ulica', '$NrBloku','$NrMieszkania', '$KodPocztowy','$Miasto','$TelKom','$Email','$Uwagi','$WieczorIntegracyjny','$PomocAsystenta','$WlasnySystemFM','$SpeechToText','$PetlaIndukcyjna','$TlumaczaMigowego','$NiePotrzebuje','$UczestnikBierny','$UczestnikCzynny');";
+$query = mysqli_query($dbconfig,$zapytanie); //Insert Query
 //echo "Form Submitted succesfully";
 
 }

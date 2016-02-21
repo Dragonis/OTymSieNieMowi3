@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,WieczorIntegracyjny,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
+$sql = "SELECT Id,Imie,Nazwisko,Ulica,NrBloku,NrMieszkania,KodPocztowy,Miasto,TelKom,Email,Uwagi,WieczorIntegracyjny,PomocAsystenta,WlasnySystemFM,SpeechToText,PetlaIndukcyjna,TlumaczaMigowego,NiePotrzebuje,UczestnikBierny,UczestnikCzynny FROM OTymSieNieMowi3";
 $result = $conn->query($sql);
 
 echo "<html>
@@ -34,6 +34,15 @@ echo '<table>
 <td>Email:</td>
 <td>Uwagi:</td>
 <td>WieczorIntegracyjny:</td>
+
+<td>PomocAsystenta:</td>
+<td>WlasnySystemFM:</td>
+<td>SpeechToText:</td>
+<td>PetlaIndukcyjna:</td>
+<td>TlumaczaMigowego:</td>
+<td>NiePotrzebuje:</td>
+
+
 <td>UczestnikBierny:</td>
 <td>UczestnikCzynny:</td>
 </tr>';
@@ -55,6 +64,14 @@ echo'
 <td>'.$row["Email"].'</td>
 <td>'.$row["Uwagi"].'</td>
 <td>'.$row["WieczorIntegracyjny"].'</td>
+
+<td>'.$row["PomocAsystenta"].'</td>
+<td>'.$row["WlasnySystemFM"].'</td>
+<td>'.$row["SpeechToText"].'</td>
+<td>'.$row["PetlaIndukcyjna"].'</td>
+<td>'.$row["TlumaczaMigowego"].'</td>
+<td>'.$row["NiePotrzebuje"].'</td>
+
 <td>'.$row["UczestnikBierny"].'</td>
 <td>'.$row["UczestnikCzynny"].'</td>
 </tr>

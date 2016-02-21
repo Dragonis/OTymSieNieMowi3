@@ -351,7 +351,6 @@
                     <li>Przerwy kawowe</li>
                     <li>Materiały konferencyjne</li>
                     <li>Certyfikat</li>
-                </ul>
                 <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
                 ">Wybierz
             </div>
@@ -467,7 +466,7 @@
 
 
                 <b>Czy chcę uczestniczyć w wieczorze integracyjnym 9.04.2016?</b>
-                <input type="checkbox" id="WieczorIntegracyjny" name="WieczorIntegracyjny">
+                <input type="checkbox" id="WieczorIntegracyjny" name="WieczorIntegracyjny" onclick="PomocAsystenta="TAK;">
 
                 <!--                <div class="group">-->
                 <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
@@ -477,12 +476,12 @@
 
 
                 <b>Zgłaszam potrzebę korzystania z:</b>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="PomocAsystenta"/>Pomocy asystenta <br/>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="WlasnySystemFM"/>Własnego systemu FM<br/>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="SpeechToText"/>Speech to text<br/>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="PetlaIndukcyjna"/>Pętli indukcyjnej <br/>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="TlumaczaMigowego"/>Tłumacza języka migowego <br/>
-                <input type="checkbox" name="PotrzebaKorzystaniaZ" value="NiePotrzebuje"/>Nie potrzebuję<br/>
+                <input type="checkbox" id="PomocAsystenta"  name="PomocAsystenta" value="Tak">Pomocy asystenta
+                <input type="checkbox" id="WlasnySystemFM" name="WlasnySystemFM" value="Tak">Własnego systemu FM
+                <input type="checkbox" id="SpeechToText" name="SpeechToText" value="Tak">Speech to text
+                <input type="checkbox" id="PetlaIndukcyjna" name="PetlaIndukcyjna" value="Tak">Pętli indukcyjnej
+                <input type="checkbox" id="TlumaczaMigowego" name="TlumaczaMigowego" value="Tak">Tłumacza języka migowego
+                <input type="checkbox" id="NiePotrzebuje" name="NiePotrzebuje" value="Tak">Nie potrzebuję <br>
 
                 <!--                <div class="group">-->
                 <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
@@ -1239,6 +1238,14 @@
     var UczestnikBierny;
     var UczestnikCzynny;
 
+    var PomocAsystenta;
+    var WlasnySystemFM;
+    var SpeechToText;
+    var PetlaIndukcyjna;
+    var TlumaczaMigowego;
+    var NiePotrzebuje;
+    var WieczorIntegracyjny;
+
     function wybranoUczestnikaBiernego() {
         UczestnikBierny = "TAK";
         UczestnikCzynny = "NIE";
@@ -1306,7 +1313,16 @@
         var TelKom = document.getElementById("TelKom").value;
         var Email = document.getElementById("Email").value;
         var Uwagi = document.getElementById("Uwagi").value;
-        var WieczorIntegracyjny = document.getElementById("WieczorIntegracyjny").value;
+        WieczorIntegracyjny = document.getElementById("WieczorIntegracyjny").checked;
+
+        PomocAsystenta = document.getElementById("PomocAsystenta").checked;
+        WlasnySystemFM = document.getElementById("WlasnySystemFM").checked;
+        SpeechToText = document.getElementById("SpeechToText").checked;
+        PetlaIndukcyjna = document.getElementById("PetlaIndukcyjna").checked;
+        TlumaczaMigowego = document.getElementById("TlumaczaMigowego").checked;
+        NiePotrzebuje = document.getElementById("NiePotrzebuje").checked;
+
+
         // Returns successful data submission message when the entered information is stored in database.
         var dataString = 'Imie=' + Imie +
             '&Nazwisko=' + Nazwisko +
@@ -1319,6 +1335,14 @@
             '&Email=' + Email +
             '&Uwagi=' + Uwagi +
             '&WieczorIntegracyjny=' + WieczorIntegracyjny +
+
+            '&PomocAsystenta=' + PomocAsystenta +
+            '&WlasnySystemFM=' + WlasnySystemFM +
+            '&SpeechToText=' + SpeechToText +
+            '&PetlaIndukcyjna=' + PetlaIndukcyjna +
+            '&TlumaczaMigowego=' + TlumaczaMigowego +
+            '&NiePotrzebuje=' + NiePotrzebuje +
+
             '&UczestnikBierny=' + UczestnikBierny +
             '&UczestikCzynny=' + UczestnikCzynny ;
 
