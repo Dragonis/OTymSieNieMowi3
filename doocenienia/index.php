@@ -348,20 +348,20 @@
                 <div class="cena">50zł</div>
                 <ul class="parametry" id="parametry1Cennika">
                     <li>Obiad</li>
-                    <li>Przerwy kawowe</li>
+                    <li>Darmowe jedzenie</li>
                     <li>Materiały konferencyjne</li>
-                    <li>Certyfikat</li>
+                    <li> -</li>
+                </ul>
                 <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
                 ">Wybierz
             </div>
-
         </div>
         <div class="produkt" id="ProduktZ2Cennika">
             <div class="nazwa"><h3>Uczestnik czynny</h3></div>
             <div class="cena">100zł</div>
             <ul class="parametry" id="parametry2Cennika">
                 <li>Obiad</li>
-                <li>Przerwy kawowe</li>
+                <li>Darmowe jedzenie</li>
                 <li>Materiały konferencyjne</li>
                 <li>Certyfikat</li>
             </ul>
