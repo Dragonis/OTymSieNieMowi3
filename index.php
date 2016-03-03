@@ -342,227 +342,208 @@
                 <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
                 <h3 class="section-title">Rejestracja</h3>
             </div>
+            Rejestracja odbywa się na stronie Google Docs
+            <br>
+            <style>
+                /* Button - these styles are the good stuff */
+
+                .button {
+                    text-decoration: none;
+                    background-color: #999;
+                    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+                    background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+                    background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+                    background-image:      -o-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+                    background-image:         linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+                    border: none;
+                    border-radius: .5em;
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,0.1),
+                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 -.25em 0 hsla(0,0%,0%,.25),
+                    0 .25em .25em hsla(0,0%,0%,.05);
+                    color: #444;
+                    cursor: pointer;
+                    display: inline-block;
+                    font-family: sans-serif;
+                    font-size: 1em;
+                    font-weight: bold;
+                    line-height: 1.5;
+                    margin: 0 .5em 1em;
+                    padding: .5em 1.5em .75em;
+                    position: relative;
+                    text-decoration: none;
+                    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+                    vertical-align: middle;
+                }
+                .button:hover {
+                    outline: none;
+                    text-decoration: none;
+                }
+                .button:hover,
+                .button:focus {
+                    text-decoration: none;
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 -.25em 0 hsla(0,0%,0%,.25),
+                    inset 0 0 0 3em hsla(0,0%,100%,.2),
+                    0 .25em .25em hsla(0,0%,0%,.05);
+                }
+                .button:active {
+                    text-decoration: none;
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 0 0 3em hsla(0,0%,100%,.2),
+                    inset 0 .25em .5em hsla(0,0%,0%,.05),
+                    0 -1px 1px hsla(0,0%,0%,.1),
+                    0 1px 1px hsla(0,0%,100%,.25);
+                    margin-top: .25em;
+                    outline: none;
+                    padding-bottom: .5em;
+                }
+
+                /* Light Text */
+
+                .lightText {
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
+                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 -.25em 0 hsla(0,0%,0%,.5),
+                    0 .25em .25em hsla(0,0%,0%,.1);
+                    color: #fff;
+                    text-shadow: 0 -1px 1px hsla(0,0%,0%,.25);
+                }
+                .lightText:hover,
+                .lightText:focus {
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
+                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                    inset 0 -.25em 0 hsla(0,0%,0%,.5),
+                    inset 0 0 0 3em hsla(0,0%,100%,.2),
+                    0 .25em .25em hsla(0,0%,0%,.1);
+                }
+                .lightText:active {
+                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+                    inset 0 2px 0 hsla(0,0%,100%,.1),
+                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
+                    inset 0 0 0 3em hsla(0,0%,100%,.2),
+                    inset 0 .25em .5em hsla(0,0%,0%,.05),
+                    0 -1px 1px hsla(0,0%,0%,.1),
+                    0 1px 1px hsla(0,0%,100%,.25);
+                }
+
+                /* Large */
+
+                .large {
+                    font-size: 1.25em;
+                }
+
+                /* Medium */
+
+                .medium {
+                    font-size: 1em;
+                }
+
+                /* Small */
+
+                .small {
+                    font-size: .75em;
+                }
+
+                /* Regular */
+
+                .regular {
+                    border-radius: .5em;
+                }
+
+                /* Square */
+
+                .square {
+                    border-radius: .25em;
+                }
+
+                /* Round */
+
+                .round {
+                    border-radius: 1.25em;
+                }
+
+                /* Red */
+
+                .red {
+                    background-color: #ff6c6f;
+                }
+
+                /* Orange */
+
+                .orange {
+                    background-color: #f6cf6f;
+                }
+
+                /* Yellow */
+
+                .yellow {
+                    background-color: #fff6c6;
+                }
+
+                /* Green */
+
+                .green {
+                    background-color: #6fcf6f;
+                }
+
+                /* Blue */
+
+                .blue {
+                    background-color: #6fc6ff;
+                }
+
+                /* Purple */
+
+                .purple {
+                    background-color: #f6c6ff;
+                }
+
+                /* White */
+
+                .white {
+                    background-color: #eee;
+                }
+
+                /* Grey */
+
+                .grey {
+                    background-color: #999;
+                }
+
+                /* Black */
+
+                .black {
+                    background-color: #444;
+                }
+
+                /* Custom */
+
+                .custom {
+                    background-color: #fff0f5; /* Set the button color here */
+                    color: #444; /* Remove this for a dark background */
+                }
+            </style>
+            <a class="button large round yellow" href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę wziąć udział! </a>
+
         </div>
 
-        <div id="tabelka" style="float: left;">
-            <div class="produkt">
-                <div class="nazwa"><h3>Uczestnik bierny</h3></div>
-                <div class="cena">50zł</div>
-                <ul class="parametry" id="parametry1Cennika">
-                    <li>Obiad</li>
-                    <li>Poczęstunek</li>
-                    <li>Materiały konferencyjne</li>
-                    <li>Certyfikat</li>
-                    <li>  &nbsp; <br> &nbsp; </li>
-                </ul>
-                <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
-                ">Wybierz
-            </div>
-        </div>
-        <div class="produkt" id="ProduktZ2Cennika">
-            <div class="nazwa"><h3>Uczestnik czynny</h3></div>
-            <div class="cena">100zł</div>
-            <ul class="parametry" id="parametry2Cennika">
-                <li>Obiad</li>
-                <li>Poczęstunek</li>
-                <li>Materiały konferencyjne</li>
-                <li>Certyfikat</li>
-                <li>Wystąpienie z prelekcją/plakatem</li>
-            </ul>
-            <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); " ;
-            ">Wybierz
-        </div>
 
     </div>
-    <!--<div class="produkt">-->
-    <!--<div class="nazwa"><h3>Business</h3></div>-->
-    <!--<div class="cena">499zł</div>-->
-    <!--<ul class="parametry">-->
-    <!--<li>Dysk: 50GB</li>-->
-    <!--<li>Transfer: bez limitu</li>-->
-    <!--<li>Subdomeny: bez limitu</li>-->
-    <!--<li>Konta e-mail: bez limitu</li>-->
-    <!--</ul>-->
-    <!--<div class="kup">Kup pakiet!</div>-->
-    <!--</div>-->
+
     </div>
 
-
-    <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action=""
-          name="loginform">
-
-        <div class="row" style="width: 700px;">
-            <div class="col-md-12" id="registration-msg" style="display:none;">
-                <div class="alert"></div>
-            </div>
-
-            <div class="col-sm-4">
-
-
-                <div class="group">
-                    <input type="text" class="form-control" id="Imie" name="Imie" required><span
-                        class="highlight"></span><span class="bar"></span>
-                    <label>Imię</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="Nazwisko" name="Nazwisko"
-                           required><span class="highlight"></span><span class="bar"></span>
-                    <label>Nazwisko</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="Ulica" name="Ulica" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Ulica</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="NrBloku"
-                           name="NrBloku" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Nr. bloku</label>
-                </div>
-
-                <div class="group">
-                    <input type="text" class="form-control" id="NrMieszkania"
-                           name="NrMieszkania" required><span class="highlight"></span><span class="bar"></span>
-                    <label>Nr. mieszkania</label>
-                </div>
-            </div>
-
-            <div id="row">
-                <div class="col-sm-4">
-
-
-                    <div class="group">
-                        <input type="text" class="form-control" id="KodPocztowy"
-                               name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
-                        <label>Kod pocztowy</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="text" class="form-control" id="Miasto" name="Miasto" required><span
-                            class="highlight"></span><span class="bar"></span>
-                        <label>Miasto</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="text" class="form-control" id="TelKom" name="TelKom"
-                               required><span class="highlight"></span><span class="bar"></span>
-                        <label>Tel. kom</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="email" class="form-control" id="Email" name="Email" required><span
-                            class="highlight"></span><span class="bar"></span>
-                        <label>E-mail</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="email" class="form-control" id="Uwagi" name="Uwagi" required><span
-                            class="highlight"></span><span class="bar"></span>
-                        <label>Uwagi, wskazówki </label>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div class="col-sm-4">
-
-                <b>Czy chcę uczestniczyć w wieczorze integracyjnym 9.04.2016?</b>
-                <input type="checkbox" class="form-control" id="WieczorIntegracyjny" name="WieczorIntegracyjny" onclick="PomocAsystenta="TAK;">
-
-                <!--                <div class="group">-->
-                <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
-                <!--                        class="highlight"></span><span class="bar"></span>-->
-                <!--                    <label>Czy chcę uczestniczyć w wieczorze integracyjnym? Tak/Nie</label>-->
-                <!--                </div>-->
-
-
-                <b>Zgłaszam potrzebę korzystania z:</b>
-                <input type="checkbox" id="PomocAsystenta"  name="PomocAsystenta" value="Tak">Pomocy asystenta
-                <input type="checkbox" id="WlasnySystemFM" name="WlasnySystemFM" value="Tak">Własnego systemu FM
-                <input type="checkbox" id="SpeechToText" name="SpeechToText" value="Tak">Speech to text
-                <input type="checkbox" id="PetlaIndukcyjna" name="PetlaIndukcyjna" value="Tak">Pętli indukcyjnej
-                <input type="checkbox" id="TlumaczaMigowego" name="TlumaczaMigowego" value="Tak">Tłumacza języka migowego
-                <input type="checkbox" id="NiePotrzebuje" name="NiePotrzebuje" value="Tak">Nie potrzebuję <br>
-
-                <!--                <div class="group">-->
-                <!--                    <input type="checkbox" class="form-control" id="Email" name="Email" required><span-->
-                <!--                        class="highlight"></span><span class="bar"></span>-->
-                <!--                    <input type="checkbox" name="chk_group" value="value1" />Value 1<br />-->
-                <!--                    <input type="checkbox" name="chk_group" value="value2" />Value 2<br />-->
-                <!--                    <input type="checkbox" name="chk_group" value="value3" />Value 3<br />-->
-                <!--                    <label>ZGŁASZAM POTRZEBĘ KORZYSTANIA Z:</label>-->
-                <!--                </div>-->
-
-
-                <button type="button" id="button" onClick="submitdata();"></button>
-                <br><span id="komunikat-wysylania"></span>
-
-
-            </div>
-
-            <div id="row" style="float:left">
-                <div id="dodatkowyFormularzDlaUczestnikaCzynnego">
-                    <div class="col-sm-4">
-                        Temat mojej pracy to:
-                        <div class="group">
-                            <textarea name="textarea" id="TematPracy" style="width:230px;height:150px;"></textarea>
-                            <!--                    <input type="textbox" class="form-control" id="Email" name="Email" required><span-->
-                            <!--                        class="highlight"></span><span class="bar"></span>-->
-                            <!--                    <label>Temat mojej pracy to:</label>-->
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        Krótki abstrakt do tematu:
-                        <div class="group">
-                            <textarea name="textarea" id="OpisAbstraktu" style="width:230px;height:150px;"></textarea>
-                            <!--                        <label>Krótki abstrakt do mojego tematu pracy:</label>-->
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        Kilka zdań o sobie:
-                        <div class="group">
-                            <textarea name="textarea" id="NotkaoSobie" style="width:230px;height:150px;"></textarea>
-                            <!--                        <label>Kilka zdań o sobie:</label>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        </div> <!-- koniec row 1 -->
-
-
-        <!--            <div class="animowany-button">-->
-        <!--                <div class="text-center mt25">-->
-        <!--<button id="button"></button>
-        <!--<button type="submit" class="btn btn-black" id="registration-submit-btn">Wyślij</button>-->
-
-        <!--                </div>-->
-        <!--            </div>-->
-        </div>
-        <div id="reanswer_information" style="margin-left: 110px;">
-            Na e-mail podany w formularzu prześlemy informację zwrotną, iż Państwa formularz do nas dotarł.<br>
-            W razie gdyby w przeciągu max. 2 dni Państwo nie otrzymali e-maila zwrotnego, prawdopodobnie Państwa formularza nie otrzymaliśmy.<br>
-            Należy wtedy przesłać informację na e-mail: konferencja.ss@gmail.com<br>
-            <!--            <div style="margin: 0 auto;">Dziękujemy za szybkie nadesłanie formularzy :)</div>-->
-        </div>
-    </form>
-
-    <!--<div class="oplaty" style="float: left; margin-left: 30px;"  >-->
-    <!--<b>Opłaty konferencyjne:</b> </br>-->
-    <!--* uczestnictwo czynne w konferencji <br> (plakat lub wystąpienie) - 100zł <br>-->
-    <!--* uczestnictwo bierne - 50zł <br><br>-->
-    <!--<b>Cena obejmuje:</b> <br>-->
-    <!--* materiały konferencyjne <br>-->
-    <!--* obiad <br>-->
-    <!--* certyfikat <br><br><br>-->
-    <!--</div>-->
     </div>
 </section>
 
