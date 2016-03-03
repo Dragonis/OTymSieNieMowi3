@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="66570408-32fc-43a6-882d-d1679edbce6b" name="otymsieniemowi3" url="http://otymsieniemowi3.cba.pl">
+        <fileTransfer host="otymsieniemowi3.cba.pl" port="21" password="dfcedfd8dfcbdfcddfc5dfc4dfc3dfd9" username="admin@otymsieniemowi3.cba.pl">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

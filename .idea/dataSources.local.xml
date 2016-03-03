@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - otymsieniemowi3_cba_pl@mysql.cba.pl" uuid="5952fb56-3f05-4544-9eb5-1f9f35a88d72">
+      <secret-storage>master_key</secret-storage>
+      <user-name>otymsieniemowi3</user-name>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+.harmonogram tbody tr:nth-child(odd) {background: #dbdbdb;}
+
+.harmonogram tbody tr:nth-child(even) {background:#5cb85c;}
