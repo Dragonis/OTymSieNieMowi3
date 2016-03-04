@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="otymsieniemowi3">
     <serverData>
+      <paths name="otymsieniemowi2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="otymsieniemowi3">
         <serverdata>
           <mappings>

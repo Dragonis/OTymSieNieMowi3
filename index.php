@@ -19,6 +19,197 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/photos-slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <style>
+        /* Button - these styles are the good stuff */
+
+        .button {
+            text-decoration: none;
+            background-color: #999;
+            background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            background-image:      -o-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            background-image:         linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            border: none;
+            border-radius: .5em;
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,0.1),
+            inset 0 -.2em 0 hsla(0,0%,100%,.1),
+            inset 0 -.25em 0 hsla(0,0%,0%,.25),
+            0 .25em .25em hsla(0,0%,0%,.05);
+            color: #444;
+            cursor: pointer;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 .5em 1em;
+            padding: .5em 1.5em .75em;
+            position: relative;
+            text-decoration: none;
+            text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+            vertical-align: middle;
+        }
+        .button:hover {
+            outline: none;
+            text-decoration: none;
+        }
+        .button:hover,
+        .button:focus {
+            text-decoration: none;
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,.1),
+            inset 0 -.2em 0 hsla(0,0%,100%,.1),
+            inset 0 -.25em 0 hsla(0,0%,0%,.25),
+            inset 0 0 0 3em hsla(0,0%,100%,.2),
+            0 .25em .25em hsla(0,0%,0%,.05);
+        }
+        .button:active {
+            text-decoration: none;
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,.1),
+            inset 0 0 0 3em hsla(0,0%,100%,.2),
+            inset 0 .25em .5em hsla(0,0%,0%,.05),
+            0 -1px 1px hsla(0,0%,0%,.1),
+            0 1px 1px hsla(0,0%,100%,.25);
+            margin-top: .25em;
+            outline: none;
+            padding-bottom: .5em;
+        }
+
+        /* Light Text */
+
+        .lightText {
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,.05),
+            inset 0 -.2em 0 hsla(0,0%,100%,.1),
+            inset 0 -.25em 0 hsla(0,0%,0%,.5),
+            0 .25em .25em hsla(0,0%,0%,.1);
+            color: #fff;
+            text-shadow: 0 -1px 1px hsla(0,0%,0%,.25);
+        }
+        .lightText:hover,
+        .lightText:focus {
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,.05),
+            inset 0 -.2em 0 hsla(0,0%,100%,.1),
+            inset 0 -.25em 0 hsla(0,0%,0%,.5),
+            inset 0 0 0 3em hsla(0,0%,100%,.2),
+            0 .25em .25em hsla(0,0%,0%,.1);
+        }
+        .lightText:active {
+            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
+            inset 0 2px 0 hsla(0,0%,100%,.1),
+            inset 0 1.2em 0 hsla(0,0%,100%,.05),
+            inset 0 0 0 3em hsla(0,0%,100%,.2),
+            inset 0 .25em .5em hsla(0,0%,0%,.05),
+            0 -1px 1px hsla(0,0%,0%,.1),
+            0 1px 1px hsla(0,0%,100%,.25);
+        }
+
+        /* Large */
+
+        .large {
+            font-size: 1.25em;
+        }
+
+        /* Medium */
+
+        .medium {
+            font-size: 1em;
+        }
+
+        /* Small */
+
+        .small {
+            font-size: .75em;
+        }
+
+        /* Regular */
+
+        .regular {
+            border-radius: .5em;
+        }
+
+        /* Square */
+
+        .square {
+            border-radius: .25em;
+        }
+
+        /* Round */
+
+        .round {
+            border-radius: 1.25em;
+        }
+
+        /* Red */
+
+        .red {
+            background-color: #ff6c6f;
+        }
+
+        /* Orange */
+
+        .orange {
+            background-color: #f6cf6f;
+        }
+
+        /* Yellow */
+
+        .yellow {
+            background-color: #fff6c6;
+        }
+
+        /* Green */
+
+        .green {
+            background-color: #6fcf6f;
+        }
+
+        /* Blue */
+
+        .blue {
+            background-color: #6fc6ff;
+        }
+
+        /* Purple */
+
+        .purple {
+            background-color: #f6c6ff;
+        }
+
+        /* White */
+
+        .white {
+            background-color: #eee;
+        }
+
+        /* Grey */
+
+        .grey {
+            background-color: #999;
+        }
+
+        /* Black */
+
+        .black {
+            background-color: #444;
+        }
+
+        /* Custom */
+
+        .custom {
+            background-color: #fff0f5; /* Set the button color here */
+            color: #444; /* Remove this for a dark background */
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#site-nav">
@@ -339,203 +530,38 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div id="PrzyciskDORejestracji" style="float:left;">
                 <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
-                <h3 class="section-title">Rejestracja</h3>
+                <h3 class="section-title">Rejestracja</h3><br>
+                Rejestracja odbywa się na stronie Google Docs<br>
+                    <a class="button large round yellow" href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę wziąć udział! </a> <br>
+
+                </div>
+
+
+                <div id="Dane_do_przelewu" style="float:right;">
+                    <h3 class="section-title">Dane do przelewu:</h3>
+            <span style="size: 18">
+            <b>Tytuł przelewu: O TYM SIĘ NIE MÓWI 3 </b><br>
+            <b>Numer Konta bankowego: 42 1500 1520 1215 2007 5155 0000 </b><br>
+            <b>Adres:</b><br>
+            UL. ZBOŻOWA 64 <br>
+            20-827 LUBLIN <br>
+                <b>Bank:</b> Bank Zachodni WBK S.A; <br>
+            </span>
+                </div>
+
             </div>
-            Rejestracja odbywa się na stronie Google Docs
-            <br>
-            <style>
-                /* Button - these styles are the good stuff */
 
-                .button {
-                    text-decoration: none;
-                    background-color: #999;
-                    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-                    background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-                    background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-                    background-image:      -o-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-                    background-image:         linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-                    border: none;
-                    border-radius: .5em;
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,0.1),
-                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 -.25em 0 hsla(0,0%,0%,.25),
-                    0 .25em .25em hsla(0,0%,0%,.05);
-                    color: #444;
-                    cursor: pointer;
-                    display: inline-block;
-                    font-family: sans-serif;
-                    font-size: 1em;
-                    font-weight: bold;
-                    line-height: 1.5;
-                    margin: 0 .5em 1em;
-                    padding: .5em 1.5em .75em;
-                    position: relative;
-                    text-decoration: none;
-                    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
-                    vertical-align: middle;
-                }
-                .button:hover {
-                    outline: none;
-                    text-decoration: none;
-                }
-                .button:hover,
-                .button:focus {
-                    text-decoration: none;
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 -.25em 0 hsla(0,0%,0%,.25),
-                    inset 0 0 0 3em hsla(0,0%,100%,.2),
-                    0 .25em .25em hsla(0,0%,0%,.05);
-                }
-                .button:active {
-                    text-decoration: none;
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 0 0 3em hsla(0,0%,100%,.2),
-                    inset 0 .25em .5em hsla(0,0%,0%,.05),
-                    0 -1px 1px hsla(0,0%,0%,.1),
-                    0 1px 1px hsla(0,0%,100%,.25);
-                    margin-top: .25em;
-                    outline: none;
-                    padding-bottom: .5em;
-                }
 
-                /* Light Text */
+                    <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
 
-                .lightText {
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
-                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 -.25em 0 hsla(0,0%,0%,.5),
-                    0 .25em .25em hsla(0,0%,0%,.1);
-                    color: #fff;
-                    text-shadow: 0 -1px 1px hsla(0,0%,0%,.25);
-                }
-                .lightText:hover,
-                .lightText:focus {
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
-                    inset 0 -.2em 0 hsla(0,0%,100%,.1),
-                    inset 0 -.25em 0 hsla(0,0%,0%,.5),
-                    inset 0 0 0 3em hsla(0,0%,100%,.2),
-                    0 .25em .25em hsla(0,0%,0%,.1);
-                }
-                .lightText:active {
-                    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-                    inset 0 2px 0 hsla(0,0%,100%,.1),
-                    inset 0 1.2em 0 hsla(0,0%,100%,.05),
-                    inset 0 0 0 3em hsla(0,0%,100%,.2),
-                    inset 0 .25em .5em hsla(0,0%,0%,.05),
-                    0 -1px 1px hsla(0,0%,0%,.1),
-                    0 1px 1px hsla(0,0%,100%,.25);
-                }
 
-                /* Large */
-
-                .large {
-                    font-size: 1.25em;
-                }
-
-                /* Medium */
-
-                .medium {
-                    font-size: 1em;
-                }
-
-                /* Small */
-
-                .small {
-                    font-size: .75em;
-                }
-
-                /* Regular */
-
-                .regular {
-                    border-radius: .5em;
-                }
-
-                /* Square */
-
-                .square {
-                    border-radius: .25em;
-                }
-
-                /* Round */
-
-                .round {
-                    border-radius: 1.25em;
-                }
-
-                /* Red */
-
-                .red {
-                    background-color: #ff6c6f;
-                }
-
-                /* Orange */
-
-                .orange {
-                    background-color: #f6cf6f;
-                }
-
-                /* Yellow */
-
-                .yellow {
-                    background-color: #fff6c6;
-                }
-
-                /* Green */
-
-                .green {
-                    background-color: #6fcf6f;
-                }
-
-                /* Blue */
-
-                .blue {
-                    background-color: #6fc6ff;
-                }
-
-                /* Purple */
-
-                .purple {
-                    background-color: #f6c6ff;
-                }
-
-                /* White */
-
-                .white {
-                    background-color: #eee;
-                }
-
-                /* Grey */
-
-                .grey {
-                    background-color: #999;
-                }
-
-                /* Black */
-
-                .black {
-                    background-color: #444;
-                }
-
-                /* Custom */
-
-                .custom {
-                    background-color: #fff0f5; /* Set the button color here */
-                    color: #444; /* Remove this for a dark background */
-                }
-            </style>
-            <a class="button large round yellow" href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę wziąć udział! </a>
+<!--                <span style="color: red; size: 18;">-->
+<!--                Konto bankowe w którym będzie można dokonać przelewów, podamy wkrótce. <br>-->
+<!--                <b> Prosimy o nie korzystanie z danych konta bankowego z poprzedniej konferencji! </b>-->
+<!--                 <br>-->
+<!--                </span>-->
 
         </div>
 

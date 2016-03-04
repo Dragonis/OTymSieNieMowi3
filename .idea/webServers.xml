@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="826c5b20-4cbb-4794-a335-1bd68013aa50" name="otymsieniemowi2" url="http://otymsieniemowi2.cba.pl">
+        <fileTransfer host="otymsieniemowi2.cba.pl" port="21" username="admin@wojteksasiela.cba.pl">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
