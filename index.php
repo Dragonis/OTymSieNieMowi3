@@ -25,19 +25,19 @@
         .button {
             text-decoration: none;
             background-color: #999;
-            background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-            background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-            background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-            background-image:      -o-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
-            background-image:         linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+            background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -moz-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -ms-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -o-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
             border: none;
             border-radius: .5em;
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,0.1),
-            inset 0 -.2em 0 hsla(0,0%,100%,.1),
-            inset 0 -.25em 0 hsla(0,0%,0%,.25),
-            0 .25em .25em hsla(0,0%,0%,.05);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, 0.1),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .25),
+            0 .25em .25em hsla(0, 0%, 0%, .05);
             color: #444;
             cursor: pointer;
             display: inline-block;
@@ -49,33 +49,36 @@
             padding: .5em 1.5em .75em;
             position: relative;
             text-decoration: none;
-            text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+            text-shadow: 0 1px 1px hsla(0, 0%, 100%, .25);
             vertical-align: middle;
         }
+
         .button:hover {
             outline: none;
             text-decoration: none;
         }
+
         .button:hover,
         .button:focus {
             text-decoration: none;
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,.1),
-            inset 0 -.2em 0 hsla(0,0%,100%,.1),
-            inset 0 -.25em 0 hsla(0,0%,0%,.25),
-            inset 0 0 0 3em hsla(0,0%,100%,.2),
-            0 .25em .25em hsla(0,0%,0%,.05);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .25),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            0 .25em .25em hsla(0, 0%, 0%, .05);
         }
+
         .button:active {
             text-decoration: none;
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,.1),
-            inset 0 0 0 3em hsla(0,0%,100%,.2),
-            inset 0 .25em .5em hsla(0,0%,0%,.05),
-            0 -1px 1px hsla(0,0%,0%,.1),
-            0 1px 1px hsla(0,0%,100%,.25);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            inset 0 .25em .5em hsla(0, 0%, 0%, .05),
+            0 -1px 1px hsla(0, 0%, 0%, .1),
+            0 1px 1px hsla(0, 0%, 100%, .25);
             margin-top: .25em;
             outline: none;
             padding-bottom: .5em;
@@ -84,33 +87,35 @@
         /* Light Text */
 
         .lightText {
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,.05),
-            inset 0 -.2em 0 hsla(0,0%,100%,.1),
-            inset 0 -.25em 0 hsla(0,0%,0%,.5),
-            0 .25em .25em hsla(0,0%,0%,.1);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .5),
+            0 .25em .25em hsla(0, 0%, 0%, .1);
             color: #fff;
-            text-shadow: 0 -1px 1px hsla(0,0%,0%,.25);
+            text-shadow: 0 -1px 1px hsla(0, 0%, 0%, .25);
         }
+
         .lightText:hover,
         .lightText:focus {
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,.05),
-            inset 0 -.2em 0 hsla(0,0%,100%,.1),
-            inset 0 -.25em 0 hsla(0,0%,0%,.5),
-            inset 0 0 0 3em hsla(0,0%,100%,.2),
-            0 .25em .25em hsla(0,0%,0%,.1);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .5),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            0 .25em .25em hsla(0, 0%, 0%, .1);
         }
+
         .lightText:active {
-            box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-            inset 0 2px 0 hsla(0,0%,100%,.1),
-            inset 0 1.2em 0 hsla(0,0%,100%,.05),
-            inset 0 0 0 3em hsla(0,0%,100%,.2),
-            inset 0 .25em .5em hsla(0,0%,0%,.05),
-            0 -1px 1px hsla(0,0%,0%,.1),
-            0 1px 1px hsla(0,0%,100%,.25);
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            inset 0 .25em .5em hsla(0, 0%, 0%, .05),
+            0 -1px 1px hsla(0, 0%, 0%, .1),
+            0 1px 1px hsla(0, 0%, 100%, .25);
         }
 
         /* Large */
@@ -337,7 +342,7 @@
 
                 </ul>
 
-                <b>ZAPRASZAMY UCZESTNIKÓW DO ZGŁASZANIA TEMATÓW REFERATÓW LUB PLAKATÓW </b>
+                <span style="color:yellow;background-color: darkgreen">ZAPRASZAMY UCZESTNIKÓW DO ZGŁASZANIA TEMATÓW REFERATÓW LUB PLAKATÓW </span>
                 <br><br>
 
                 <ul class="list-arrow-right"><b>SUGEROWANE OBSZARY TEMATYCZNE:</b></ul>
@@ -354,6 +359,10 @@
 
             </div><!-- /.col-sm-6 -->
         </div><!-- /.row -->
+        <a style="color:blue;margin: 0 auto;text-align: center;"
+           href="https://drive.google.com/file/d/0B3TncuL0LxlfUzM0SmZ2Ynk5VDRTamFYSjhYZDQxanEtbjlj/view?pref=2&pli=1">Link
+            do papierowej wersji zaproszenia na wydarzenie O tym się nie mówi 3 - coaching osób z uszkodzeniami
+            słuchu.</a> <br>
     </div><!-- /.container -->
 </section>
 
@@ -531,10 +540,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div id="PrzyciskDORejestracji" style="float:left;">
-                <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
-                <h3 class="section-title">Rejestracja</h3><br>
-                Rejestracja odbywa się na stronie Google Docs<br>
-                    <a class="button large round yellow" href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę wziąć udział! </a> <br>
+                    <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
+                    <h3 class="section-title">Rejestracja</h3><br>
+                    Rejestracja odbywa się na stronie Google Docs<br>
+                    <a class="button large round yellow"
+                       href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę
+                        wziąć udział! </a> <br>
 
                 </div>
 
@@ -542,26 +553,31 @@
                 <div id="Dane_do_przelewu" style="float:right;">
                     <h3 class="section-title">Dane do przelewu:</h3>
             <span style="size: 18">
-            <b>Tytuł przelewu: O TYM SIĘ NIE MÓWI 3 </b><br>
-            <b>Numer Konta bankowego: 42 1500 1520 1215 2007 5155 0000 </b><br>
+            <b>Odbiorca:</b> Polskie Stowarzyszenie Metody Fonogestów <br>
+            <b>Numer Konta bankowego:</b> 42 1500 1520 1215 2007 5155 0000 <br>
             <b>Adres:</b><br>
             UL. ZBOŻOWA 64 <br>
             20-827 LUBLIN <br>
                 <b>Bank:</b> Bank Zachodni WBK S.A; <br>
+                <b>Tytuł przelewu:</b O TYM SIĘ NIE MÓWI 3 - Imię i Nazwisko><br>
+
+                <b>WAŻNE:</b><br>
+                <span style="color:yellow;background-color: darkgreen">Prosimy nie zapomnieć o wpisaniu tytułu przelewu swoim imieniem i nazwiskiem.</span><br>
+
             </span>
                 </div>
 
             </div>
 
 
-                    <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
+            <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
 
 
-<!--                <span style="color: red; size: 18;">-->
-<!--                Konto bankowe w którym będzie można dokonać przelewów, podamy wkrótce. <br>-->
-<!--                <b> Prosimy o nie korzystanie z danych konta bankowego z poprzedniej konferencji! </b>-->
-<!--                 <br>-->
-<!--                </span>-->
+            <!--                <span style="color: red; size: 18;">-->
+            <!--                Konto bankowe w którym będzie można dokonać przelewów, podamy wkrótce. <br>-->
+            <!--                <b> Prosimy o nie korzystanie z danych konta bankowego z poprzedniej konferencji! </b>-->
+            <!--                 <br>-->
+            <!--                </span>-->
 
         </div>
 
@@ -581,7 +597,8 @@
 
                 <h3 class="text-uppercase mt0 font-400">Harmonogram</h3>
 
-                <div class="organization-text" style="margin-right: ;:30px; float: left; margin-bottom: 30px; margin-right:30px;;" >
+                <div class="organization-text"
+                     style="margin-right: ;:30px; float: left; margin-bottom: 30px; margin-right:30px;;">
 
                     <span style="color: deeppink;">
 
@@ -655,7 +672,8 @@
                     <tr>
                         <td class="tg-yw4l">20 marca 2016r.<br></td>
                         <td class="tg-yw4l">Ostateczny termin nadsyłania zgłoszeń, <br>
-                            W tym, rejestracja prelegentów z wystąpieniami (referaty/plakaty),<br> z załączonym abstraktem.
+                            W tym, rejestracja prelegentów z wystąpieniami (referaty/plakaty),<br> z załączonym
+                            abstraktem.
                         </td>
                     </tr>
                     <tr>
@@ -992,11 +1010,14 @@
                             <div class="panel-body">
                                 <h3></h3>
                                 <p>
-                                    Z dworca PKS należy udać się na przystanek MPK i liniami 2, 10, 18, 31 lub 57 dojechać na przystanek Katolicki Uniwersytet Lubelski<br>
+                                    Z dworca PKS należy udać się na przystanek MPK i liniami 2, 10, 18, 31 lub 57
+                                    dojechać na przystanek Katolicki Uniwersytet Lubelski<br>
                                     <br>
-                                    Ze stacji PKP Lublin należy udać się na przystanek MPK i liniami 13, 150 lub 151 dojechać na przystanek Katolicki Uniwersytet Lubelski.<br>
+                                    Ze stacji PKP Lublin należy udać się na przystanek MPK i liniami 13, 150 lub 151
+                                    dojechać na przystanek Katolicki Uniwersytet Lubelski.<br>
                                     <br>
-                                    Dokładny rozkład powyższych linii autobusowych, trolejbusowych, czasu podróży oraz inne szczegóły<br>
+                                    Dokładny rozkład powyższych linii autobusowych, trolejbusowych, czasu podróży oraz
+                                    inne szczegóły<br>
                                     dostępne na stronie www.lublin.jakdojade.pl bądź na stronie www.mpk.lublin.pl<br>
                                 </p>
                             </div>
@@ -1015,7 +1036,8 @@
 
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingTwo">
-                            <div class="panel-body">W przypadku gdy uczestnik konferencji ma dietę i jadłospis należy dostosowac do jego potrzeb,<br>
+                            <div class="panel-body">W przypadku gdy uczestnik konferencji ma dietę i jadłospis należy
+                                dostosowac do jego potrzeb,<br>
                                 prosimy kontaktować się z Nami poprzez e-mail: konferencja.ss@gmail.com
                             </div>
                         </div>
@@ -1033,9 +1055,13 @@
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingThree">
-                            <div class="panel-body">Konferencja odbędzie się w Katolickim Uniwersytecie Lubelskim Jana Pawła II,<br>
-                                Al. Racławickie 14, 20-950 w sali na trzecim piętrze w Centrum Transferu Wiedzy (CTW).<br>
-                                To najnowszy budynek uczelni i przylega on do Collegium Jana Pawła II (miejsce 2 edycji konferencji)</div>
+                            <div class="panel-body">Konferencja odbędzie się w Katolickim Uniwersytecie Lubelskim Jana
+                                Pawła II,<br>
+                                Al. Racławickie 14, 20-950 w sali na trzecim piętrze w Centrum Transferu Wiedzy
+                                (CTW).<br>
+                                To najnowszy budynek uczelni i przylega on do Collegium Jana Pawła II (miejsce 2 edycji
+                                konferencji)
+                            </div>
                         </div>
                     </div>
 
@@ -1381,7 +1407,7 @@
             '&OpisAbstraktu=' + OpisAbstraktu +
             '&NotkaoSobie=' + NotkaoSobie;
 
-        if (Imie == '' || Nazwisko == '' || Ulica == '' || NrBloku == '' || NrMieszkania == '' || KodPocztowy == '' || Miasto == '' || TelKom == '' || Email == '' ) {
+        if (Imie == '' || Nazwisko == '' || Ulica == '' || NrBloku == '' || NrMieszkania == '' || KodPocztowy == '' || Miasto == '' || TelKom == '' || Email == '') {
 
             $("#button").off();
 
