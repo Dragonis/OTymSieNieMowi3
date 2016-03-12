@@ -460,32 +460,32 @@ p {
 .partner .partner-box:hover {
   opacity: 1;
 }
-.partner .partner-box-0 {
+.partner .prezydent-miasta {
   background: url(../images/partner/indeks.jpg) no-repeat center center/contain;
 }
-.partner .partner-box-1 {
+.partner .akfon {
   background: url(../images/partner/akfon.png) no-repeat center center/contain;
 }
-.partner .partner-box-2 {
+.partner .peziol {
   background: url(../images/partner/peziol.png) no-repeat center center/contain;
 }
-.partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+.partner .charaktery {
+  background: url(../images/partner/charaktery.png) no-repeat center center/contain;
 }
-.partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+.partner .galeria-smaku {
+  background: url(../images/partner/galeria_smaku.jpg) no-repeat center center/contain;
 }
-.partner .partner-box-5 {
-  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+.partner .hostel-orla {
+  background: url(../images/partner/hostelorla.png) no-repeat center center/contain;
 }
-.partner .partner-box-6 {
-  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+.partner .polski-zwiazek-gluchych{
+  background: url(../images/partner/logopzg.png) no-repeat center center/contain;
 }
-.partner .partner-box-7 {
-  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+.partner .radio-centrum {
+  background: url(../images/partner/radio_centrum_logo_czarne_01.gif) no-repeat center center/contain;
 }
-.partner .partner-box-8 {
-  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+.partner .swiat-ciszy {
+  background: url(../images/partner/swiatciszy.JPG) no-repeat center center/contain;
 }
 
 /* 

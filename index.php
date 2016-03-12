@@ -945,43 +945,49 @@
 <!--</div>-->
 <!--</section>-->
 
-<!--<section id="partner" class="section partner">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <h3 class="section-title">Sponsorzy konferencji</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-0"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-1"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-2"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-3"></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!--        <!--<div class="row">-->
-<!--        <!--<div class="col-sm-3">-->
-<!--        <!--<a class="partner-box partner-box-5"></a>-->
-<!--        <!--</div>-->
-<!--        <!--<div class="col-sm-3">-->
-<!--        <!--<a class="partner-box partner-box-6"></a>-->
-<!--        <!--</div>-->
-<!--        <!--<div class="col-sm-3">-->
-<!--        <!--<a class="partner-box partner-box-7"></a>-->
-<!--        <!--</div>-->
-<!--        <!--<div class="col-sm-3">-->
-<!--        <!--<a class="partner-box partner-box-8"></a>-->
-<!--        <!--</div>-->
-<!--        <!--</div>-->
-<!--</section>-->
+<section id="partner" class="section partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Sponsorzy konferencji</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box prezydent-miasta"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box akfon"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box peziol"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box charaktery"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box galeria-smaku"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box hostel-orla"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box polski-zwiazek-gluchych"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box radio-centrum"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box swiat-ciszy"></a>
+            </div>
+        </div>
+
+
+</section>
 
 <section id="pytania" class="section faq">
     <div class="container">
