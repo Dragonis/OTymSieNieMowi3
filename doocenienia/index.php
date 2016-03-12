@@ -912,49 +912,71 @@
 <!--</div>-->
 <!--</section>-->
 
-<!--<section id="partner" class="section partner">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <h3 class="section-title">Sponsorzy konferencji</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box prezydent-miasta"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box akfon"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box peziol"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box charaktery"></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box galeria-smaku"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box hostel-orla"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box polski-zwiazek-gluchych"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box radio-centrum"></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box swiat-ciszy"></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!---->
-<!--</section>-->
+<section id="partner" class="section partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Sponsorzy konferencji</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box prezydent-miasta"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box akfon"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box peziol"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box charaktery"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box galeria-smaku"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box hostel-orla"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box polski-zwiazek-gluchych"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box radio-centrum"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box swiat-ciszy"></a>
+            </div>
+        </div>
+
+
+
+                <div class="container" style="float: left">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="section-title" style="float:left;">Sponsor <span style="color: #996515">Hostel</span>
+                                <span style="color: saddlebrown">Orla</span><br>
+                                udziela <span style="color: darkred">15 % zniżki</span> przy rezerwacji pokoju <br>
+                                na hasło "O tym się nie mówi 3". </h3>
+                        </div>
+                        <img src="/assets/images/partner/logo_s.jpg" alt="hostel-orla">
+                        <div class="col-sm-3" style="font-size: 18px; float: left">
+                            <span style="color: #996515">Hostel</span>
+                            <span style="color: saddlebrown">Orla</span><br>
+                            <span style="color: blue">ul. Orla 6 <br>
+                            20-022 Lublin <br>
+                            tel. 883 993 999 <br></span>
+                            <a href="www.hostelorla.pl">www.hostelorla.pl</a> <br>
+                        </div>
+
+                    </div>
+                </div>
+</section>
+
 
 <section id="pytania" class="section faq">
     <div class="container">
