@@ -459,19 +459,19 @@ p {
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
+  opacity: 1;
   height: 150px;
   width: 150px;
   margin: 25px auto;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
-.partner .partner-box:hover {
-  opacity: 1;
-}
+/*.partner .partner-box:hover {*/
+  /*opacity: 1;*/
+/*}*/
 
 .partner .prezydent-miasta {
-  background: url(../images/partner/indeks.jpg) no-repeat center center/contain;
+  background: url(../images/partner/indeks.png) no-repeat center center/contain;
 }
 .partner .akfon {
   background: url(../images/partner/akfon.png) no-repeat center center/contain;
@@ -497,6 +497,10 @@ p {
 .partner .swiat-ciszy {
   background: url(../images/partner/swiatciszy.JPG) no-repeat center center/contain;
 }
+.partner .integracja {
+  background: url(../images/partner/integracja.png) no-repeat center center/contain;
+}
+
 
 .partner .partner-box-0 {
   background: url(../images/partner/indeks.jpg) no-repeat center center/contain;
