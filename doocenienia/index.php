@@ -708,31 +708,29 @@
                 </style>
                 <section id="cd-timeline" class="cd-container">
                     <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
                             <h2><i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
                                 <b>Uroczyste rozpoczęcie konferencji</b>
                             </h2>
-                            <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>
+<!--                            <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>-->
                             <!--                            <a href="#0" class="cd-read-more">Read more</a>-->
-                            <span class="cd-date">godz. 9.00</span>
+                            <span class="cd-date">godz. 9:00 - 10:00</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
                     <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-movie">
-                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
                             <h2>prof. dr hab. Kazimiera KRAKOWIAK</h2>
-                            <p>Trudności osób słyszących w komunikowaniu się
-                                z niesłyszącymi i słabosłyszącymi </p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 9.30</span>
+                            <p>Przyczyny procesu samowykluczania niesłyszących </p>
+                            <span class="cd-date">godz. 10:00 - 10:20</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -743,11 +741,20 @@
 
                         <div class="cd-timeline-content">
                             <h2>dr hab. Ewa DOMAGAŁA-ZYŚK</h2>
-                            <p>Uczenie się języków obcych przez osoby
-                                niesłyszące i słabosłyszące –
-                                bariera w edukacji czy szansa na rozwój? </p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 9.45</span>
+                            <p>Czy da się żyć bez coacha, czyli o sztuce samowychowywania </p>
+                            <span class="cd-date">godz. 10:20 - 10:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>dr Aleksandra BOROWICZ oraz dr Renata KOŁODZIEJCZYK</h2>
+                            <p> Umiejętności komunikacyjne a poczucie własnej tożsamości osób z uszkodzeniem słuchu</p>
+                            <span class="cd-date">godz. 10:40 - 11:00</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -757,12 +764,58 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>dr Aleksandra BOROWICZ</h2>
-                            <p> Kampanie społeczne a upowszechnianie
-                                wiedzy na temat problemów
-                                osób z uszkodzeniami słuchu</p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 10.00</span>
+                            <h2>Przerwa kawowa (40 min.)</h2>
+                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie
+                                poczęstunek.</p>
+                            <span class="cd-date">godz. 11:20 - 12.00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>mgr Monika SZYMANEK-SZAWRACKA</h2>
+                            <p>Funkcjonowanie społeczne osób z uszkodzeniami słuchu</p>
+                            <span class="cd-date">godz. 12:00 - 12:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>mgr Monika TRĘTKO</h2>
+                            <p>Rola realizacji siebie w budowaniu wysokiego poczucia własnej wartości osoby niesłyszącej</p>
+                            <span class="cd-date">godz. 12:20 - 12:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Anna ŁAZUCHIEWICZ</h2>
+                            <p>Antropologia kulturowa Głuchych</p>
+                            <span class="cd-date">godz. 12:40 - 13:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Iwona KRAWCZUK</h2>
+                            <p>Głucha Polka Potrafi - pierwszy v-log motywacyjny dla osób Głuchych w Polskim Języku Migowym</p>
+                            <span class="cd-date">godz. 13:00 - 13:20</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -772,12 +825,58 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>dr Renata KOŁODZIEJCZYK</h2>
-                            <p>Rodzaje ćwiczeń językowych na
-                                lektoracie języka polskiego dla
-                                młodzieży z uszkodzeniami słuchu.</p>
-                            <a href="#0" class="cd-read-more">Read more</a>
-                            <span class="cd-date">godz. 10.15 - 10.30</span>
+                            <h2>Przerwa obiadowa na Stołówce KULu (1,5 h)</h2>
+                            <p>Przerwa obiadowa.</p>
+                            <span class="cd-date">godz. 13:30 - 15:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Piotr LEŚNIEWSKI</h2>
+                            <p>Sztuka pozytywnych pytań - czy chcesz zmienić swoje życie na lepsze - referat <br><br>
+                            Od zamierzchłej historii do dziś - skąd po co i dlaczego, czyli o coachingu słów kilka, czy jesteś na to gotowy? - plakat</p>
+                            <span class="cd-date">godz. 15:00 - 15:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Natalia SNOPEK oraz inż. Alicja NOWOGRODZKA</h2>
+                            <p>Światełko w tunelu - pokonywanie właśnych trudności przy pomocy inspirujących mentorów </p>
+                            <span class="cd-date">godz. 15:20 - 15:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Karolina CZABAN</h2>
+                            <p>Jak jedzenie wpływa na psychikę</p>
+                            <span class="cd-date">godz. 15:40 - 16:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Mateusz KARGUL</h2>
+                            <p>Coaching w masażu i relaksie</p>
+                            <span class="cd-date">godz. 16:00 - 16:20</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -787,11 +886,14 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>Przerwa kawowa 1 (30 min.)</h2>
-                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie
-                                poczęstunej.</p>
-                            <span class="cd-date">godz. 10.30 - 11.00</span>
+                            <h2>Zakończenie konferencji</h2>
+<!--                            <p>Głucha Polka Potrafi - pierwszy v-log motywacyjny dla osób Głuchych w Polskim Języku Migowym</p>-->
+                            <span class="cd-date">godz. 16:20 - 17:00</span>
                         </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+
+
                     </div> <!-- cd-timeline-block -->
                 </section> <!-- cd-timeline -->
 
