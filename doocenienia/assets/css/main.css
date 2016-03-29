@@ -490,6 +490,9 @@ p {
 .partner .integracja {
   background: url(../images/partner/integracja.png) no-repeat center center/contain;
 }
+.partner .echodnia {
+  background: url(../images/partner/echo_dnia.jpg) no-repeat center center/contain;
+}
 
 /* 
  * 6.8 Section: FAQ

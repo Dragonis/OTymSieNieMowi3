@@ -1055,11 +1055,15 @@
             <div class="col-sm-3">
                 <a class="partner-box integracja"></a>
             </div>
+
         </div>
         <div class="row">
             <div class="col-sm-3">
                 <b>Sponsorzy: <br></b>
                 <a class="partner-box galeria-smaku"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box echodnia"></a>
             </div>
             <div class="col-sm-3">
                 <a class="partner-box hostel-orla"></a>
