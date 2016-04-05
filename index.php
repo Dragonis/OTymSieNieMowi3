@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>O tym się nie mówi 3 - coaching osób z uszkodzeniem słuchu</title>
+    <title>O tym się nie mówi 3 - COACHING OSÓB Z USZKODZENIAMI SŁUCHU</title>
 
     <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -19,33 +19,215 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/photos-slider.css">
     <link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <style>
+        /* Button - these styles are the good stuff */
 
-    <!--    <script type="text/javascript">-->
-    <!--        (function (p, u, s, h) {-->
-    <!--            p._pcq = p._pcq || [];-->
-    <!--            p._pcq.push(['_currentTime', Date.now()]);-->
-    <!--            s = u.createElement('script');-->
-    <!--            s.type = 'text/javascript';-->
-    <!--            s.async = true;-->
-    <!--            s.src = 'https://cdn.pushcrew.com/js/5fbed4d1e7d8c42b6886412f68369f85.js';-->
-    <!--            h = u.getElementsByTagName('script')[0];-->
-    <!--            h.parentNode.insertBefore(s, h);-->
-    <!--        })(window, document);-->
-    <!--    </script>-->
+        .button {
+            text-decoration: none;
+            background-color: #999;
+            background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -moz-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -ms-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: -o-linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            background-image: linear-gradient(hsla(0, 0%, 100%, .05), hsla(0, 0%, 0%, .1));
+            border: none;
+            border-radius: .5em;
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, 0.1),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .25),
+            0 .25em .25em hsla(0, 0%, 0%, .05);
+            color: #444;
+            cursor: pointer;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0 .5em 1em;
+            padding: .5em 1.5em .75em;
+            position: relative;
+            text-decoration: none;
+            text-shadow: 0 1px 1px hsla(0, 0%, 100%, .25);
+            vertical-align: middle;
+        }
 
+        .button:hover {
+            outline: none;
+            text-decoration: none;
+        }
 
+        .button:hover,
+        .button:focus {
+            text-decoration: none;
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .25),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            0 .25em .25em hsla(0, 0%, 0%, .05);
+        }
+
+        .button:active {
+            text-decoration: none;
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .2),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            inset 0 .25em .5em hsla(0, 0%, 0%, .05),
+            0 -1px 1px hsla(0, 0%, 0%, .1),
+            0 1px 1px hsla(0, 0%, 100%, .25);
+            margin-top: .25em;
+            outline: none;
+            padding-bottom: .5em;
+        }
+
+        /* Light Text */
+
+        .lightText {
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .5),
+            0 .25em .25em hsla(0, 0%, 0%, .1);
+            color: #fff;
+            text-shadow: 0 -1px 1px hsla(0, 0%, 0%, .25);
+        }
+
+        .lightText:hover,
+        .lightText:focus {
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 -.2em 0 hsla(0, 0%, 100%, .1),
+            inset 0 -.25em 0 hsla(0, 0%, 0%, .5),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            0 .25em .25em hsla(0, 0%, 0%, .1);
+        }
+
+        .lightText:active {
+            box-shadow: inset 0 0 0 1px hsla(0, 0%, 0%, .25),
+            inset 0 2px 0 hsla(0, 0%, 100%, .1),
+            inset 0 1.2em 0 hsla(0, 0%, 100%, .05),
+            inset 0 0 0 3em hsla(0, 0%, 100%, .2),
+            inset 0 .25em .5em hsla(0, 0%, 0%, .05),
+            0 -1px 1px hsla(0, 0%, 0%, .1),
+            0 1px 1px hsla(0, 0%, 100%, .25);
+        }
+
+        /* Large */
+
+        .large {
+            font-size: 1.25em;
+        }
+
+        /* Medium */
+
+        .medium {
+            font-size: 1em;
+        }
+
+        /* Small */
+
+        .small {
+            font-size: .75em;
+        }
+
+        /* Regular */
+
+        .regular {
+            border-radius: .5em;
+        }
+
+        /* Square */
+
+        .square {
+            border-radius: .25em;
+        }
+
+        /* Round */
+
+        .round {
+            border-radius: 1.25em;
+        }
+
+        /* Red */
+
+        .red {
+            background-color: #ff6c6f;
+        }
+
+        /* Orange */
+
+        .orange {
+            background-color: #f6cf6f;
+        }
+
+        /* Yellow */
+
+        .yellow {
+            background-color: #fff6c6;
+        }
+
+        /* Green */
+
+        .green {
+            background-color: #6fcf6f;
+        }
+
+        /* Blue */
+
+        .blue {
+            background-color: #6fc6ff;
+        }
+
+        /* Purple */
+
+        .purple {
+            background-color: #f6c6ff;
+        }
+
+        /* White */
+
+        .white {
+            background-color: #eee;
+        }
+
+        /* Grey */
+
+        .grey {
+            background-color: #999;
+        }
+
+        /* Black */
+
+        .black {
+            background-color: #444;
+        }
+
+        /* Custom */
+
+        .custom {
+            background-color: #fff0f5; /* Set the button color here */
+            color: #444; /* Remove this for a dark background */
+        }
+    </style>
 </head>
+
 <body data-spy="scroll" data-target="#site-nav">
 <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
     <div class="container">
         <div class="navbar-header">
 
             <!-- logo -->
-            <div class="site-branding" >
+            <div class="site-branding">
                 <a class="logo" href="index.php">
 
                     <!-- logo image  -->
-<!--                    <img src="assets/images/logo.png" alt="Logo">-->
+                    <!--                    <img src="assets/images/logo.png" alt="Logo">-->
 
                     O tym się nie mówi 3
                 </a>
@@ -68,7 +250,7 @@
                 <li class="active"><a data-scroll href="#about">O nas</a></li>
                 <li><a data-scroll href="#registration">Rejestracja</a></li>
                 <li><a data-scroll href="#harmonogram">Harmonogram</a></li>
-<!--                <li><a data-scroll href="#partner">Partnerzy</a></li>-->
+                <!--                <li><a data-scroll href="#partner">Partnerzy</a></li>-->
                 <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                 <li><a data-scroll href="#pytania">Pytania</a></li>
                 <li><a data-scroll href="#photos">Zdjęcia</a></li>
@@ -82,18 +264,21 @@
 <header id="site-header" class="site-header valign-center">
     <div class="intro"
 
-        <h2>9 Kwiecień, 2016 / Lublin</h2>
+    <h2>9 Kwiecień, 2016 / Lublin</h2>
 
-        <h1>O tym się nie mówi 3</h1>
+    <h1>O tym się nie mówi 3</h1>
 
-        <p> Coaching osób z uszkodzeniem słuchu <br>
-<!--                <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>-->
-        </p>
-        <!--<p>First &amp; Largest Conference</p>-->
+    <p> COACHING OSÓB Z USZKODZENIAMI SŁUCHU
+        <br>
+        <!--                <a href="https://web.facebook.com/events/821947551284970/"><i class="ion-social-facebook"></i></a>-->
+    </p>
+    <!--<p>First &amp; Largest Conference</p>-->
 
-        <a class="btn btn-white" data-scroll href="#registration">Zarejestruj miejsce</a><br>
+    <a class="btn btn-white" data-scroll href="#registration">Rejestracja na konferencję</a><br>
 
-        <span style="margin-top: 80px; display:inline-block;">A także dołącz  na nasze wydarzenie na facebooku <a href="https://web.facebook.com/events/821947551284970/" title="Share on Facebook" target="_blank"><img src="assets/images/Facebook.svg" width="30px" height="30px"></a></span>
+    <span style="margin-top: 80px; display:inline-block;">A także dołącz  na nasze wydarzenie na facebooku <a
+            href="https://web.facebook.com/events/821947551284970/" title="Share on Facebook" target="_blank"><img
+                src="assets/images/Facebook.svg" width="30px" height="30px"></a></span>
 
     </div>
 </header>
@@ -103,53 +288,81 @@
         <div class="row">
             <div class="col-sm-6">
 
-                <h3 class="section-title">O nas</h3>
+                <h3 class="section-title">SŁÓW KILKA O KONFERENCJI:</h3>
 
-                <p>Po raz kolejny mamy zaszczyt <b>WAS</b> zaprosić na trzecią edycję konferencji <b> <br>
-                        „O tym się nie mówi 3- coaching osób z uszkodzeniem słuchu”</b>.<br>
-                    W Polsce jest bardzo dużo osób z uszkodzeniem słuchu- to właśnie nas łączy- osoby Słabosłyszące i
-                    Głuche. Codziennie zmagamy się z problemami, jakie sprawia dysfunkcja słuchu. Szczególnie z
-                    relacjami z innymi ludźmi, z sobą samym. <br>
-                    <b>Dlaczego coaching?</b><br>
-                    Coaching jest przede wszystkim odkrywaniem siebie, otoczenia, usprawnienia jakości życia,
-                    wprowadzenia zamierzonych przez nas zmian. Pojawił się kilka lat temu i sprawił, iż wiele
-                    ludzi-chętnych do zmiany życia- odmieniło je. I chcemy pokazać ideę coachingu i pod tym kątem
-                    pokazać uczestnikom, jak to może pomóc osobom z uszkodzeniem słuchu
+                <p>Po raz kolejny mamy zaszczyt zaprosić <b>WAS</b> na konferencję,<br>
+                    tym razem na trzecią edycję <br>
+                    pt. <b>„O tym się nie mówi III - coaching osób z uszkodzeniem słuchu”</b>.<br>
+                    Poprzednia edycja pokazała nam, iż rozległość tematyki związanej z uszkodzeniem słuchu powoduje, że
+                    temat pozostaje dalej niewyczerpany. <br>
+                    Dlatego też, pojawiły się głosy o potrzebie zorganizowania kolejnej edycji konferencji.<br>
+                    Przy obecnej skupimy się na aspektach psychologicznych.<br>
+                    Codziennie zmagamy się z problemami, jakie sprawia dysfunkcja słuchu.<br>
+                    Szczególnie w relacjach z innymi ludźmi, czy z sobą samym. <br>
+                    <br>
+                    <b>DLACZEGO COACHING?</b><br>
+                    Coaching jest przede wszystkim odkrywaniem siebie, otoczenia, poprawianiem jakości życia,
+                    wprowadzeniem zamierzonych przez nas zmian.<br>
+                    Pojawił się kilka lat temu i sprawił, iż wiele ludzi - chętnych do zmiany życia - odmieniło je.<br>
+                    Chcemy pokazać ideę coachingu i pod tym kątem pokazać uczestnikom, jak może on pomóc osobom z
+                    uszkodzeniem słuchu.
                 </p>
+                <!--                <p><b>Zachęcamy do zgłaszania tematów referatów lub plakatów!</b></p>-->
 
                 <figure>
-                    <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
+                    <img alt="" class="img-responsive" src="assets/images/about-us.jpg"
+                         style="height: 250px; margin-top: 5px;">
                 </figure>
 
             </div><!-- /.col-sm-6 -->
 
             <div class="col-sm-6">
 
-                <h3 class="section-title multiple-title">CO jest naszym celem?</h3>
+                <b>CO JEST NASZYM CELEM?</b>
 
-                <p>W tej edycji konferencji bardzo byśmy chcieli skupić się na problemach, z jakimi ludzie zmagają się
-                    każdego dnia- funkcjonowania osób niesłyszących w rodzinach, relacji z rówieśnikami i znajomymi,
-                    radzenia w dorosłym życiu. Chcielibyśmy też zwrócić uwagę na psychikę osób z dysfunkcją słuchu-
-                    poczucia wartości, samooceny, motywacji, akceptacji własnego niedosłuchu, umiejętności radzenia
-                    sobie z problemami, jakich życie nam stawia na ich drodze. Odczuwamy także potrzebę by pokazać
-                    ludziom jak można żyć lepiej, inspirować do pokonywania własnych możliwości, spełnienia marzeń.
-                    Przede wszystkim chcemy pokazać, iż osoby z wadą słuchu mają MOC do wszystkiego, czego zapragną
+                <p>W tej edycji konferencji bardzo byśmy chcieli skupić się na problemach,
+                    z jakimi ludzie zmagają się każdego dnia - funkcjonowania osób niesłyszących w rodzinach, relacji z
+                    rówieśnikami i znajomymi, z radzeniem sobie w dorosłym życiu.
+                    Chcielibyśmy też zwrócić uwagę na psychikę osób z dysfunkcją słuchu - poczucie wartości, samoocenę,
+                    motywację, akceptację własnego niedosłuchu, umiejętności radzenia sobie z problemami, jakich życie
+                    nam stawia na drodze.
+                    Odczuwamy także potrzebę by pokazać ludziom jak można żyć lepiej, inspirować do pokonywania własnych
+                    ograniczeń, spełnienia marzeń.
+                    Przede wszystkim chcemy pokazać, iż osoby z wadą słuchu mają <b>MOC</b> do wszystkiego, co zapragną
                     osiągnąć.
-                    <br><br>
-                    Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chciałyby usprawnić swoją <b>JAKOŚĆ</b>
-                    życia
+                    Uważamy, że taka wiedza będzie bardzo pomocna dla innych osób, które chciałyby poprawić swoją <b>JAKOŚĆ</b>
+                    życia.
                 </p>
 
                 <ul class="list-arrow-right">
-                    Zapewniamy: <br>
+                    <b>Zapewniamy:</b> <br>
                     <li>Pętlę indukcyjną</li>
                     <li>Symultaniczny przekaz tekstowy (speech to text)</li>
                     <li>Tłumaczenie na język migowy</li>
 
                 </ul>
 
+                <span style="color:yellow;background-color: darkgreen">ZAPRASZAMY UCZESTNIKÓW DO ZGŁASZANIA TEMATÓW REFERATÓW LUB PLAKATÓW </span>
+                <br><br>
+
+                <ul class="list-arrow-right"><b>SUGEROWANE OBSZARY TEMATYCZNE:</b></ul>
+                <li>Akceptacja siebie i własnego niedosłuchu</li>
+                <li>Coaching- co to jest? Gdzie i do kogo można udać się po pomoc?</li>
+                <li>Co możemy zrobić, by mieć wysokie poczucie własnej wartości,<br>
+                    podnieść samoocenę?
+                </li>
+                <li>Jak radzić sobie z problemami?</li>
+                <li>Co możemy zrobić lepiej? Jak wprowadzić zmiany w własnym życiu?</li>
+                <li>Jak można naprawić relacje z innymi ludźmi, we własnej rodzinie?</li>
+                <li>Co stoi na przeszkodzie, by spełniać marzenia?</li>
+                </ul>
+
             </div><!-- /.col-sm-6 -->
         </div><!-- /.row -->
+        <a style="color:blue;margin: 0 auto;text-align: center;"
+           href="https://drive.google.com/file/d/0B3TncuL0LxlfUzM0SmZ2Ynk5VDRTamFYSjhYZDQxanEtbjlj/view?pref=2&pli=1">Link
+            do papierowej wersji zaproszenia na wydarzenie O tym się nie mówi 3 - coaching osób z uszkodzeniami
+            słuchu.</a> <br>
     </div><!-- /.container -->
 </section>
 
@@ -171,7 +384,7 @@
             <div class="col-sm-3">
 
                 <i class="ion-pricetags"></i>
-                <h3>150<br>Miejsc</h3>
+                <h3>100<br>Miejsc</h3>
 
             </div>
             <div class="col-sm-3">
@@ -326,113 +539,59 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
-                <h3 class="section-title">Rejestracja</h3>
-            </div>
-        </div>
+                <div id="PrzyciskDORejestracji" style="float:left;">
+                    <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
+                    <h3 class="section-title">Rejestracja</h3><br>
+                    Rejestracja odbywa się na stronie Google Docs<br>
+                    <a class="button large round yellow"
+                       href="https://docs.google.com/forms/d/12VQP9EmvlmDwweOZ4girjKS9ewz-c9aq7V1Ogliktn4/viewform">Chcę
+                        wziąć udział! </a> <br>
 
-        <div id="tabelka" style="float: left;">
-            <div class="produkt">
-                <div class="nazwa"><h3>Uczestnik bierny</h3></div>
-                <div class="cena">50zł</div>
-                <ul class="parametry" id="parametry1Cennika">
-                    <li>Obiad</li>
-                    <li>Darmowe jedzenie</li>
-                    <li>Materiały konferencyjne</li>
-                    <li> -</li>
-                </ul>
-                <div class="kup" id="buttonUczestnikBierny" onclick=" wybranoUczestnikaBiernego(); " ;
-                ">Wybierz
-            </div>
-            <div class="produkt" id="ProduktZ2Cennika">
-                <div class="nazwa"><h3>Uczestnik czynny</h3></div>
-                <div class="cena">100zł</div>
-                <ul class="parametry" id="parametry2Cennika">
-                    <li>Obiad</li>
-                    <li>Darmowe jedzenie</li>
-                    <li>Materiały konferencyjne</li>
-                    <li>Certyfikat</li>
-                </ul>
-                <div class="kup" id="ButtonUczestnikCzynny" onclick=" wybranoUczestnikaCzynnego(); " ;
-                ">Wybierz
-            </div>
-        </div>
-
-        <form action="#" id="registration-form" style="float: left; padding-left: 30px;" method="post" action="" name="loginform">
-
-             <div class="row">
-                 <div class="col-md-12" id="registration-msg" style="display:none;">
-                <div class="alert"></div>
-            </div>
-                      <div class="col-sm-9">
+                    Opłata dla: <br>
+                    Uczestnika biernego: <b>50 zł</b> <br>
+                    Uczestnika czynnego: <b>100 zł</b> <br>
 
 
-                    <div class="group">
-                        <input type="text" class="form-control"  id="Imie" name="Imie" required><span class="highlight"></span><span class="bar"></span>
-                        <label>Imię</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="text" class="form-control" id="Nazwisko" name="Nazwisko"
-                               required><span class="highlight"></span><span class="bar"></span>
-                        <label>Nazwisko</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="email" class="form-control" id="Email" name="Email" required><span class="highlight"></span><span class="bar"></span>
-                        <label>E-mail</label>
-                    </div>
-
-                    <div class="group">
-                        <input type="text" class="form-control" id="TelKom" name="TelKom"
-                               required><span class="highlight"></span><span class="bar"></span>
-                        <label>Tel. kom</label>
-                    </div>
                 </div>
 
-                     <div class="col-sm-9">
-                     <div class="group">
-                         <input type="text" class="form-control" id="AdresZamieszkania" name="AdresZamieszkania" required><span class="highlight"></span><span class="bar"></span>
-                         <label>Adres zamieszkania</label>
-                     </div>
 
-                     <div class="group">
-                         <input type="text" class="form-control" id="KodPocztowy"
-                                name="KodPocztowy" required><span class="highlight"></span><span class="bar"></span>
-                         <label>Kod pocztowy</label>
-                     </div>
+                <div id="Dane_do_przelewu" style="float:right;">
+                    <h3 class="section-title">Dane do przelewu:</h3>
+            <span style="size: 18">
+            <b>Odbiorca:</b> Polskie Stowarzyszenie Metody Fonogestów <br>
+            <b>Numer Konta bankowego:</b> 42 1500 1520 1215 2007 5155 0000 <br>
+            <b>Adres:</b><br>
+            UL. ZBOŻOWA 64 <br>
+            20-827 LUBLIN <br>
+                <b>Bank:</b> Bank Zachodni WBK S.A; <br>
+                <b>Tytuł przelewu:</b O TYM SIĘ NIE MÓWI 3 - Imię i Nazwisko><br>
 
-                     <div class="group">
-                         <input type="text" class="form-control" id="Miasto" name="Miasto" required><span class="highlight"></span><span class="bar"></span>
-                         <label>Miasto</label>
-                     </div>
+                <b>WAŻNE:</b><br>
+                <span style="color:yellow;background-color: darkgreen">Prosimy nie zapomnieć o wpisaniu tytułu przelewu swoim imieniem i nazwiskiem.</span><br>
 
-                     <div class="text-center mt20">
-                         <button id="button"></button>
-                         <button type="submit" id="registration-submit-btn">Wyślij</button>
-                         <button type="button" id="button" onClick="submitdata();"></button>
-                         <br>
-                                                <span id="komunikat-wysylania">
-                                                </span>
-                     </div>
-                 </div>
-             </div>
+            </span>
+                </div>
+
+            </div>
 
 
-                <!--        <div class="oplaty" style="margin-left: 15px; "><br>-->
-                <!--            <b> Przelew:</b> <br>-->
-                <!--            Odbiorca: Katolicki Uniwersytet Lubelski Jana Pawła II <br>-->
-                <!--            Al. Racławickie 14, 20-950 Lublin <br>-->
-                <!--            Bank: Bank PeKaO S.A. III O/Lublin <br>-->
-                <!--            Numer konta:59 1240 2382 1111 0000 3926 2147 <br>-->
-                <!--            NIP: 712-016-10-05; REGON: 000514064 <br>-->
-                <!--            Z dopiskiem: KONFERENCJA - O TYM SIĘ NIE MÓWI 3 <br>-->
-                <!--        </div>-->
+            <!--<h3 class="section-title">Rejestracja &amp; Opłaty</h3>-->
 
 
-        </form>
+            <!--                <span style="color: red; size: 18;">-->
+            <!--                Konto bankowe w którym będzie można dokonać przelewów, podamy wkrótce. <br>-->
+            <!--                <b> Prosimy o nie korzystanie z danych konta bankowego z poprzedniej konferencji! </b>-->
+            <!--                 <br>-->
+            <!--                </span>-->
 
-     </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
 </section>
 
 
@@ -443,27 +602,26 @@
 
                 <h3 class="text-uppercase mt0 font-400">Harmonogram</h3>
 
-                <div class="organization-text" style="margin-right: ;:30px; float: left; margin-bottom: 30px;">
+                <div class="organization-text"
+                     style="margin-right: ;:30px; float: left; margin-bottom: 30px; margin-right:30px;;">
 
                     <span style="color: deeppink;">
-                    Prosimy uczestników, <br>
-                        aby uzupełnili zgłoszenie uczestnictwa w konferencji
-                        i przysłali na adres mailowy konferencji.<br>
-                    Jest to obowiązkowe- bez tego, uczestnik nie jest wpisany na listę uczestników konferencji.
-                    </span>
-                    <br><br>
-                    Szczegółowy program konferencji zostanie podany w późniejszym terminie.
+
+                    Szczegółowy program konferencji<br>
+                        zostanie podany w późniejszym terminie.
                     <br>
-                    Po konferencji planujemy wyjście integracyjne do restauracji dla chętnych uczestników.<br>
-                    Będzie to okazja do porozmawiania, dzielenia się z doświadczeniami, wrażeniami.
+                    Po konferencji planujemy wyjście integracyjne<br>
+                        do restauracji dla chętnych uczestników.<br>
+                    Będzie to okazja do porozmawiania,<br>
+                        dzielenia się z doświadczeniami, wrażeniami.
                     <br><br>
                     <table class="tub">
                         <tr>
                             <th class="tub-baqh" colspan="2">Dla uczestników biernych<br></th>
                         </tr>
                         <tr>
-                            <td class="tub-yw4l">02 kwietnia 2016r..</td>
-                            <td class="tub-yw4l">Rejestracja uczestników biernych</td>
+                            <td class="tub-yw4l">2 kwietnia 2016r.</td>
+                            <td class="tub-yw4l">Rejestracja uczestników biernych i termin dokonywania opłaty.</td>
                         </tr>
                     </table>
                 </div>
@@ -508,7 +666,8 @@
                     }
 
                     .tg .tg-yw4l {
-                        vertical-align: top
+                        vertical-align: top;
+
                     }
                 </style>
                 <table class="tg">
@@ -517,26 +676,27 @@
                     </tr>
                     <tr>
                         <td class="tg-yw4l">20 marca 2016r.<br></td>
-                        <td class="tg-yw4l">Ostateczny termin nadsyłania,zgłoszeń/rejestracja prelegentów,z
-                            wystąpieniami (referaty/plakaty), z załączonym abstraktem
+                        <td class="tg-yw4l">Ostateczny termin nadsyłania zgłoszeń, <br>
+                            W tym, rejestracja prelegentów z wystąpieniami (referaty/plakaty),<br> z załączonym
+                            abstraktem.
                         </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">25 marca 2016r.</td>
-                        <td class="tg-yw4l">Kwalifikacja prac do wystąpienia w,,sesji tematycznej lub w sesji
-                            plakatowej
+                        <td class="tg-yw4l">Kwalifikacja prac do wystąpienia w sesji tematycznej<br>
+                            lub w sesji plakatowej
                         </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">31 marca 2016r.</td>
-                        <td class="tg-yw4l">Dokonanie opłaty konferencyjnej,,(wpłaty prosimy uiszczać dopiero,,po
-                            zakwalifikowaniu prac)
+                        <td class="tg-yw4l">Dokonanie opłaty konferencyjnej <br>
+                            (wpłaty prosimy uiszczać dopiero po zakwalifikowaniu prac)
                         </td>
                     </tr>
                     <tr>
                         <td class="tg-yw4l">31 marca 2016r.</td>
-                        <td class="tg-yw4l">Przesłanie na adres konferencji,,ostatecznej wersji elektronicznej
-                            prezentacji
+                        <td class="tg-yw4l">Przesłanie na adres konferencji <br>
+                            ostatecznej wersji elektronicznej prezentacji
                         </td>
                     </tr>
                 </table>
@@ -584,8 +744,221 @@
                         vertical-align: top
                     }
                 </style>
+                <section id="cd-timeline" class="cd-container">
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
+                        </div> <!-- cd-timeline-img -->
 
+                        <div class="cd-timeline-content">
+                            <h2><i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
+                                <b>Uroczyste rozpoczęcie konferencji</b>
+                            </h2>
+                            <!--                            <p>Otwarcie zostanie przeprowadzone przez prof. dr hab Kazimiera KRAKOWIAK.</p>-->
+                            <!--                            <a href="#0" class="cd-read-more">Read more</a>-->
+                            <span class="cd-date">godz. 9:00 - 10:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
 
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>prof. dr hab. Kazimiera KRAKOWIAK</h2>
+                            <p>Przyczyny procesu samowykluczania niesłyszących </p>
+                            <span class="cd-date">godz. 10:00 - 10:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>dr hab. Ewa DOMAGAŁA-ZYŚK</h2>
+                            <p>Czy da się żyć bez coacha, czyli o sztuce samowychowywania </p>
+                            <span class="cd-date">godz. 10:20 - 10:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>dr Aleksandra BOROWICZ oraz dr Renata KOŁODZIEJCZYK</h2>
+                            <p> Umiejętności komunikacyjne a poczucie własnej tożsamości osób z uszkodzeniem słuchu</p>
+                            <span class="cd-date">godz. 10:40 - 11:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>dr Kinga SARAD-DEĆ</h2>
+                            <p> Umiejętności komunikacyjne a poczucie własnej tożsamości osób z uszkodzeniem słuchu</p>
+                            <span class="cd-date">godz. 11:00 - 11:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="assets/images/cd-icon-location.svg" alt="Location">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Przerwa kawowa (40 min.)</h2>
+                            <p>Będzie można sobie pospacerować, porozmawiać z innymi osobami, czy też zjeść sobie
+                                poczęstunek.</p>
+                            <span class="cd-date">godz. 11:20 - 12.00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>mgr Monika SZYMANEK-SZAWRACKA</h2>
+                            <p>Funkcjonowanie społeczne osób z uszkodzeniami słuchu</p>
+                            <span class="cd-date">godz. 12:00 - 12:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>mgr Monika TRĘTKO</h2>
+                            <p>Rola realizacji siebie w budowaniu wysokiego poczucia własnej wartości osoby niesłyszącej</p>
+                            <span class="cd-date">godz. 12:20 - 12:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Anna ŁAZUCHIEWICZ</h2>
+                            <p>Antropologia kulturowa Głuchych</p>
+                            <span class="cd-date">godz. 12:40 - 13:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>mgr Iwona KRAWCZUK</h2>
+                            <p>Głucha Polka Potrafi - pierwszy v-log motywacyjny dla osób Głuchych w Polskim Języku Migowym</p>
+                            <span class="cd-date">godz. 13:00 - 13:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="assets/images/cd-icon-location.svg" alt="Location">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Przerwa obiadowa na Stołówce KULu (1,5 h)</h2>
+                            <p>Przerwa obiadowa.</p>
+                            <span class="cd-date">godz. 13:30 - 15:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>dr Tomasz KNOPIK</h2>
+                            <p>Coaching jako sztuka samorealizacji</p>
+                                <span class="cd-date">godz. 15:00 - 15:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Piotr LEŚNIEWSKI</h2>
+                            <p>Sztuka pozytywnych pytań - czy chcesz zmienić swoje życie na lepsze - referat <br><br>
+                                Od zamierzchłej historii do dziś - skąd po co i dlaczego, czyli o coachingu słów kilka, czy jesteś na to gotowy? - plakat</p>
+                            <span class="cd-date">godz. 15:20 - 15:40</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Natalia SNOPEK
+                                <br> oraz <br>
+                                inż. Alicja NOWOGRODZKA</h2>
+                            <p>Światełko w tunelu - pokonywanie właśnych trudności przy pomocy inspirujących mentorów </p>
+                            <span class="cd-date">godz. 15:40 - 16:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Karolina CZABAN</h2>
+                            <p>Jak jedzenie wpływa na psychikę</p>
+                            <span class="cd-date">godz. 16:00 - 16:15</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Mateusz KARGUL</h2>
+                            <p>Coaching w masażu i relaksie</p>
+                            <span class="cd-date">godz. 16:15 - 16:30</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="assets/images/cd-icon-movie.svg" alt="Movie">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>Zakończenie konferencji</h2>
+                            <span class="cd-date">godz. 16:30 - 17:00</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                   <b>Zapraszamy na wieczór integracyjny od 19:00 do Restauracji Fiesta na ul. B. Prusa 8.</b>
+
+            </div> <!-- cd-timeline-block -->
+</section> <!-- cd-timeline -->
             </div>
 
         </div>
@@ -703,43 +1076,98 @@
 <!--</div>-->
 <!--</section>-->
 
-<!--<section id="partner" class="section partner">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <h3 class="section-title">Sponsorzy konferencji</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
+<section id="partner" class="section partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Sponsorzy konferencji</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <b>Patronaci honorowi:<br></b>
+                <img src="assets/images/partner/patronat-prezydent-zuk.png" alt="">
+                <img src="assets/images/partner/Logo%20Patronat-rgb.jpg" alt="">
+                <!--                <a class="partner-box prezydent-miasta"></a>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <b>Patroni medialni:<br></b>
+                <a class="partner-box charaktery"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box radio-centrum"></a>
+            </div>
+
+            <!--            <div class="col-sm-3">-->
+            <!--                <a class="partner-box akfon"></a>-->
+            <!--            </div>-->
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box swiat-ciszy"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box polski-zwiazek-gluchych"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="partner-box integracja"></a>
+            </div>
 <!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-0"></a>-->
+<!--                <a class="partner-box echodnia"></a>-->
 <!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-1"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-2"></a>-->
-<!--            </div>-->
-<!--            <div class="col-sm-3">-->
-<!--                <a class="partner-box partner-box-3"></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!--        <!--<div class="row">-->-->
-<!--        <!--<div class="col-sm-3">-->-->
-<!--        <!--<a class="partner-box partner-box-5"></a>-->-->
-<!--        <!--</div>-->-->
-<!--        <!--<div class="col-sm-3">-->-->
-<!--        <!--<a class="partner-box partner-box-6"></a>-->-->
-<!--        <!--</div>-->-->
-<!--        <!--<div class="col-sm-3">-->-->
-<!--        <!--<a class="partner-box partner-box-7"></a>-->-->
-<!--        <!--</div>-->-->
-<!--        <!--<div class="col-sm-3">-->-->
-<!--        <!--<a class="partner-box partner-box-8"></a>-->-->
-<!--        <!--</div>-->-->
-<!--        <!--</div>-->-->
-<!--</section>-->
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <b>Sponsorzy: <br></b>
+                <a class="partner-box galeria-smaku"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box echodnia"></a>
+            </div>
+            <div class="col-sm-3">
+                <a class="partner-box hostel-orla"></a>
+            </div>
+
+            <!--            <div class="col-sm-3">-->
+            <!--                <a class="partner-box peziol"></a>-->
+            <!--            <y/div>-->
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container" stle="float: left">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title" style="float:left;">Sponsor <span style="color: #996515">Hostel</span>
+                    <span style="color: saddlebrown">Orla</span><br>
+                    udziela <span style="color: darkred">15 % zniżki</span> przy rezerwacji pokoju <br>
+                    na hasło "O tym się nie mówi 3". </h3>
+            </div>
+
+            <img src="/assets/images/partner/logo_s.png"  width="250" height="140" alt="hostel-orla">
+
+            <div class="col-sm-3" style="font-size: 18px; float: left">
+                <span style="color: #996515">Hostel</span>
+                <span style="color: saddlebrown">Orla</span><br>
+                            <span style="color: blue">ul. Orla 6 <br>
+                            20-022 Lublin <br>
+                            tel. 883 993 999 <br></span>
+                <a href="www.hostelorla.pl">www.hostelorla.pl</a> <br><br>
+            </div>
+
+        </div>
+        Promocja naliczana jest jeśli rezerwacja zostanie wykonana przez telefon bądż przez wiadomość e-mail'ową.<br>
+
+    </div>
+</section>
 
 <section id="pytania" class="section faq">
     <div class="container">
@@ -758,7 +1186,8 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                                    aria-controls="collapseOne">
-                                    Jak dojechać na konferencję ze stacji PKS?</a>
+                                    <!--                                    JAK DOJECHAĆ NA KONFERENCJĘ Z DWORCA PKS BĄDŹ PKP? </a>-->
+                                    Jak dojechać na konferencję z dworca PKS bądż PKP? </a>
                             </h4>
                         </div>
 
@@ -766,7 +1195,17 @@
                              aria-labelledby="headingOne">
                             <div class="panel-body">
                                 <h3></h3>
-                                <p>Liniami autobusowymi: 10, 151 na przystanek Katolicki Uniwersytet Lubelski </p>
+                                <p>
+                                    Z dworca PKS należy udać się na przystanek MPK i liniami 2, 10, 18, 31 lub 57
+                                    dojechać na przystanek Katolicki Uniwersytet Lubelski<br>
+                                    <br>
+                                    Ze stacji PKP Lublin należy udać się na przystanek MPK i liniami 13, 150 lub 151
+                                    dojechać na przystanek Katolicki Uniwersytet Lubelski.<br>
+                                    <br>
+                                    Dokładny rozkład powyższych linii autobusowych, trolejbusowych, czasu podróży oraz
+                                    inne szczegóły<br>
+                                    dostępne na stronie www.lublin.jakdojade.pl bądź na stronie www.mpk.lublin.pl<br>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -783,8 +1222,9 @@
 
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingTwo">
-                            <div class="panel-body">Tak, wystarczy napisać na nasz e-mail o swojej diecie
-                                Prosimy poinformować nas o tym na adres konferencja.ss@gmail.com ze swoim jadłospisem.
+                            <div class="panel-body">W przypadku gdy uczestnik konferencji ma dietę i jadłospis należy
+                                dostosowac do jego potrzeb,<br>
+                                prosimy kontaktować się z Nami poprzez e-mail: konferencja.ss@gmail.com
                             </div>
                         </div>
                     </div>
@@ -795,13 +1235,19 @@
                                 <a class="faq-toggle collapsed" role="button" data-toggle="collapse"
                                    data-parent="#accordion" href="#collapseThree" aria-expanded="false"
                                    aria-controls="collapseThree">
-                                    Gdzie organizowana jest konferencja?</a>
+                                    Gdzie organizowana będzie konferencja?</a>
                             </h4>
                         </div>
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingThree">
-                            <div class="panel-body">Katolicki Uniwersytet Lubelski, CTW-302.</div>
+                            <div class="panel-body">Konferencja odbędzie się w Katolickim Uniwersytecie Lubelskim Jana
+                                Pawła II,<br>
+                                Al. Racławickie 14, 20-950 w sali na trzecim piętrze w Centrum Transferu Wiedzy
+                                (CTW).<br>
+                                To najnowszy budynek uczelni i przylega on do Collegium Jana Pawła II (miejsce 2 edycji
+                                konferencji)
+                            </div>
                         </div>
                     </div>
 
@@ -817,8 +1263,10 @@
 
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
                              aria-labelledby="headingFour">
-                            <div class="panel-body">Napiszcie nam na adres konferencja.ss@gmail.com, a odpowiemy e-mailowo. <br>
-                            Do najczęściej powtarzających się pytan, odpowiedzi umieścimy w tej sekcji.</div>
+                            <div class="panel-body">Napiszcie nam na adres konferencja.ss@gmail.com, a odpowiemy
+                                e-mailowo. <br>
+                                Dla najczęściej powtarzających się pytan, odpowiedzi umieścimy w tej sekcji.
+                            </div>
                         </div>
                     </div>
 
@@ -963,7 +1411,8 @@
                 <h3 class="section-title">Miejsce konferencji</h3>
                 <address>
                     <p>Katolicki Uniwersytet Lubelski <br> Jana Pawła II<br>
-                        Al. Racławickie 14/C312 <br>
+                        Al. Racławickie 14<br>
+                        Sala: CTW-302<br>
                         20-950 Lublin<br>
                         Email: <a href="mailto:konferencja.ss@gmail.com">konferencja.ss@gmail.com</a>
                         <img src="assets/images/partner/kul.jpg" style="margin-top: 30px;">
@@ -1021,6 +1470,9 @@
 <script src="assets/js/modernizr.js"></script>
 <script>
 
+    //schowanie formularza po zaladowaniu sie stroy
+    $("#registration-form").toggle();
+
     var UczestnikBierny;
     var UczestnikCzynny;
 
@@ -1049,12 +1501,14 @@
         $("#parametry2Cennika li:nth-child(even)").css("background", "#eee");
         $("#parametry2Cennika li:nth-child(odd)").css("background-color", "silver");
 
-
+        // chowamy/wysuwamy formularz rejestracyjny
+        $("#registration-form").toggle();
+        $("#dodatkowyFormularzDlaUczestnikaCzynnego").toggle();
     }
 
     function wybranoUczestnikaCzynnego() {
-        UczestnikCzynny = "TAK";
         UczestnikBierny = "NIE";
+        UczestnikCzynny = "TAK";
 
         //zaznaczasz 2
         $(".produkt").first().next().css("background", "#111");
@@ -1076,6 +1530,10 @@
         $("#buttonUczestnikBierny").text("Wybierz");
         $("#parametry1Cennika li:nth-child(even)").css("background", "#eee");
         $("#parametry1Cennika li:nth-child(odd)").css("background-color", "silver");
+
+        //chowamy/wysuwamy formularz rejestracyjny
+        $("#registration-form").toggle();
+
     }
 
 
@@ -1083,23 +1541,67 @@
 
         var Imie = document.getElementById("Imie").value;
         var Nazwisko = document.getElementById("Nazwisko").value;
-        var Email = document.getElementById("Email").value;
-        var TelKom = document.getElementById("TelKom").value;
-        var AdresZamieszkania = document.getElementById("AdresZamieszkania").value;
+        var Ulica = document.getElementById("Ulica").value;
+        var NrBloku = document.getElementById("NrBloku").value;
+        var NrMieszkania = document.getElementById("NrMieszkania").value;
         var KodPocztowy = document.getElementById("KodPocztowy").value;
         var Miasto = document.getElementById("Miasto").value;
+        var TelKom = document.getElementById("TelKom").value;
+        var Email = document.getElementById("Email").value;
+        var Uwagi = document.getElementById("Uwagi").value;
+
+        var TematPracy = document.getElementById("TematPracy").value;
+        var OpisAbstraktu = document.getElementById("OpisAbstraktu").value;
+        var NotkaoSobie = document.getElementById("NotkaoSobie").value;
+
+        WieczorIntegracyjny = document.getElementById("WieczorIntegracyjny").checked;
+
+        PomocAsystenta = document.getElementById("PomocAsystenta").checked;
+        WlasnySystemFM = document.getElementById("WlasnySystemFM").checked;
+        SpeechToText = document.getElementById("SpeechToText").checked;
+        PetlaIndukcyjna = document.getElementById("PetlaIndukcyjna").checked;
+        TlumaczaMigowego = document.getElementById("TlumaczaMigowego").checked;
+        NiePotrzebuje = document.getElementById("NiePotrzebuje").checked;
+
+//        var UczestnikBierny = document.getElementById("UczestnikBierny").value;
+//        var UczestnikCzynny = document.getElementById("UczestnikCzynny").value;
 
         // Returns successful data submission message when the entered information is stored in database.
-        var dataString = 'Imie=' + Imie + '&Nazwisko=' + Nazwisko + '&Email=' + Email + '&TelKom=' + TelKom + '&AdresZamieszkania=' + AdresZamieszkania + '&KodPocztowy=' + KodPocztowy + '&Miasto=' + Miasto + '&UczestnikBierny=' + UczestnikBierny + '&UczestnikCzynny=' + UczestnikCzynny;
+        var dataString = 'Imie=' + Imie +
+            '&Nazwisko=' + Nazwisko +
+            '&Ulica=' + Ulica +
+            '&NrBloku=' + NrBloku +
+            '&NrMieszkania=' + NrMieszkania +
+            '&KodPocztowy=' + KodPocztowy +
+            '&Miasto=' + Miasto +
+            '&TelKom=' + TelKom +
+            '&Email=' + Email +
+            '&Uwagi=' + Uwagi +
+            '&WieczorIntegracyjny=' + WieczorIntegracyjny +
 
+            '&PomocAsystenta=' + PomocAsystenta +
+            '&WlasnySystemFM=' + WlasnySystemFM +
+            '&SpeechToText=' + SpeechToText +
+            '&PetlaIndukcyjna=' + PetlaIndukcyjna +
+            '&TlumaczaMigowego=' + TlumaczaMigowego +
+            '&NiePotrzebuje=' + NiePotrzebuje +
 
-        if (Imie == '' || Nazwisko == '' || Email == '' || TelKom == '' || AdresZamieszkania == '' || KodPocztowy == '' || Miasto == '') {
+            '&UczestnikBierny=' + UczestnikBierny +
+            '&UczestikCzynny=' + UczestnikCzynny +
+
+            '&TematPracy=' + TematPracy +
+            '&OpisAbstraktu=' + OpisAbstraktu +
+            '&NotkaoSobie=' + NotkaoSobie;
+
+        if (Imie == '' || Nazwisko == '' || Ulica == '' || NrBloku == '' || NrMieszkania == '' || KodPocztowy == '' || Miasto == '' || TelKom == '' || Email == '') {
 
             $("#button").off();
 
             $("#komunikat-wysylania").text("Proszę uzupełnić wszystkie pola.");
         }
         else {
+            console.log("Chce wyslac dane do submit.php");
+
             setTimeout(
                 function () {
                     $("#button").prop('disabled', true);
