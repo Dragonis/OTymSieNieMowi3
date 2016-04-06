@@ -827,9 +827,21 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
+                            <h2>dr Tomasz KNOPIK</h2>
+                            <p>Coaching jako sztuka samorealizacji</p>
+                            <span class="cd-date">godz. 12:00 - 12:20</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
                             <h2>mgr Monika SZYMANEK-SZAWRACKA</h2>
                             <p>Funkcjonowanie społeczne osób z uszkodzeniami słuchu</p>
-                            <span class="cd-date">godz. 12:00 - 12:20</span>
+                            <span class="cd-date">godz. 12:20 - 12:40</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -841,18 +853,6 @@
                         <div class="cd-timeline-content">
                             <h2>mgr Monika TRĘTKO</h2>
                             <p>Rola realizacji siebie w budowaniu wysokiego poczucia własnej wartości osoby niesłyszącej</p>
-                            <span class="cd-date">godz. 12:20 - 12:40</span>
-                        </div> <!-- cd-timeline-content -->
-                    </div> <!-- cd-timeline-block -->
-
-                    <div class="cd-timeline-block">
-                        <div class="cd-timeline-img cd-picture">
-                            <img src="assets/images/cd-icon-picture.svg" alt="Picture">
-                        </div> <!-- cd-timeline-img -->
-
-                        <div class="cd-timeline-content">
-                            <h2>Anna ŁAZUCHIEWICZ</h2>
-                            <p>Antropologia kulturowa Głuchych</p>
                             <span class="cd-date">godz. 12:40 - 13:00</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
@@ -877,7 +877,7 @@
                         <div class="cd-timeline-content">
                             <h2>Przerwa obiadowa na Stołówce KULu (1,5 h)</h2>
                             <p>Przerwa obiadowa.</p>
-                            <span class="cd-date">godz. 13:30 - 15:00</span>
+                            <span class="cd-date">godz. 13:20 - 15:00</span>
                         </div> <!-- cd-timeline-content -->
                     </div>
 
@@ -887,9 +887,9 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>dr Tomasz KNOPIK</h2>
-                            <p>Coaching jako sztuka samorealizacji</p>
-                                <span class="cd-date">godz. 15:00 - 15:20</span>
+                            <h2>Anna ŁAZUCHIEWICZ</h2>
+                            <p>Antropologia kulturowa Głuchych</p>
+                            <span class="cd-date">godz. 15:00 - 15:20</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
 
@@ -926,8 +926,8 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>Karolina CZABAN</h2>
-                            <p>Jak jedzenie wpływa na psychikę</p>
+                            <h2>Mateusz KARGUL</h2>
+                            <p>Coaching w masażu i relaksie</p>
                             <span class="cd-date">godz. 16:00 - 16:15</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
@@ -938,8 +938,8 @@
                         </div> <!-- cd-timeline-img -->
 
                         <div class="cd-timeline-content">
-                            <h2>Mateusz KARGUL</h2>
-                            <p>Coaching w masażu i relaksie</p>
+                            <h2>Karolina CZABAN</h2>
+                            <p>Jak jedzenie wpływa na psychikę</p>
                             <span class="cd-date">godz. 16:15 - 16:30</span>
                         </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
